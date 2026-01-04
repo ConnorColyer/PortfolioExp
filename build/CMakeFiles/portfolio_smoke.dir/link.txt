@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -fsanitize=address,undefined CMakeFiles/portfolio_smoke.dir/tests/portfolio_smoke.cpp.o -o portfolio_smoke  libportfolio.a libgraph.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libportfolio.a CMakeFiles/portfolio.dir/src/portfolio/portfolio.cpp.o
+/usr/bin/ranlib libportfolio.a

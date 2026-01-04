@@ -7,9 +7,9 @@
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
-  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -g -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -fsanitize=address,undefined -o CMakeFiles/alloc.dir/src/alloc/allocator.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/alloc/allocator.cpp",
-  "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/alloc/allocator.cpp",
-  "output": "CMakeFiles/alloc.dir/src/alloc/allocator.cpp.o"
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -g -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -fsanitize=address,undefined -o CMakeFiles/event.dir/src/event/injector.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/event/injector.cpp",
+  "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/event/injector.cpp",
+  "output": "CMakeFiles/event.dir/src/event/injector.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
@@ -22,6 +22,42 @@
   "command": "/usr/bin/clang++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -g -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -fsanitize=address,undefined -o CMakeFiles/scoring.dir/src/scoring/scorer.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/scoring/scorer.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/scoring/scorer.cpp",
   "output": "CMakeFiles/scoring.dir/src/scoring/scorer.cpp.o"
+},
+{
+  "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
+  "command": "/usr/bin/clang++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -g -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -fsanitize=address,undefined -o CMakeFiles/attrib.dir/src/attrib/attribution.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/attrib/attribution.cpp",
+  "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/attrib/attribution.cpp",
+  "output": "CMakeFiles/attrib.dir/src/attrib/attribution.cpp.o"
+},
+{
+  "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -g -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -fsanitize=address,undefined -o CMakeFiles/alloc.dir/src/alloc/allocator.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/alloc/allocator.cpp",
+  "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/alloc/allocator.cpp",
+  "output": "CMakeFiles/alloc.dir/src/alloc/allocator.cpp.o"
+},
+{
+  "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
+  "command": "/usr/bin/clang++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -g -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -fsanitize=address,undefined -o CMakeFiles/sim.dir/src/sim/simulation.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/sim/simulation.cpp",
+  "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/sim/simulation.cpp",
+  "output": "CMakeFiles/sim.dir/src/sim/simulation.cpp.o"
+},
+{
+  "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -g -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -fsanitize=address,undefined -o CMakeFiles/portfolio.dir/src/portfolio/portfolio.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/portfolio/portfolio.cpp",
+  "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/portfolio/portfolio.cpp",
+  "output": "CMakeFiles/portfolio.dir/src/portfolio/portfolio.cpp.o"
+},
+{
+  "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
+  "command": "/usr/bin/clang++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -g -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -fsanitize=address,undefined -o CMakeFiles/backtest.dir/src/backtest/backtest.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/backtest/backtest.cpp",
+  "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/backtest/backtest.cpp",
+  "output": "CMakeFiles/backtest.dir/src/backtest/backtest.cpp.o"
+},
+{
+  "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -g -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -fsanitize=address,undefined -o CMakeFiles/ingest.dir/src/ingest/validator.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/ingest/validator.cpp",
+  "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/ingest/validator.cpp",
+  "output": "CMakeFiles/ingest.dir/src/ingest/validator.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
@@ -52,6 +88,42 @@
   "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -g -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -fsanitize=address,undefined -o CMakeFiles/allocator_smoke.dir/tests/allocator_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/allocator_smoke.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/allocator_smoke.cpp",
   "output": "CMakeFiles/allocator_smoke.dir/tests/allocator_smoke.cpp.o"
+},
+{
+  "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -g -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -fsanitize=address,undefined -o CMakeFiles/injector_smoke.dir/tests/injector_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/injector_smoke.cpp",
+  "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/injector_smoke.cpp",
+  "output": "CMakeFiles/injector_smoke.dir/tests/injector_smoke.cpp.o"
+},
+{
+  "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
+  "command": "/usr/bin/clang++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -g -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -fsanitize=address,undefined -o CMakeFiles/attribution_smoke.dir/tests/attribution_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/attribution_smoke.cpp",
+  "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/attribution_smoke.cpp",
+  "output": "CMakeFiles/attribution_smoke.dir/tests/attribution_smoke.cpp.o"
+},
+{
+  "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
+  "command": "/usr/bin/clang++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -g -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -fsanitize=address,undefined -o CMakeFiles/simulation_smoke.dir/tests/simulation_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/simulation_smoke.cpp",
+  "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/simulation_smoke.cpp",
+  "output": "CMakeFiles/simulation_smoke.dir/tests/simulation_smoke.cpp.o"
+},
+{
+  "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -g -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -fsanitize=address,undefined -o CMakeFiles/portfolio_smoke.dir/tests/portfolio_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/portfolio_smoke.cpp",
+  "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/portfolio_smoke.cpp",
+  "output": "CMakeFiles/portfolio_smoke.dir/tests/portfolio_smoke.cpp.o"
+},
+{
+  "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
+  "command": "/usr/bin/clang++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -g -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -fsanitize=address,undefined -o CMakeFiles/backtest_smoke.dir/tests/backtest_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/backtest_smoke.cpp",
+  "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/backtest_smoke.cpp",
+  "output": "CMakeFiles/backtest_smoke.dir/tests/backtest_smoke.cpp.o"
+},
+{
+  "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -g -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -fsanitize=address,undefined -o CMakeFiles/ingest_smoke.dir/tests/ingest_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/ingest_smoke.cpp",
+  "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/ingest_smoke.cpp",
+  "output": "CMakeFiles/ingest_smoke.dir/tests/ingest_smoke.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-build",

@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -fsanitize=address,undefined CMakeFiles/simulation_smoke.dir/tests/simulation_smoke.cpp.o -o simulation_smoke  libsim.a libevent.a libscoring.a libgraph.a libcore.a _deps/spdlog-build/libspdlogd.a _deps/fmt-build/libfmtd.a liballoc.a

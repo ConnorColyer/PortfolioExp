@@ -64,7 +64,11 @@ CMAKE_BINARY_DIR = /Users/connorcolyer/Documents/CODE/PortfolioExp/build
 
 # The main recursive "all" target.
 all: CMakeFiles/graph.dir/all
+all: CMakeFiles/attrib.dir/all
 all: CMakeFiles/alloc.dir/all
+all: CMakeFiles/event.dir/all
+all: CMakeFiles/sim.dir/all
+all: CMakeFiles/backtest.dir/all
 all: CMakeFiles/scoring.dir/all
 all: CMakeFiles/core.dir/all
 all: CMakeFiles/engine.dir/all
@@ -72,6 +76,14 @@ all: CMakeFiles/graph_smoke.dir/all
 all: CMakeFiles/core_smoke.dir/all
 all: CMakeFiles/scoring_smoke.dir/all
 all: CMakeFiles/allocator_smoke.dir/all
+all: CMakeFiles/injector_smoke.dir/all
+all: CMakeFiles/attribution_smoke.dir/all
+all: CMakeFiles/simulation_smoke.dir/all
+all: CMakeFiles/portfolio.dir/all
+all: CMakeFiles/portfolio_smoke.dir/all
+all: CMakeFiles/ingest.dir/all
+all: CMakeFiles/backtest_smoke.dir/all
+all: CMakeFiles/ingest_smoke.dir/all
 all: _deps/fmt-build/all
 all: _deps/spdlog-build/all
 all: _deps/catch2-build/all
@@ -79,7 +91,11 @@ all: _deps/catch2-build/all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/graph.dir/codegen
+codegen: CMakeFiles/attrib.dir/codegen
 codegen: CMakeFiles/alloc.dir/codegen
+codegen: CMakeFiles/event.dir/codegen
+codegen: CMakeFiles/sim.dir/codegen
+codegen: CMakeFiles/backtest.dir/codegen
 codegen: CMakeFiles/scoring.dir/codegen
 codegen: CMakeFiles/core.dir/codegen
 codegen: CMakeFiles/engine.dir/codegen
@@ -87,6 +103,14 @@ codegen: CMakeFiles/graph_smoke.dir/codegen
 codegen: CMakeFiles/core_smoke.dir/codegen
 codegen: CMakeFiles/scoring_smoke.dir/codegen
 codegen: CMakeFiles/allocator_smoke.dir/codegen
+codegen: CMakeFiles/injector_smoke.dir/codegen
+codegen: CMakeFiles/attribution_smoke.dir/codegen
+codegen: CMakeFiles/simulation_smoke.dir/codegen
+codegen: CMakeFiles/portfolio.dir/codegen
+codegen: CMakeFiles/portfolio_smoke.dir/codegen
+codegen: CMakeFiles/ingest.dir/codegen
+codegen: CMakeFiles/backtest_smoke.dir/codegen
+codegen: CMakeFiles/ingest_smoke.dir/codegen
 codegen: _deps/fmt-build/codegen
 codegen: _deps/spdlog-build/codegen
 codegen: _deps/catch2-build/codegen
@@ -100,7 +124,11 @@ preinstall: _deps/catch2-build/preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/graph.dir/clean
+clean: CMakeFiles/attrib.dir/clean
 clean: CMakeFiles/alloc.dir/clean
+clean: CMakeFiles/event.dir/clean
+clean: CMakeFiles/sim.dir/clean
+clean: CMakeFiles/backtest.dir/clean
 clean: CMakeFiles/scoring.dir/clean
 clean: CMakeFiles/core.dir/clean
 clean: CMakeFiles/engine.dir/clean
@@ -108,6 +136,14 @@ clean: CMakeFiles/graph_smoke.dir/clean
 clean: CMakeFiles/core_smoke.dir/clean
 clean: CMakeFiles/scoring_smoke.dir/clean
 clean: CMakeFiles/allocator_smoke.dir/clean
+clean: CMakeFiles/injector_smoke.dir/clean
+clean: CMakeFiles/attribution_smoke.dir/clean
+clean: CMakeFiles/simulation_smoke.dir/clean
+clean: CMakeFiles/portfolio.dir/clean
+clean: CMakeFiles/portfolio_smoke.dir/clean
+clean: CMakeFiles/ingest.dir/clean
+clean: CMakeFiles/backtest_smoke.dir/clean
+clean: CMakeFiles/ingest_smoke.dir/clean
 clean: _deps/fmt-build/clean
 clean: _deps/spdlog-build/clean
 clean: _deps/catch2-build/clean
@@ -199,7 +235,7 @@ _deps/spdlog-build/clean: _deps/spdlog-build/CMakeFiles/spdlog.dir/clean
 CMakeFiles/graph.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=89 "Built target graph"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=82 "Built target graph"
 .PHONY : CMakeFiles/graph.dir/all
 
 # Build rule for subdir invocation for target.
@@ -216,7 +252,7 @@ graph: CMakeFiles/graph.dir/rule
 # codegen rule for target.
 CMakeFiles/graph.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=89 "Finished codegen for target graph"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=82 "Finished codegen for target graph"
 .PHONY : CMakeFiles/graph.dir/codegen
 
 # clean rule for target.
@@ -225,18 +261,55 @@ CMakeFiles/graph.dir/clean:
 .PHONY : CMakeFiles/graph.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/attrib.dir
+
+# All Build rule for target.
+CMakeFiles/attrib.dir/all: CMakeFiles/graph.dir/all
+CMakeFiles/attrib.dir/all: CMakeFiles/event.dir/all
+CMakeFiles/attrib.dir/all: CMakeFiles/scoring.dir/all
+CMakeFiles/attrib.dir/all: CMakeFiles/core.dir/all
+CMakeFiles/attrib.dir/all: _deps/fmt-build/CMakeFiles/fmt.dir/all
+CMakeFiles/attrib.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/attrib.dir/build.make CMakeFiles/attrib.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/attrib.dir/build.make CMakeFiles/attrib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=70 "Built target attrib"
+.PHONY : CMakeFiles/attrib.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/attrib.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 12
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/attrib.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 0
+.PHONY : CMakeFiles/attrib.dir/rule
+
+# Convenience name for target.
+attrib: CMakeFiles/attrib.dir/rule
+.PHONY : attrib
+
+# codegen rule for target.
+CMakeFiles/attrib.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/attrib.dir/build.make CMakeFiles/attrib.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=70 "Finished codegen for target attrib"
+.PHONY : CMakeFiles/attrib.dir/codegen
+
+# clean rule for target.
+CMakeFiles/attrib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/attrib.dir/build.make CMakeFiles/attrib.dir/clean
+.PHONY : CMakeFiles/attrib.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/alloc.dir
 
 # All Build rule for target.
 CMakeFiles/alloc.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/alloc.dir/build.make CMakeFiles/alloc.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/alloc.dir/build.make CMakeFiles/alloc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=79,80 "Built target alloc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=68 "Built target alloc"
 .PHONY : CMakeFiles/alloc.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/alloc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/alloc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 0
 .PHONY : CMakeFiles/alloc.dir/rule
@@ -248,13 +321,123 @@ alloc: CMakeFiles/alloc.dir/rule
 # codegen rule for target.
 CMakeFiles/alloc.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/alloc.dir/build.make CMakeFiles/alloc.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=79,80 "Finished codegen for target alloc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=68 "Finished codegen for target alloc"
 .PHONY : CMakeFiles/alloc.dir/codegen
 
 # clean rule for target.
 CMakeFiles/alloc.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/alloc.dir/build.make CMakeFiles/alloc.dir/clean
 .PHONY : CMakeFiles/alloc.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/event.dir
+
+# All Build rule for target.
+CMakeFiles/event.dir/all: CMakeFiles/graph.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/event.dir/build.make CMakeFiles/event.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/event.dir/build.make CMakeFiles/event.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=79 "Built target event"
+.PHONY : CMakeFiles/event.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/event.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/event.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 0
+.PHONY : CMakeFiles/event.dir/rule
+
+# Convenience name for target.
+event: CMakeFiles/event.dir/rule
+.PHONY : event
+
+# codegen rule for target.
+CMakeFiles/event.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/event.dir/build.make CMakeFiles/event.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=79 "Finished codegen for target event"
+.PHONY : CMakeFiles/event.dir/codegen
+
+# clean rule for target.
+CMakeFiles/event.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/event.dir/build.make CMakeFiles/event.dir/clean
+.PHONY : CMakeFiles/event.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/sim.dir
+
+# All Build rule for target.
+CMakeFiles/sim.dir/all: CMakeFiles/graph.dir/all
+CMakeFiles/sim.dir/all: CMakeFiles/alloc.dir/all
+CMakeFiles/sim.dir/all: CMakeFiles/event.dir/all
+CMakeFiles/sim.dir/all: CMakeFiles/scoring.dir/all
+CMakeFiles/sim.dir/all: CMakeFiles/core.dir/all
+CMakeFiles/sim.dir/all: _deps/fmt-build/CMakeFiles/fmt.dir/all
+CMakeFiles/sim.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=93 "Built target sim"
+.PHONY : CMakeFiles/sim.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sim.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 13
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sim.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 0
+.PHONY : CMakeFiles/sim.dir/rule
+
+# Convenience name for target.
+sim: CMakeFiles/sim.dir/rule
+.PHONY : sim
+
+# codegen rule for target.
+CMakeFiles/sim.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=93 "Finished codegen for target sim"
+.PHONY : CMakeFiles/sim.dir/codegen
+
+# clean rule for target.
+CMakeFiles/sim.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/clean
+.PHONY : CMakeFiles/sim.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/backtest.dir
+
+# All Build rule for target.
+CMakeFiles/backtest.dir/all: CMakeFiles/graph.dir/all
+CMakeFiles/backtest.dir/all: CMakeFiles/alloc.dir/all
+CMakeFiles/backtest.dir/all: CMakeFiles/event.dir/all
+CMakeFiles/backtest.dir/all: CMakeFiles/sim.dir/all
+CMakeFiles/backtest.dir/all: CMakeFiles/scoring.dir/all
+CMakeFiles/backtest.dir/all: CMakeFiles/core.dir/all
+CMakeFiles/backtest.dir/all: CMakeFiles/portfolio.dir/all
+CMakeFiles/backtest.dir/all: _deps/fmt-build/CMakeFiles/fmt.dir/all
+CMakeFiles/backtest.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/backtest.dir/build.make CMakeFiles/backtest.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/backtest.dir/build.make CMakeFiles/backtest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=73 "Built target backtest"
+.PHONY : CMakeFiles/backtest.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/backtest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 15
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/backtest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 0
+.PHONY : CMakeFiles/backtest.dir/rule
+
+# Convenience name for target.
+backtest: CMakeFiles/backtest.dir/rule
+.PHONY : backtest
+
+# codegen rule for target.
+CMakeFiles/backtest.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/backtest.dir/build.make CMakeFiles/backtest.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=73 "Finished codegen for target backtest"
+.PHONY : CMakeFiles/backtest.dir/codegen
+
+# clean rule for target.
+CMakeFiles/backtest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/backtest.dir/build.make CMakeFiles/backtest.dir/clean
+.PHONY : CMakeFiles/backtest.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/scoring.dir
@@ -266,12 +449,12 @@ CMakeFiles/scoring.dir/all: _deps/fmt-build/CMakeFiles/fmt.dir/all
 CMakeFiles/scoring.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/scoring.dir/build.make CMakeFiles/scoring.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/scoring.dir/build.make CMakeFiles/scoring.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=92 "Built target scoring"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=91 "Built target scoring"
 .PHONY : CMakeFiles/scoring.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/scoring.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/scoring.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 0
 .PHONY : CMakeFiles/scoring.dir/rule
@@ -283,7 +466,7 @@ scoring: CMakeFiles/scoring.dir/rule
 # codegen rule for target.
 CMakeFiles/scoring.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/scoring.dir/build.make CMakeFiles/scoring.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=92 "Finished codegen for target scoring"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=91 "Finished codegen for target scoring"
 .PHONY : CMakeFiles/scoring.dir/codegen
 
 # clean rule for target.
@@ -299,12 +482,12 @@ CMakeFiles/core.dir/all: _deps/fmt-build/CMakeFiles/fmt.dir/all
 CMakeFiles/core.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=82,83 "Built target core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=75 "Built target core"
 .PHONY : CMakeFiles/core.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/core.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/core.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 0
 .PHONY : CMakeFiles/core.dir/rule
@@ -316,7 +499,7 @@ core: CMakeFiles/core.dir/rule
 # codegen rule for target.
 CMakeFiles/core.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=82,83 "Finished codegen for target core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=75 "Finished codegen for target core"
 .PHONY : CMakeFiles/core.dir/codegen
 
 # clean rule for target.
@@ -329,19 +512,25 @@ CMakeFiles/core.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/engine.dir/all: CMakeFiles/graph.dir/all
+CMakeFiles/engine.dir/all: CMakeFiles/attrib.dir/all
 CMakeFiles/engine.dir/all: CMakeFiles/alloc.dir/all
+CMakeFiles/engine.dir/all: CMakeFiles/event.dir/all
+CMakeFiles/engine.dir/all: CMakeFiles/sim.dir/all
+CMakeFiles/engine.dir/all: CMakeFiles/backtest.dir/all
 CMakeFiles/engine.dir/all: CMakeFiles/scoring.dir/all
 CMakeFiles/engine.dir/all: CMakeFiles/core.dir/all
+CMakeFiles/engine.dir/all: CMakeFiles/portfolio.dir/all
+CMakeFiles/engine.dir/all: CMakeFiles/ingest.dir/all
 CMakeFiles/engine.dir/all: _deps/fmt-build/CMakeFiles/fmt.dir/all
 CMakeFiles/engine.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=85,86 "Built target engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=78 "Built target engine"
 .PHONY : CMakeFiles/engine.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/engine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/engine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 0
 .PHONY : CMakeFiles/engine.dir/rule
@@ -353,7 +542,7 @@ engine: CMakeFiles/engine.dir/rule
 # codegen rule for target.
 CMakeFiles/engine.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=85,86 "Finished codegen for target engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=78 "Finished codegen for target engine"
 .PHONY : CMakeFiles/engine.dir/codegen
 
 # clean rule for target.
@@ -371,12 +560,12 @@ CMakeFiles/graph_smoke.dir/all: _deps/fmt-build/CMakeFiles/fmt.dir/all
 CMakeFiles/graph_smoke.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_smoke.dir/build.make CMakeFiles/graph_smoke.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_smoke.dir/build.make CMakeFiles/graph_smoke.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=90,91 "Built target graph_smoke"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=83 "Built target graph_smoke"
 .PHONY : CMakeFiles/graph_smoke.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/graph_smoke.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/graph_smoke.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 0
 .PHONY : CMakeFiles/graph_smoke.dir/rule
@@ -388,7 +577,7 @@ graph_smoke: CMakeFiles/graph_smoke.dir/rule
 # codegen rule for target.
 CMakeFiles/graph_smoke.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_smoke.dir/build.make CMakeFiles/graph_smoke.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=90,91 "Finished codegen for target graph_smoke"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=83 "Finished codegen for target graph_smoke"
 .PHONY : CMakeFiles/graph_smoke.dir/codegen
 
 # clean rule for target.
@@ -407,12 +596,12 @@ CMakeFiles/core_smoke.dir/all: _deps/catch2-build/src/CMakeFiles/Catch2.dir/all
 CMakeFiles/core_smoke.dir/all: _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/core_smoke.dir/build.make CMakeFiles/core_smoke.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/core_smoke.dir/build.make CMakeFiles/core_smoke.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=84 "Built target core_smoke"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=76,77 "Built target core_smoke"
 .PHONY : CMakeFiles/core_smoke.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/core_smoke.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 89
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 77
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/core_smoke.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 0
 .PHONY : CMakeFiles/core_smoke.dir/rule
@@ -424,7 +613,7 @@ core_smoke: CMakeFiles/core_smoke.dir/rule
 # codegen rule for target.
 CMakeFiles/core_smoke.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/core_smoke.dir/build.make CMakeFiles/core_smoke.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=84 "Finished codegen for target core_smoke"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=76,77 "Finished codegen for target core_smoke"
 .PHONY : CMakeFiles/core_smoke.dir/codegen
 
 # clean rule for target.
@@ -443,12 +632,12 @@ CMakeFiles/scoring_smoke.dir/all: _deps/fmt-build/CMakeFiles/fmt.dir/all
 CMakeFiles/scoring_smoke.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/scoring_smoke.dir/build.make CMakeFiles/scoring_smoke.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/scoring_smoke.dir/build.make CMakeFiles/scoring_smoke.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=93,94 "Built target scoring_smoke"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=92 "Built target scoring_smoke"
 .PHONY : CMakeFiles/scoring_smoke.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/scoring_smoke.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/scoring_smoke.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 0
 .PHONY : CMakeFiles/scoring_smoke.dir/rule
@@ -460,7 +649,7 @@ scoring_smoke: CMakeFiles/scoring_smoke.dir/rule
 # codegen rule for target.
 CMakeFiles/scoring_smoke.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/scoring_smoke.dir/build.make CMakeFiles/scoring_smoke.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=93,94 "Finished codegen for target scoring_smoke"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=92 "Finished codegen for target scoring_smoke"
 .PHONY : CMakeFiles/scoring_smoke.dir/codegen
 
 # clean rule for target.
@@ -475,12 +664,12 @@ CMakeFiles/scoring_smoke.dir/clean:
 CMakeFiles/allocator_smoke.dir/all: CMakeFiles/alloc.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/allocator_smoke.dir/build.make CMakeFiles/allocator_smoke.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/allocator_smoke.dir/build.make CMakeFiles/allocator_smoke.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=81 "Built target allocator_smoke"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=69 "Built target allocator_smoke"
 .PHONY : CMakeFiles/allocator_smoke.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/allocator_smoke.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/allocator_smoke.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 0
 .PHONY : CMakeFiles/allocator_smoke.dir/rule
@@ -492,7 +681,7 @@ allocator_smoke: CMakeFiles/allocator_smoke.dir/rule
 # codegen rule for target.
 CMakeFiles/allocator_smoke.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/allocator_smoke.dir/build.make CMakeFiles/allocator_smoke.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=81 "Finished codegen for target allocator_smoke"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=69 "Finished codegen for target allocator_smoke"
 .PHONY : CMakeFiles/allocator_smoke.dir/codegen
 
 # clean rule for target.
@@ -501,13 +690,293 @@ CMakeFiles/allocator_smoke.dir/clean:
 .PHONY : CMakeFiles/allocator_smoke.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/injector_smoke.dir
+
+# All Build rule for target.
+CMakeFiles/injector_smoke.dir/all: CMakeFiles/graph.dir/all
+CMakeFiles/injector_smoke.dir/all: CMakeFiles/event.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/injector_smoke.dir/build.make CMakeFiles/injector_smoke.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/injector_smoke.dir/build.make CMakeFiles/injector_smoke.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=87 "Built target injector_smoke"
+.PHONY : CMakeFiles/injector_smoke.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/injector_smoke.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/injector_smoke.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 0
+.PHONY : CMakeFiles/injector_smoke.dir/rule
+
+# Convenience name for target.
+injector_smoke: CMakeFiles/injector_smoke.dir/rule
+.PHONY : injector_smoke
+
+# codegen rule for target.
+CMakeFiles/injector_smoke.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/injector_smoke.dir/build.make CMakeFiles/injector_smoke.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=87 "Finished codegen for target injector_smoke"
+.PHONY : CMakeFiles/injector_smoke.dir/codegen
+
+# clean rule for target.
+CMakeFiles/injector_smoke.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/injector_smoke.dir/build.make CMakeFiles/injector_smoke.dir/clean
+.PHONY : CMakeFiles/injector_smoke.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/attribution_smoke.dir
+
+# All Build rule for target.
+CMakeFiles/attribution_smoke.dir/all: CMakeFiles/graph.dir/all
+CMakeFiles/attribution_smoke.dir/all: CMakeFiles/attrib.dir/all
+CMakeFiles/attribution_smoke.dir/all: CMakeFiles/event.dir/all
+CMakeFiles/attribution_smoke.dir/all: CMakeFiles/scoring.dir/all
+CMakeFiles/attribution_smoke.dir/all: CMakeFiles/core.dir/all
+CMakeFiles/attribution_smoke.dir/all: _deps/fmt-build/CMakeFiles/fmt.dir/all
+CMakeFiles/attribution_smoke.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/attribution_smoke.dir/build.make CMakeFiles/attribution_smoke.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/attribution_smoke.dir/build.make CMakeFiles/attribution_smoke.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=71,72 "Built target attribution_smoke"
+.PHONY : CMakeFiles/attribution_smoke.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/attribution_smoke.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 14
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/attribution_smoke.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 0
+.PHONY : CMakeFiles/attribution_smoke.dir/rule
+
+# Convenience name for target.
+attribution_smoke: CMakeFiles/attribution_smoke.dir/rule
+.PHONY : attribution_smoke
+
+# codegen rule for target.
+CMakeFiles/attribution_smoke.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/attribution_smoke.dir/build.make CMakeFiles/attribution_smoke.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=71,72 "Finished codegen for target attribution_smoke"
+.PHONY : CMakeFiles/attribution_smoke.dir/codegen
+
+# clean rule for target.
+CMakeFiles/attribution_smoke.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/attribution_smoke.dir/build.make CMakeFiles/attribution_smoke.dir/clean
+.PHONY : CMakeFiles/attribution_smoke.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/simulation_smoke.dir
+
+# All Build rule for target.
+CMakeFiles/simulation_smoke.dir/all: CMakeFiles/graph.dir/all
+CMakeFiles/simulation_smoke.dir/all: CMakeFiles/alloc.dir/all
+CMakeFiles/simulation_smoke.dir/all: CMakeFiles/event.dir/all
+CMakeFiles/simulation_smoke.dir/all: CMakeFiles/sim.dir/all
+CMakeFiles/simulation_smoke.dir/all: CMakeFiles/scoring.dir/all
+CMakeFiles/simulation_smoke.dir/all: CMakeFiles/core.dir/all
+CMakeFiles/simulation_smoke.dir/all: _deps/fmt-build/CMakeFiles/fmt.dir/all
+CMakeFiles/simulation_smoke.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulation_smoke.dir/build.make CMakeFiles/simulation_smoke.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulation_smoke.dir/build.make CMakeFiles/simulation_smoke.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=94,95 "Built target simulation_smoke"
+.PHONY : CMakeFiles/simulation_smoke.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/simulation_smoke.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 15
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simulation_smoke.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 0
+.PHONY : CMakeFiles/simulation_smoke.dir/rule
+
+# Convenience name for target.
+simulation_smoke: CMakeFiles/simulation_smoke.dir/rule
+.PHONY : simulation_smoke
+
+# codegen rule for target.
+CMakeFiles/simulation_smoke.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulation_smoke.dir/build.make CMakeFiles/simulation_smoke.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=94,95 "Finished codegen for target simulation_smoke"
+.PHONY : CMakeFiles/simulation_smoke.dir/codegen
+
+# clean rule for target.
+CMakeFiles/simulation_smoke.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulation_smoke.dir/build.make CMakeFiles/simulation_smoke.dir/clean
+.PHONY : CMakeFiles/simulation_smoke.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/portfolio.dir
+
+# All Build rule for target.
+CMakeFiles/portfolio.dir/all: CMakeFiles/graph.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/portfolio.dir/build.make CMakeFiles/portfolio.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/portfolio.dir/build.make CMakeFiles/portfolio.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=88 "Built target portfolio"
+.PHONY : CMakeFiles/portfolio.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/portfolio.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/portfolio.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 0
+.PHONY : CMakeFiles/portfolio.dir/rule
+
+# Convenience name for target.
+portfolio: CMakeFiles/portfolio.dir/rule
+.PHONY : portfolio
+
+# codegen rule for target.
+CMakeFiles/portfolio.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/portfolio.dir/build.make CMakeFiles/portfolio.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=88 "Finished codegen for target portfolio"
+.PHONY : CMakeFiles/portfolio.dir/codegen
+
+# clean rule for target.
+CMakeFiles/portfolio.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/portfolio.dir/build.make CMakeFiles/portfolio.dir/clean
+.PHONY : CMakeFiles/portfolio.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/portfolio_smoke.dir
+
+# All Build rule for target.
+CMakeFiles/portfolio_smoke.dir/all: CMakeFiles/graph.dir/all
+CMakeFiles/portfolio_smoke.dir/all: CMakeFiles/portfolio.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/portfolio_smoke.dir/build.make CMakeFiles/portfolio_smoke.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/portfolio_smoke.dir/build.make CMakeFiles/portfolio_smoke.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=89,90 "Built target portfolio_smoke"
+.PHONY : CMakeFiles/portfolio_smoke.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/portfolio_smoke.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/portfolio_smoke.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 0
+.PHONY : CMakeFiles/portfolio_smoke.dir/rule
+
+# Convenience name for target.
+portfolio_smoke: CMakeFiles/portfolio_smoke.dir/rule
+.PHONY : portfolio_smoke
+
+# codegen rule for target.
+CMakeFiles/portfolio_smoke.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/portfolio_smoke.dir/build.make CMakeFiles/portfolio_smoke.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=89,90 "Finished codegen for target portfolio_smoke"
+.PHONY : CMakeFiles/portfolio_smoke.dir/codegen
+
+# clean rule for target.
+CMakeFiles/portfolio_smoke.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/portfolio_smoke.dir/build.make CMakeFiles/portfolio_smoke.dir/clean
+.PHONY : CMakeFiles/portfolio_smoke.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ingest.dir
+
+# All Build rule for target.
+CMakeFiles/ingest.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ingest.dir/build.make CMakeFiles/ingest.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ingest.dir/build.make CMakeFiles/ingest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=84,85 "Built target ingest"
+.PHONY : CMakeFiles/ingest.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ingest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ingest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 0
+.PHONY : CMakeFiles/ingest.dir/rule
+
+# Convenience name for target.
+ingest: CMakeFiles/ingest.dir/rule
+.PHONY : ingest
+
+# codegen rule for target.
+CMakeFiles/ingest.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ingest.dir/build.make CMakeFiles/ingest.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=84,85 "Finished codegen for target ingest"
+.PHONY : CMakeFiles/ingest.dir/codegen
+
+# clean rule for target.
+CMakeFiles/ingest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ingest.dir/build.make CMakeFiles/ingest.dir/clean
+.PHONY : CMakeFiles/ingest.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/backtest_smoke.dir
+
+# All Build rule for target.
+CMakeFiles/backtest_smoke.dir/all: CMakeFiles/graph.dir/all
+CMakeFiles/backtest_smoke.dir/all: CMakeFiles/alloc.dir/all
+CMakeFiles/backtest_smoke.dir/all: CMakeFiles/event.dir/all
+CMakeFiles/backtest_smoke.dir/all: CMakeFiles/sim.dir/all
+CMakeFiles/backtest_smoke.dir/all: CMakeFiles/backtest.dir/all
+CMakeFiles/backtest_smoke.dir/all: CMakeFiles/scoring.dir/all
+CMakeFiles/backtest_smoke.dir/all: CMakeFiles/core.dir/all
+CMakeFiles/backtest_smoke.dir/all: CMakeFiles/portfolio.dir/all
+CMakeFiles/backtest_smoke.dir/all: _deps/fmt-build/CMakeFiles/fmt.dir/all
+CMakeFiles/backtest_smoke.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/backtest_smoke.dir/build.make CMakeFiles/backtest_smoke.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/backtest_smoke.dir/build.make CMakeFiles/backtest_smoke.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=74 "Built target backtest_smoke"
+.PHONY : CMakeFiles/backtest_smoke.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/backtest_smoke.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 16
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/backtest_smoke.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 0
+.PHONY : CMakeFiles/backtest_smoke.dir/rule
+
+# Convenience name for target.
+backtest_smoke: CMakeFiles/backtest_smoke.dir/rule
+.PHONY : backtest_smoke
+
+# codegen rule for target.
+CMakeFiles/backtest_smoke.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/backtest_smoke.dir/build.make CMakeFiles/backtest_smoke.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=74 "Finished codegen for target backtest_smoke"
+.PHONY : CMakeFiles/backtest_smoke.dir/codegen
+
+# clean rule for target.
+CMakeFiles/backtest_smoke.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/backtest_smoke.dir/build.make CMakeFiles/backtest_smoke.dir/clean
+.PHONY : CMakeFiles/backtest_smoke.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ingest_smoke.dir
+
+# All Build rule for target.
+CMakeFiles/ingest_smoke.dir/all: CMakeFiles/ingest.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ingest_smoke.dir/build.make CMakeFiles/ingest_smoke.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ingest_smoke.dir/build.make CMakeFiles/ingest_smoke.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=86 "Built target ingest_smoke"
+.PHONY : CMakeFiles/ingest_smoke.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ingest_smoke.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ingest_smoke.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 0
+.PHONY : CMakeFiles/ingest_smoke.dir/rule
+
+# Convenience name for target.
+ingest_smoke: CMakeFiles/ingest_smoke.dir/rule
+.PHONY : ingest_smoke
+
+# codegen rule for target.
+CMakeFiles/ingest_smoke.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ingest_smoke.dir/build.make CMakeFiles/ingest_smoke.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=86 "Finished codegen for target ingest_smoke"
+.PHONY : CMakeFiles/ingest_smoke.dir/codegen
+
+# clean rule for target.
+CMakeFiles/ingest_smoke.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ingest_smoke.dir/build.make CMakeFiles/ingest_smoke.dir/clean
+.PHONY : CMakeFiles/ingest_smoke.dir/clean
+
+#=============================================================================
 # Target rules for target _deps/fmt-build/CMakeFiles/fmt.dir
 
 # All Build rule for target.
 _deps/fmt-build/CMakeFiles/fmt.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/fmt-build/CMakeFiles/fmt.dir/build.make _deps/fmt-build/CMakeFiles/fmt.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/fmt-build/CMakeFiles/fmt.dir/build.make _deps/fmt-build/CMakeFiles/fmt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=87,88 "Built target fmt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=80,81 "Built target fmt"
 .PHONY : _deps/fmt-build/CMakeFiles/fmt.dir/all
 
 # Build rule for subdir invocation for target.
@@ -524,7 +993,7 @@ fmt: _deps/fmt-build/CMakeFiles/fmt.dir/rule
 # codegen rule for target.
 _deps/fmt-build/CMakeFiles/fmt.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/fmt-build/CMakeFiles/fmt.dir/build.make _deps/fmt-build/CMakeFiles/fmt.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=87,88 "Finished codegen for target fmt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=80,81 "Finished codegen for target fmt"
 .PHONY : _deps/fmt-build/CMakeFiles/fmt.dir/codegen
 
 # clean rule for target.
@@ -539,12 +1008,12 @@ _deps/fmt-build/CMakeFiles/fmt.dir/clean:
 _deps/spdlog-build/CMakeFiles/spdlog.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/spdlog-build/CMakeFiles/spdlog.dir/build.make _deps/spdlog-build/CMakeFiles/spdlog.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/spdlog-build/CMakeFiles/spdlog.dir/build.make _deps/spdlog-build/CMakeFiles/spdlog.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=95,96,97,98,99,100 "Built target spdlog"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=96,97,98,99,100 "Built target spdlog"
 .PHONY : _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/spdlog-build/CMakeFiles/spdlog.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 0
 .PHONY : _deps/spdlog-build/CMakeFiles/spdlog.dir/rule
@@ -556,7 +1025,7 @@ spdlog: _deps/spdlog-build/CMakeFiles/spdlog.dir/rule
 # codegen rule for target.
 _deps/spdlog-build/CMakeFiles/spdlog.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/spdlog-build/CMakeFiles/spdlog.dir/build.make _deps/spdlog-build/CMakeFiles/spdlog.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=95,96,97,98,99,100 "Finished codegen for target spdlog"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=96,97,98,99,100 "Finished codegen for target spdlog"
 .PHONY : _deps/spdlog-build/CMakeFiles/spdlog.dir/codegen
 
 # clean rule for target.
@@ -571,12 +1040,12 @@ _deps/spdlog-build/CMakeFiles/spdlog.dir/clean:
 _deps/catch2-build/src/CMakeFiles/Catch2.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/catch2-build/src/CMakeFiles/Catch2.dir/build.make _deps/catch2-build/src/CMakeFiles/Catch2.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/catch2-build/src/CMakeFiles/Catch2.dir/build.make _deps/catch2-build/src/CMakeFiles/Catch2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77 "Built target Catch2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66 "Built target Catch2"
 .PHONY : _deps/catch2-build/src/CMakeFiles/Catch2.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/catch2-build/src/CMakeFiles/Catch2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 77
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 66
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/catch2-build/src/CMakeFiles/Catch2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 0
 .PHONY : _deps/catch2-build/src/CMakeFiles/Catch2.dir/rule
@@ -588,7 +1057,7 @@ Catch2: _deps/catch2-build/src/CMakeFiles/Catch2.dir/rule
 # codegen rule for target.
 _deps/catch2-build/src/CMakeFiles/Catch2.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/catch2-build/src/CMakeFiles/Catch2.dir/build.make _deps/catch2-build/src/CMakeFiles/Catch2.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77 "Finished codegen for target Catch2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66 "Finished codegen for target Catch2"
 .PHONY : _deps/catch2-build/src/CMakeFiles/Catch2.dir/codegen
 
 # clean rule for target.
@@ -603,12 +1072,12 @@ _deps/catch2-build/src/CMakeFiles/Catch2.dir/clean:
 _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/all: _deps/catch2-build/src/CMakeFiles/Catch2.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/build.make _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/build.make _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=78 "Built target Catch2WithMain"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=67 "Built target Catch2WithMain"
 .PHONY : _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 78
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 67
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles 0
 .PHONY : _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/rule
@@ -620,7 +1089,7 @@ Catch2WithMain: _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/rule
 # codegen rule for target.
 _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/build.make _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=78 "Finished codegen for target Catch2WithMain"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=67 "Finished codegen for target Catch2WithMain"
 .PHONY : _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/codegen
 
 # clean rule for target.

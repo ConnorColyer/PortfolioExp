@@ -99,9 +99,20 @@ engine: libcore.a
 engine: libgraph.a
 engine: libscoring.a
 engine: liballoc.a
+engine: libevent.a
+engine: libattrib.a
+engine: libsim.a
+engine: libportfolio.a
+engine: libbacktest.a
+engine: libingest.a
+engine: libsim.a
+engine: libscoring.a
 engine: libcore.a
 engine: _deps/spdlog-build/libspdlogd.a
 engine: _deps/fmt-build/libfmtd.a
+engine: liballoc.a
+engine: libevent.a
+engine: libportfolio.a
 engine: libgraph.a
 engine: CMakeFiles/engine.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable engine"

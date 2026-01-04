@@ -65,6 +65,24 @@ target_include_directories(graph PUBLIC
 )
 engine_apply_project_options(graph)
 
+# -------- Attribution library --------
+add_library(attrib STATIC
+  src/attrib/attribution.cpp
+)
+
+target_include_directories(attrib PUBLIC
+  ${CMAKE_CURRENT_SOURCE_DIR}/include
+)
+
+target_link_libraries(attrib PUBLIC
+  graph
+  scoring
+  event
+)
+
+engine_apply_project_options(attrib)
+
+
 # -------- Allocator library --------
 add_library(alloc STATIC
   src/alloc/allocator.cpp
@@ -75,6 +93,56 @@ target_include_directories(alloc PUBLIC
 )
 
 engine_apply_project_options(alloc)
+
+# -------- Event injection library --------
+add_library(event STATIC
+  src/event/injector.cpp
+)
+
+target_include_directories(event PUBLIC
+  ${CMAKE_CURRENT_SOURCE_DIR}/include
+)
+
+target_link_libraries(event PUBLIC
+  graph
+)
+
+engine_apply_project_options(event)
+
+# -------- Simulation library --------
+add_library(sim STATIC
+  src/sim/simulation.cpp
+)
+
+target_include_directories(sim PUBLIC
+  ${CMAKE_CURRENT_SOURCE_DIR}/include
+)
+
+target_link_libraries(sim PUBLIC
+  graph
+  event
+  scoring
+  alloc
+)
+
+engine_apply_project_options(sim)
+
+
+# -------- Backtest runner --------
+add_library(backtest STATIC
+  src/backtest/backtest.cpp
+)
+
+target_include_directories(backtest PUBLIC
+  ${CMAKE_CURRENT_SOURCE_DIR}/include
+)
+
+target_link_libraries(backtest PUBLIC
+  sim
+  portfolio
+)
+
+engine_apply_project_options(backtest)
 
 
 # -------- Scoring library --------
@@ -108,7 +176,7 @@ engine_apply_project_options(core)
 add_executable(engine
   src/main.cpp
 )
-target_link_libraries(engine PRIVATE core graph scoring alloc)
+target_link_libraries(engine PRIVATE core graph scoring alloc event attrib sim portfolio backtest ingest)
 engine_apply_project_options(engine)
 
 # ---------- Tests ----------
@@ -132,6 +200,74 @@ add_executable(allocator_smoke
   tests/allocator_smoke.cpp
 )
 
+add_executable(injector_smoke
+  tests/injector_smoke.cpp
+)
+
+target_link_libraries(injector_smoke PRIVATE
+  event
+)
+
+engine_apply_project_options(injector_smoke)
+
+add_executable(attribution_smoke
+  tests/attribution_smoke.cpp
+)
+
+target_link_libraries(attribution_smoke PRIVATE
+  attrib
+)
+
+engine_apply_project_options(attribution_smoke)
+
+add_executable(simulation_smoke
+  tests/simulation_smoke.cpp
+)
+
+target_link_libraries(simulation_smoke PRIVATE
+  sim
+)
+
+engine_apply_project_options(simulation_smoke)
+
+# -------- Portfolio accounting library --------
+add_library(portfolio STATIC
+  src/portfolio/portfolio.cpp
+)
+
+target_include_directories(portfolio PUBLIC
+  ${CMAKE_CURRENT_SOURCE_DIR}/include
+)
+
+target_link_libraries(portfolio PUBLIC
+  graph
+)
+
+engine_apply_project_options(portfolio)
+
+add_executable(portfolio_smoke
+  tests/portfolio_smoke.cpp
+)
+
+target_link_libraries(portfolio_smoke PRIVATE
+  portfolio
+)
+
+engine_apply_project_options(portfolio_smoke)
+
+
+# -------- Data ingestion --------
+add_library(ingest STATIC
+  src/ingest/validator.cpp
+)
+
+target_include_directories(ingest PUBLIC
+  ${CMAKE_CURRENT_SOURCE_DIR}/include
+)
+
+engine_apply_project_options(ingest)
+
+
 target_link_libraries(allocator_smoke PRIVATE alloc)
 engine_apply_project_options(allocator_smoke)
 
@@ -142,3 +278,19 @@ target_link_libraries(scoring_smoke PRIVATE
 
 engine_apply_project_options(scoring_smoke)
 
+add_executable(backtest_smoke
+  tests/backtest_smoke.cpp
+)
+
+target_link_libraries(backtest_smoke PRIVATE
+  backtest
+)
+
+engine_apply_project_options(backtest_smoke)
+
+add_executable(ingest_smoke
+  tests/ingest_smoke.cpp
+)
+
+target_link_libraries(ingest_smoke PRIVATE ingest)
+engine_apply_project_options(ingest_smoke)

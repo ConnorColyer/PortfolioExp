@@ -1,0 +1,2 @@
+/usr/bin/ar qc libingest.a CMakeFiles/ingest.dir/src/ingest/validator.cpp.o
+/usr/bin/ranlib libingest.a

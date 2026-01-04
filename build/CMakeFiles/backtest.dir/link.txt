@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbacktest.a CMakeFiles/backtest.dir/src/backtest/backtest.cpp.o
+/usr/bin/ranlib libbacktest.a

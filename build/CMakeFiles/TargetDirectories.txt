@@ -1,5 +1,9 @@
 /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/graph.dir
+/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/attrib.dir
 /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/alloc.dir
+/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/event.dir
+/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/sim.dir
+/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/backtest.dir
 /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/scoring.dir
 /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/core.dir
 /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/engine.dir
@@ -7,6 +11,14 @@
 /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/core_smoke.dir
 /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/scoring_smoke.dir
 /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/allocator_smoke.dir
+/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/injector_smoke.dir
+/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/attribution_smoke.dir
+/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/simulation_smoke.dir
+/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/portfolio.dir
+/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/portfolio_smoke.dir
+/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/ingest.dir
+/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/backtest_smoke.dir
+/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/ingest_smoke.dir
 /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/edit_cache.dir
 /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/rebuild_cache.dir
 /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/list_install_components.dir

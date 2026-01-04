@@ -1,0 +1,2 @@
+/usr/bin/ar qc libattrib.a CMakeFiles/attrib.dir/src/attrib/attribution.cpp.o
+/usr/bin/ranlib libattrib.a

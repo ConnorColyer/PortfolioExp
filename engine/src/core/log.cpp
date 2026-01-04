@@ -31,7 +31,6 @@ void init_logging(std::string_view app_name, LogLevel level, bool to_file) {
 
   if (to_file) {
     // Write logs to ./logs/<app>.log (relative to working dir)
-    // Keep it simple; we can evolve to daily rotation later.
     const std::string path = std::string("logs/") + std::string(app_name) + ".log";
     auto file = std::make_shared<spdlog::sinks::basic_file_sink_mt>(path, true);
     sinks.push_back(file);

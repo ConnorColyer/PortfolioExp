@@ -175,6 +175,19 @@ graph/fast:
 .PHONY : graph/fast
 
 #=============================================================================
+# Target rules for targets named attrib
+
+# Build rule for target.
+attrib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 attrib
+.PHONY : attrib
+
+# fast build rule for target.
+attrib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/attrib.dir/build.make CMakeFiles/attrib.dir/build
+.PHONY : attrib/fast
+
+#=============================================================================
 # Target rules for targets named alloc
 
 # Build rule for target.
@@ -186,6 +199,45 @@ alloc: cmake_check_build_system
 alloc/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/alloc.dir/build.make CMakeFiles/alloc.dir/build
 .PHONY : alloc/fast
+
+#=============================================================================
+# Target rules for targets named event
+
+# Build rule for target.
+event: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 event
+.PHONY : event
+
+# fast build rule for target.
+event/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/event.dir/build.make CMakeFiles/event.dir/build
+.PHONY : event/fast
+
+#=============================================================================
+# Target rules for targets named sim
+
+# Build rule for target.
+sim: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sim
+.PHONY : sim
+
+# fast build rule for target.
+sim/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/build
+.PHONY : sim/fast
+
+#=============================================================================
+# Target rules for targets named backtest
+
+# Build rule for target.
+backtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 backtest
+.PHONY : backtest
+
+# fast build rule for target.
+backtest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/backtest.dir/build.make CMakeFiles/backtest.dir/build
+.PHONY : backtest/fast
 
 #=============================================================================
 # Target rules for targets named scoring
@@ -279,6 +331,110 @@ allocator_smoke/fast:
 .PHONY : allocator_smoke/fast
 
 #=============================================================================
+# Target rules for targets named injector_smoke
+
+# Build rule for target.
+injector_smoke: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 injector_smoke
+.PHONY : injector_smoke
+
+# fast build rule for target.
+injector_smoke/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/injector_smoke.dir/build.make CMakeFiles/injector_smoke.dir/build
+.PHONY : injector_smoke/fast
+
+#=============================================================================
+# Target rules for targets named attribution_smoke
+
+# Build rule for target.
+attribution_smoke: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 attribution_smoke
+.PHONY : attribution_smoke
+
+# fast build rule for target.
+attribution_smoke/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/attribution_smoke.dir/build.make CMakeFiles/attribution_smoke.dir/build
+.PHONY : attribution_smoke/fast
+
+#=============================================================================
+# Target rules for targets named simulation_smoke
+
+# Build rule for target.
+simulation_smoke: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simulation_smoke
+.PHONY : simulation_smoke
+
+# fast build rule for target.
+simulation_smoke/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulation_smoke.dir/build.make CMakeFiles/simulation_smoke.dir/build
+.PHONY : simulation_smoke/fast
+
+#=============================================================================
+# Target rules for targets named portfolio
+
+# Build rule for target.
+portfolio: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 portfolio
+.PHONY : portfolio
+
+# fast build rule for target.
+portfolio/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/portfolio.dir/build.make CMakeFiles/portfolio.dir/build
+.PHONY : portfolio/fast
+
+#=============================================================================
+# Target rules for targets named portfolio_smoke
+
+# Build rule for target.
+portfolio_smoke: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 portfolio_smoke
+.PHONY : portfolio_smoke
+
+# fast build rule for target.
+portfolio_smoke/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/portfolio_smoke.dir/build.make CMakeFiles/portfolio_smoke.dir/build
+.PHONY : portfolio_smoke/fast
+
+#=============================================================================
+# Target rules for targets named ingest
+
+# Build rule for target.
+ingest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ingest
+.PHONY : ingest
+
+# fast build rule for target.
+ingest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ingest.dir/build.make CMakeFiles/ingest.dir/build
+.PHONY : ingest/fast
+
+#=============================================================================
+# Target rules for targets named backtest_smoke
+
+# Build rule for target.
+backtest_smoke: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 backtest_smoke
+.PHONY : backtest_smoke
+
+# fast build rule for target.
+backtest_smoke/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/backtest_smoke.dir/build.make CMakeFiles/backtest_smoke.dir/build
+.PHONY : backtest_smoke/fast
+
+#=============================================================================
+# Target rules for targets named ingest_smoke
+
+# Build rule for target.
+ingest_smoke: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ingest_smoke
+.PHONY : ingest_smoke
+
+# fast build rule for target.
+ingest_smoke/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ingest_smoke.dir/build.make CMakeFiles/ingest_smoke.dir/build
+.PHONY : ingest_smoke/fast
+
+#=============================================================================
 # Target rules for targets named fmt
 
 # Build rule for target.
@@ -354,6 +510,54 @@ src/alloc/allocator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/alloc.dir/build.make CMakeFiles/alloc.dir/src/alloc/allocator.cpp.s
 .PHONY : src/alloc/allocator.cpp.s
 
+src/attrib/attribution.o: src/attrib/attribution.cpp.o
+.PHONY : src/attrib/attribution.o
+
+# target to build an object file
+src/attrib/attribution.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/attrib.dir/build.make CMakeFiles/attrib.dir/src/attrib/attribution.cpp.o
+.PHONY : src/attrib/attribution.cpp.o
+
+src/attrib/attribution.i: src/attrib/attribution.cpp.i
+.PHONY : src/attrib/attribution.i
+
+# target to preprocess a source file
+src/attrib/attribution.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/attrib.dir/build.make CMakeFiles/attrib.dir/src/attrib/attribution.cpp.i
+.PHONY : src/attrib/attribution.cpp.i
+
+src/attrib/attribution.s: src/attrib/attribution.cpp.s
+.PHONY : src/attrib/attribution.s
+
+# target to generate assembly for a file
+src/attrib/attribution.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/attrib.dir/build.make CMakeFiles/attrib.dir/src/attrib/attribution.cpp.s
+.PHONY : src/attrib/attribution.cpp.s
+
+src/backtest/backtest.o: src/backtest/backtest.cpp.o
+.PHONY : src/backtest/backtest.o
+
+# target to build an object file
+src/backtest/backtest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/backtest.dir/build.make CMakeFiles/backtest.dir/src/backtest/backtest.cpp.o
+.PHONY : src/backtest/backtest.cpp.o
+
+src/backtest/backtest.i: src/backtest/backtest.cpp.i
+.PHONY : src/backtest/backtest.i
+
+# target to preprocess a source file
+src/backtest/backtest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/backtest.dir/build.make CMakeFiles/backtest.dir/src/backtest/backtest.cpp.i
+.PHONY : src/backtest/backtest.cpp.i
+
+src/backtest/backtest.s: src/backtest/backtest.cpp.s
+.PHONY : src/backtest/backtest.s
+
+# target to generate assembly for a file
+src/backtest/backtest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/backtest.dir/build.make CMakeFiles/backtest.dir/src/backtest/backtest.cpp.s
+.PHONY : src/backtest/backtest.cpp.s
+
 src/core/log.o: src/core/log.cpp.o
 .PHONY : src/core/log.o
 
@@ -377,6 +581,30 @@ src/core/log.s: src/core/log.cpp.s
 src/core/log.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/core/log.cpp.s
 .PHONY : src/core/log.cpp.s
+
+src/event/injector.o: src/event/injector.cpp.o
+.PHONY : src/event/injector.o
+
+# target to build an object file
+src/event/injector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/event.dir/build.make CMakeFiles/event.dir/src/event/injector.cpp.o
+.PHONY : src/event/injector.cpp.o
+
+src/event/injector.i: src/event/injector.cpp.i
+.PHONY : src/event/injector.i
+
+# target to preprocess a source file
+src/event/injector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/event.dir/build.make CMakeFiles/event.dir/src/event/injector.cpp.i
+.PHONY : src/event/injector.cpp.i
+
+src/event/injector.s: src/event/injector.cpp.s
+.PHONY : src/event/injector.s
+
+# target to generate assembly for a file
+src/event/injector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/event.dir/build.make CMakeFiles/event.dir/src/event/injector.cpp.s
+.PHONY : src/event/injector.cpp.s
 
 src/graph/graph.o: src/graph/graph.cpp.o
 .PHONY : src/graph/graph.o
@@ -402,6 +630,30 @@ src/graph/graph.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/src/graph/graph.cpp.s
 .PHONY : src/graph/graph.cpp.s
 
+src/ingest/validator.o: src/ingest/validator.cpp.o
+.PHONY : src/ingest/validator.o
+
+# target to build an object file
+src/ingest/validator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ingest.dir/build.make CMakeFiles/ingest.dir/src/ingest/validator.cpp.o
+.PHONY : src/ingest/validator.cpp.o
+
+src/ingest/validator.i: src/ingest/validator.cpp.i
+.PHONY : src/ingest/validator.i
+
+# target to preprocess a source file
+src/ingest/validator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ingest.dir/build.make CMakeFiles/ingest.dir/src/ingest/validator.cpp.i
+.PHONY : src/ingest/validator.cpp.i
+
+src/ingest/validator.s: src/ingest/validator.cpp.s
+.PHONY : src/ingest/validator.s
+
+# target to generate assembly for a file
+src/ingest/validator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ingest.dir/build.make CMakeFiles/ingest.dir/src/ingest/validator.cpp.s
+.PHONY : src/ingest/validator.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -425,6 +677,30 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/portfolio/portfolio.o: src/portfolio/portfolio.cpp.o
+.PHONY : src/portfolio/portfolio.o
+
+# target to build an object file
+src/portfolio/portfolio.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/portfolio.dir/build.make CMakeFiles/portfolio.dir/src/portfolio/portfolio.cpp.o
+.PHONY : src/portfolio/portfolio.cpp.o
+
+src/portfolio/portfolio.i: src/portfolio/portfolio.cpp.i
+.PHONY : src/portfolio/portfolio.i
+
+# target to preprocess a source file
+src/portfolio/portfolio.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/portfolio.dir/build.make CMakeFiles/portfolio.dir/src/portfolio/portfolio.cpp.i
+.PHONY : src/portfolio/portfolio.cpp.i
+
+src/portfolio/portfolio.s: src/portfolio/portfolio.cpp.s
+.PHONY : src/portfolio/portfolio.s
+
+# target to generate assembly for a file
+src/portfolio/portfolio.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/portfolio.dir/build.make CMakeFiles/portfolio.dir/src/portfolio/portfolio.cpp.s
+.PHONY : src/portfolio/portfolio.cpp.s
 
 src/scoring/scorer.o: src/scoring/scorer.cpp.o
 .PHONY : src/scoring/scorer.o
@@ -450,6 +726,30 @@ src/scoring/scorer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/scoring.dir/build.make CMakeFiles/scoring.dir/src/scoring/scorer.cpp.s
 .PHONY : src/scoring/scorer.cpp.s
 
+src/sim/simulation.o: src/sim/simulation.cpp.o
+.PHONY : src/sim/simulation.o
+
+# target to build an object file
+src/sim/simulation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/sim/simulation.cpp.o
+.PHONY : src/sim/simulation.cpp.o
+
+src/sim/simulation.i: src/sim/simulation.cpp.i
+.PHONY : src/sim/simulation.i
+
+# target to preprocess a source file
+src/sim/simulation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/sim/simulation.cpp.i
+.PHONY : src/sim/simulation.cpp.i
+
+src/sim/simulation.s: src/sim/simulation.cpp.s
+.PHONY : src/sim/simulation.s
+
+# target to generate assembly for a file
+src/sim/simulation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/sim/simulation.cpp.s
+.PHONY : src/sim/simulation.cpp.s
+
 tests/allocator_smoke.o: tests/allocator_smoke.cpp.o
 .PHONY : tests/allocator_smoke.o
 
@@ -473,6 +773,54 @@ tests/allocator_smoke.s: tests/allocator_smoke.cpp.s
 tests/allocator_smoke.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/allocator_smoke.dir/build.make CMakeFiles/allocator_smoke.dir/tests/allocator_smoke.cpp.s
 .PHONY : tests/allocator_smoke.cpp.s
+
+tests/attribution_smoke.o: tests/attribution_smoke.cpp.o
+.PHONY : tests/attribution_smoke.o
+
+# target to build an object file
+tests/attribution_smoke.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/attribution_smoke.dir/build.make CMakeFiles/attribution_smoke.dir/tests/attribution_smoke.cpp.o
+.PHONY : tests/attribution_smoke.cpp.o
+
+tests/attribution_smoke.i: tests/attribution_smoke.cpp.i
+.PHONY : tests/attribution_smoke.i
+
+# target to preprocess a source file
+tests/attribution_smoke.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/attribution_smoke.dir/build.make CMakeFiles/attribution_smoke.dir/tests/attribution_smoke.cpp.i
+.PHONY : tests/attribution_smoke.cpp.i
+
+tests/attribution_smoke.s: tests/attribution_smoke.cpp.s
+.PHONY : tests/attribution_smoke.s
+
+# target to generate assembly for a file
+tests/attribution_smoke.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/attribution_smoke.dir/build.make CMakeFiles/attribution_smoke.dir/tests/attribution_smoke.cpp.s
+.PHONY : tests/attribution_smoke.cpp.s
+
+tests/backtest_smoke.o: tests/backtest_smoke.cpp.o
+.PHONY : tests/backtest_smoke.o
+
+# target to build an object file
+tests/backtest_smoke.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/backtest_smoke.dir/build.make CMakeFiles/backtest_smoke.dir/tests/backtest_smoke.cpp.o
+.PHONY : tests/backtest_smoke.cpp.o
+
+tests/backtest_smoke.i: tests/backtest_smoke.cpp.i
+.PHONY : tests/backtest_smoke.i
+
+# target to preprocess a source file
+tests/backtest_smoke.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/backtest_smoke.dir/build.make CMakeFiles/backtest_smoke.dir/tests/backtest_smoke.cpp.i
+.PHONY : tests/backtest_smoke.cpp.i
+
+tests/backtest_smoke.s: tests/backtest_smoke.cpp.s
+.PHONY : tests/backtest_smoke.s
+
+# target to generate assembly for a file
+tests/backtest_smoke.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/backtest_smoke.dir/build.make CMakeFiles/backtest_smoke.dir/tests/backtest_smoke.cpp.s
+.PHONY : tests/backtest_smoke.cpp.s
 
 tests/core_smoke.o: tests/core_smoke.cpp.o
 .PHONY : tests/core_smoke.o
@@ -522,6 +870,78 @@ tests/graph_smoke.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_smoke.dir/build.make CMakeFiles/graph_smoke.dir/tests/graph_smoke.cpp.s
 .PHONY : tests/graph_smoke.cpp.s
 
+tests/ingest_smoke.o: tests/ingest_smoke.cpp.o
+.PHONY : tests/ingest_smoke.o
+
+# target to build an object file
+tests/ingest_smoke.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ingest_smoke.dir/build.make CMakeFiles/ingest_smoke.dir/tests/ingest_smoke.cpp.o
+.PHONY : tests/ingest_smoke.cpp.o
+
+tests/ingest_smoke.i: tests/ingest_smoke.cpp.i
+.PHONY : tests/ingest_smoke.i
+
+# target to preprocess a source file
+tests/ingest_smoke.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ingest_smoke.dir/build.make CMakeFiles/ingest_smoke.dir/tests/ingest_smoke.cpp.i
+.PHONY : tests/ingest_smoke.cpp.i
+
+tests/ingest_smoke.s: tests/ingest_smoke.cpp.s
+.PHONY : tests/ingest_smoke.s
+
+# target to generate assembly for a file
+tests/ingest_smoke.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ingest_smoke.dir/build.make CMakeFiles/ingest_smoke.dir/tests/ingest_smoke.cpp.s
+.PHONY : tests/ingest_smoke.cpp.s
+
+tests/injector_smoke.o: tests/injector_smoke.cpp.o
+.PHONY : tests/injector_smoke.o
+
+# target to build an object file
+tests/injector_smoke.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/injector_smoke.dir/build.make CMakeFiles/injector_smoke.dir/tests/injector_smoke.cpp.o
+.PHONY : tests/injector_smoke.cpp.o
+
+tests/injector_smoke.i: tests/injector_smoke.cpp.i
+.PHONY : tests/injector_smoke.i
+
+# target to preprocess a source file
+tests/injector_smoke.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/injector_smoke.dir/build.make CMakeFiles/injector_smoke.dir/tests/injector_smoke.cpp.i
+.PHONY : tests/injector_smoke.cpp.i
+
+tests/injector_smoke.s: tests/injector_smoke.cpp.s
+.PHONY : tests/injector_smoke.s
+
+# target to generate assembly for a file
+tests/injector_smoke.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/injector_smoke.dir/build.make CMakeFiles/injector_smoke.dir/tests/injector_smoke.cpp.s
+.PHONY : tests/injector_smoke.cpp.s
+
+tests/portfolio_smoke.o: tests/portfolio_smoke.cpp.o
+.PHONY : tests/portfolio_smoke.o
+
+# target to build an object file
+tests/portfolio_smoke.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/portfolio_smoke.dir/build.make CMakeFiles/portfolio_smoke.dir/tests/portfolio_smoke.cpp.o
+.PHONY : tests/portfolio_smoke.cpp.o
+
+tests/portfolio_smoke.i: tests/portfolio_smoke.cpp.i
+.PHONY : tests/portfolio_smoke.i
+
+# target to preprocess a source file
+tests/portfolio_smoke.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/portfolio_smoke.dir/build.make CMakeFiles/portfolio_smoke.dir/tests/portfolio_smoke.cpp.i
+.PHONY : tests/portfolio_smoke.cpp.i
+
+tests/portfolio_smoke.s: tests/portfolio_smoke.cpp.s
+.PHONY : tests/portfolio_smoke.s
+
+# target to generate assembly for a file
+tests/portfolio_smoke.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/portfolio_smoke.dir/build.make CMakeFiles/portfolio_smoke.dir/tests/portfolio_smoke.cpp.s
+.PHONY : tests/portfolio_smoke.cpp.s
+
 tests/scoring_smoke.o: tests/scoring_smoke.cpp.o
 .PHONY : tests/scoring_smoke.o
 
@@ -546,6 +966,30 @@ tests/scoring_smoke.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/scoring_smoke.dir/build.make CMakeFiles/scoring_smoke.dir/tests/scoring_smoke.cpp.s
 .PHONY : tests/scoring_smoke.cpp.s
 
+tests/simulation_smoke.o: tests/simulation_smoke.cpp.o
+.PHONY : tests/simulation_smoke.o
+
+# target to build an object file
+tests/simulation_smoke.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulation_smoke.dir/build.make CMakeFiles/simulation_smoke.dir/tests/simulation_smoke.cpp.o
+.PHONY : tests/simulation_smoke.cpp.o
+
+tests/simulation_smoke.i: tests/simulation_smoke.cpp.i
+.PHONY : tests/simulation_smoke.i
+
+# target to preprocess a source file
+tests/simulation_smoke.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulation_smoke.dir/build.make CMakeFiles/simulation_smoke.dir/tests/simulation_smoke.cpp.i
+.PHONY : tests/simulation_smoke.cpp.i
+
+tests/simulation_smoke.s: tests/simulation_smoke.cpp.s
+.PHONY : tests/simulation_smoke.s
+
+# target to generate assembly for a file
+tests/simulation_smoke.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulation_smoke.dir/build.make CMakeFiles/simulation_smoke.dir/tests/simulation_smoke.cpp.s
+.PHONY : tests/simulation_smoke.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -562,42 +1006,90 @@ help:
 	@echo "... Catch2WithMain"
 	@echo "... alloc"
 	@echo "... allocator_smoke"
+	@echo "... attrib"
+	@echo "... attribution_smoke"
+	@echo "... backtest"
+	@echo "... backtest_smoke"
 	@echo "... core"
 	@echo "... core_smoke"
 	@echo "... engine"
+	@echo "... event"
 	@echo "... fmt"
 	@echo "... graph"
 	@echo "... graph_smoke"
+	@echo "... ingest"
+	@echo "... ingest_smoke"
+	@echo "... injector_smoke"
+	@echo "... portfolio"
+	@echo "... portfolio_smoke"
 	@echo "... scoring"
 	@echo "... scoring_smoke"
+	@echo "... sim"
+	@echo "... simulation_smoke"
 	@echo "... spdlog"
 	@echo "... src/alloc/allocator.o"
 	@echo "... src/alloc/allocator.i"
 	@echo "... src/alloc/allocator.s"
+	@echo "... src/attrib/attribution.o"
+	@echo "... src/attrib/attribution.i"
+	@echo "... src/attrib/attribution.s"
+	@echo "... src/backtest/backtest.o"
+	@echo "... src/backtest/backtest.i"
+	@echo "... src/backtest/backtest.s"
 	@echo "... src/core/log.o"
 	@echo "... src/core/log.i"
 	@echo "... src/core/log.s"
+	@echo "... src/event/injector.o"
+	@echo "... src/event/injector.i"
+	@echo "... src/event/injector.s"
 	@echo "... src/graph/graph.o"
 	@echo "... src/graph/graph.i"
 	@echo "... src/graph/graph.s"
+	@echo "... src/ingest/validator.o"
+	@echo "... src/ingest/validator.i"
+	@echo "... src/ingest/validator.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/portfolio/portfolio.o"
+	@echo "... src/portfolio/portfolio.i"
+	@echo "... src/portfolio/portfolio.s"
 	@echo "... src/scoring/scorer.o"
 	@echo "... src/scoring/scorer.i"
 	@echo "... src/scoring/scorer.s"
+	@echo "... src/sim/simulation.o"
+	@echo "... src/sim/simulation.i"
+	@echo "... src/sim/simulation.s"
 	@echo "... tests/allocator_smoke.o"
 	@echo "... tests/allocator_smoke.i"
 	@echo "... tests/allocator_smoke.s"
+	@echo "... tests/attribution_smoke.o"
+	@echo "... tests/attribution_smoke.i"
+	@echo "... tests/attribution_smoke.s"
+	@echo "... tests/backtest_smoke.o"
+	@echo "... tests/backtest_smoke.i"
+	@echo "... tests/backtest_smoke.s"
 	@echo "... tests/core_smoke.o"
 	@echo "... tests/core_smoke.i"
 	@echo "... tests/core_smoke.s"
 	@echo "... tests/graph_smoke.o"
 	@echo "... tests/graph_smoke.i"
 	@echo "... tests/graph_smoke.s"
+	@echo "... tests/ingest_smoke.o"
+	@echo "... tests/ingest_smoke.i"
+	@echo "... tests/ingest_smoke.s"
+	@echo "... tests/injector_smoke.o"
+	@echo "... tests/injector_smoke.i"
+	@echo "... tests/injector_smoke.s"
+	@echo "... tests/portfolio_smoke.o"
+	@echo "... tests/portfolio_smoke.i"
+	@echo "... tests/portfolio_smoke.s"
 	@echo "... tests/scoring_smoke.o"
 	@echo "... tests/scoring_smoke.i"
 	@echo "... tests/scoring_smoke.s"
+	@echo "... tests/simulation_smoke.o"
+	@echo "... tests/simulation_smoke.i"
+	@echo "... tests/simulation_smoke.s"
 .PHONY : help
 
 
