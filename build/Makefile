@@ -129,12 +129,26 @@ engine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/build
 .PHONY : engine/fast
 
+#=============================================================================
+# Target rules for targets named graph_smoke
+
+# Build rule for target.
+graph_smoke: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 graph_smoke
+.PHONY : graph_smoke
+
+# fast build rule for target.
+graph_smoke/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_smoke.dir/build.make CMakeFiles/graph_smoke.dir/build
+.PHONY : graph_smoke/fast
+
 src/graph/graph.o: src/graph/graph.cpp.o
 .PHONY : src/graph/graph.o
 
 # target to build an object file
 src/graph/graph.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/graph/graph.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_smoke.dir/build.make CMakeFiles/graph_smoke.dir/src/graph/graph.cpp.o
 .PHONY : src/graph/graph.cpp.o
 
 src/graph/graph.i: src/graph/graph.cpp.i
@@ -143,6 +157,7 @@ src/graph/graph.i: src/graph/graph.cpp.i
 # target to preprocess a source file
 src/graph/graph.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/graph/graph.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_smoke.dir/build.make CMakeFiles/graph_smoke.dir/src/graph/graph.cpp.i
 .PHONY : src/graph/graph.cpp.i
 
 src/graph/graph.s: src/graph/graph.cpp.s
@@ -151,6 +166,7 @@ src/graph/graph.s: src/graph/graph.cpp.s
 # target to generate assembly for a file
 src/graph/graph.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/graph/graph.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_smoke.dir/build.make CMakeFiles/graph_smoke.dir/src/graph/graph.cpp.s
 .PHONY : src/graph/graph.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -177,6 +193,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+tests/graph_smoke.o: tests/graph_smoke.cpp.o
+.PHONY : tests/graph_smoke.o
+
+# target to build an object file
+tests/graph_smoke.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_smoke.dir/build.make CMakeFiles/graph_smoke.dir/tests/graph_smoke.cpp.o
+.PHONY : tests/graph_smoke.cpp.o
+
+tests/graph_smoke.i: tests/graph_smoke.cpp.i
+.PHONY : tests/graph_smoke.i
+
+# target to preprocess a source file
+tests/graph_smoke.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_smoke.dir/build.make CMakeFiles/graph_smoke.dir/tests/graph_smoke.cpp.i
+.PHONY : tests/graph_smoke.cpp.i
+
+tests/graph_smoke.s: tests/graph_smoke.cpp.s
+.PHONY : tests/graph_smoke.s
+
+# target to generate assembly for a file
+tests/graph_smoke.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_smoke.dir/build.make CMakeFiles/graph_smoke.dir/tests/graph_smoke.cpp.s
+.PHONY : tests/graph_smoke.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +226,16 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... engine"
+	@echo "... graph_smoke"
 	@echo "... src/graph/graph.o"
 	@echo "... src/graph/graph.i"
 	@echo "... src/graph/graph.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... tests/graph_smoke.o"
+	@echo "... tests/graph_smoke.i"
+	@echo "... tests/graph_smoke.s"
 .PHONY : help
 
 

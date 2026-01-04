@@ -885,7 +885,8 @@ CMakeFiles/engine.dir/src/graph/graph.cpp.o: /Users/connorcolyer/Documents/CODE/
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_wchar.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_wctype.h
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_wctype.h \
+  /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/graph/graph.hpp
 
 CMakeFiles/engine.dir/src/main.cpp.o: /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/main.cpp \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stdarg___gnuc_va_list.h \
@@ -1944,6 +1945,8 @@ CMakeFiles/engine.dir/src/main.cpp.o: /Users/connorcolyer/Documents/CODE/Portfol
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/chars_format.h:
 
 /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/main.cpp:
+
+/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/graph/graph.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/range_formatter.h:
 

@@ -10,5 +10,17 @@
   "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -g -std=gnu++20 -arch arm64 -o CMakeFiles/engine.dir/src/graph/graph.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/graph/graph.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/graph/graph.cpp",
   "output": "CMakeFiles/engine.dir/src/graph/graph.cpp.o"
+},
+{
+  "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -g -std=gnu++20 -arch arm64 -o CMakeFiles/graph_smoke.dir/tests/graph_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/graph_smoke.cpp",
+  "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/graph_smoke.cpp",
+  "output": "CMakeFiles/graph_smoke.dir/tests/graph_smoke.cpp.o"
+},
+{
+  "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -g -std=gnu++20 -arch arm64 -o CMakeFiles/graph_smoke.dir/src/graph/graph.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/graph/graph.cpp",
+  "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/graph/graph.cpp",
+  "output": "CMakeFiles/graph_smoke.dir/src/graph/graph.cpp.o"
 }
 ]
