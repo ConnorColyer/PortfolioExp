@@ -65,6 +65,18 @@ target_include_directories(graph PUBLIC
 )
 engine_apply_project_options(graph)
 
+# -------- Allocator library --------
+add_library(alloc STATIC
+  src/alloc/allocator.cpp
+)
+
+target_include_directories(alloc PUBLIC
+  ${CMAKE_CURRENT_SOURCE_DIR}/include
+)
+
+engine_apply_project_options(alloc)
+
+
 # -------- Scoring library --------
 add_library(scoring STATIC
   src/scoring/scorer.cpp
@@ -96,7 +108,7 @@ engine_apply_project_options(core)
 add_executable(engine
   src/main.cpp
 )
-target_link_libraries(engine PRIVATE core graph scoring)
+target_link_libraries(engine PRIVATE core graph scoring alloc)
 engine_apply_project_options(engine)
 
 # ---------- Tests ----------
@@ -115,6 +127,14 @@ engine_apply_project_options(core_smoke)
 add_executable(scoring_smoke
   tests/scoring_smoke.cpp
 )
+
+add_executable(allocator_smoke
+  tests/allocator_smoke.cpp
+)
+
+target_link_libraries(allocator_smoke PRIVATE alloc)
+engine_apply_project_options(allocator_smoke)
+
 
 target_link_libraries(scoring_smoke PRIVATE
   scoring

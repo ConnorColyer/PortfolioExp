@@ -29,13 +29,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 96,
+				"line" : 108,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 100,
+				"line" : 112,
 				"parent" : 0
 			},
 			{
@@ -47,13 +47,13 @@
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 99,
+				"line" : 111,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 92,
+				"line" : 104,
 				"parent" : 0
 			},
 			{
@@ -100,6 +100,10 @@
 		{
 			"backtrace" : 4,
 			"id" : "scoring::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "alloc::@6890427a1f51a3e7e1df"
 		}
 	],
 	"compileGroups" : 
@@ -201,6 +205,10 @@
 		},
 		{
 			"backtrace" : 4,
+			"id" : "alloc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 4,
 			"id" : "scoring::@6890427a1f51a3e7e1df"
 		},
 		{
@@ -251,6 +259,11 @@
 			},
 			{
 				"backtrace" : 4,
+				"fragment" : "liballoc.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
 				"fragment" : "libcore.a",
 				"role" : "libraries"
 			},
@@ -285,6 +298,10 @@
 		{
 			"backtrace" : 4,
 			"id" : "scoring::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "alloc::@6890427a1f51a3e7e1df"
 		}
 	],
 	"name" : "engine",

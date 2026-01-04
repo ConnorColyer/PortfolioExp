@@ -93,12 +93,14 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/graph.dir/DependInfo.cmake"
+  "CMakeFiles/alloc.dir/DependInfo.cmake"
   "CMakeFiles/scoring.dir/DependInfo.cmake"
   "CMakeFiles/core.dir/DependInfo.cmake"
   "CMakeFiles/engine.dir/DependInfo.cmake"
   "CMakeFiles/graph_smoke.dir/DependInfo.cmake"
   "CMakeFiles/core_smoke.dir/DependInfo.cmake"
   "CMakeFiles/scoring_smoke.dir/DependInfo.cmake"
+  "CMakeFiles/allocator_smoke.dir/DependInfo.cmake"
   "_deps/fmt-build/CMakeFiles/fmt.dir/DependInfo.cmake"
   "_deps/spdlog-build/CMakeFiles/spdlog.dir/DependInfo.cmake"
   "_deps/catch2-build/src/CMakeFiles/Catch2.dir/DependInfo.cmake"

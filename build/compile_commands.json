@@ -7,6 +7,12 @@
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -g -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -fsanitize=address,undefined -o CMakeFiles/alloc.dir/src/alloc/allocator.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/alloc/allocator.cpp",
+  "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/alloc/allocator.cpp",
+  "output": "CMakeFiles/alloc.dir/src/alloc/allocator.cpp.o"
+},
+{
+  "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
   "command": "/usr/bin/clang++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -g -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -fsanitize=address,undefined -o CMakeFiles/core.dir/src/core/log.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/core/log.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/core/log.cpp",
   "output": "CMakeFiles/core.dir/src/core/log.cpp.o"
@@ -40,6 +46,12 @@
   "command": "/usr/bin/clang++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -g -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -fsanitize=address,undefined -o CMakeFiles/scoring_smoke.dir/tests/scoring_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/scoring_smoke.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/scoring_smoke.cpp",
   "output": "CMakeFiles/scoring_smoke.dir/tests/scoring_smoke.cpp.o"
+},
+{
+  "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -g -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -fsanitize=address,undefined -o CMakeFiles/allocator_smoke.dir/tests/allocator_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/allocator_smoke.cpp",
+  "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/allocator_smoke.cpp",
+  "output": "CMakeFiles/allocator_smoke.dir/tests/allocator_smoke.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-build",

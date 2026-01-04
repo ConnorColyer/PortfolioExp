@@ -1,0 +1,2 @@
+/usr/bin/ar qc liballoc.a CMakeFiles/alloc.dir/src/alloc/allocator.cpp.o
+/usr/bin/ranlib liballoc.a

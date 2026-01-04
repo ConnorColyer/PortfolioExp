@@ -1,10 +1,12 @@
 /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/graph.dir
+/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/alloc.dir
 /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/scoring.dir
 /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/core.dir
 /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/engine.dir
 /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/graph_smoke.dir
 /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/core_smoke.dir
 /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/scoring_smoke.dir
+/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/allocator_smoke.dir
 /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/edit_cache.dir
 /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/rebuild_cache.dir
 /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/list_install_components.dir

@@ -98,6 +98,7 @@ engine: CMakeFiles/engine.dir/build.make
 engine: libcore.a
 engine: libgraph.a
 engine: libscoring.a
+engine: liballoc.a
 engine: libcore.a
 engine: _deps/spdlog-build/libspdlogd.a
 engine: _deps/fmt-build/libfmtd.a

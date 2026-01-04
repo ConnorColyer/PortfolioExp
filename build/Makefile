@@ -175,6 +175,19 @@ graph/fast:
 .PHONY : graph/fast
 
 #=============================================================================
+# Target rules for targets named alloc
+
+# Build rule for target.
+alloc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 alloc
+.PHONY : alloc
+
+# fast build rule for target.
+alloc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alloc.dir/build.make CMakeFiles/alloc.dir/build
+.PHONY : alloc/fast
+
+#=============================================================================
 # Target rules for targets named scoring
 
 # Build rule for target.
@@ -253,6 +266,19 @@ scoring_smoke/fast:
 .PHONY : scoring_smoke/fast
 
 #=============================================================================
+# Target rules for targets named allocator_smoke
+
+# Build rule for target.
+allocator_smoke: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 allocator_smoke
+.PHONY : allocator_smoke
+
+# fast build rule for target.
+allocator_smoke/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/allocator_smoke.dir/build.make CMakeFiles/allocator_smoke.dir/build
+.PHONY : allocator_smoke/fast
+
+#=============================================================================
 # Target rules for targets named fmt
 
 # Build rule for target.
@@ -303,6 +329,30 @@ Catch2WithMain: cmake_check_build_system
 Catch2WithMain/fast:
 	$(MAKE) $(MAKESILENT) -f _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/build.make _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/build
 .PHONY : Catch2WithMain/fast
+
+src/alloc/allocator.o: src/alloc/allocator.cpp.o
+.PHONY : src/alloc/allocator.o
+
+# target to build an object file
+src/alloc/allocator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alloc.dir/build.make CMakeFiles/alloc.dir/src/alloc/allocator.cpp.o
+.PHONY : src/alloc/allocator.cpp.o
+
+src/alloc/allocator.i: src/alloc/allocator.cpp.i
+.PHONY : src/alloc/allocator.i
+
+# target to preprocess a source file
+src/alloc/allocator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alloc.dir/build.make CMakeFiles/alloc.dir/src/alloc/allocator.cpp.i
+.PHONY : src/alloc/allocator.cpp.i
+
+src/alloc/allocator.s: src/alloc/allocator.cpp.s
+.PHONY : src/alloc/allocator.s
+
+# target to generate assembly for a file
+src/alloc/allocator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alloc.dir/build.make CMakeFiles/alloc.dir/src/alloc/allocator.cpp.s
+.PHONY : src/alloc/allocator.cpp.s
 
 src/core/log.o: src/core/log.cpp.o
 .PHONY : src/core/log.o
@@ -400,6 +450,30 @@ src/scoring/scorer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/scoring.dir/build.make CMakeFiles/scoring.dir/src/scoring/scorer.cpp.s
 .PHONY : src/scoring/scorer.cpp.s
 
+tests/allocator_smoke.o: tests/allocator_smoke.cpp.o
+.PHONY : tests/allocator_smoke.o
+
+# target to build an object file
+tests/allocator_smoke.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/allocator_smoke.dir/build.make CMakeFiles/allocator_smoke.dir/tests/allocator_smoke.cpp.o
+.PHONY : tests/allocator_smoke.cpp.o
+
+tests/allocator_smoke.i: tests/allocator_smoke.cpp.i
+.PHONY : tests/allocator_smoke.i
+
+# target to preprocess a source file
+tests/allocator_smoke.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/allocator_smoke.dir/build.make CMakeFiles/allocator_smoke.dir/tests/allocator_smoke.cpp.i
+.PHONY : tests/allocator_smoke.cpp.i
+
+tests/allocator_smoke.s: tests/allocator_smoke.cpp.s
+.PHONY : tests/allocator_smoke.s
+
+# target to generate assembly for a file
+tests/allocator_smoke.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/allocator_smoke.dir/build.make CMakeFiles/allocator_smoke.dir/tests/allocator_smoke.cpp.s
+.PHONY : tests/allocator_smoke.cpp.s
+
 tests/core_smoke.o: tests/core_smoke.cpp.o
 .PHONY : tests/core_smoke.o
 
@@ -486,6 +560,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Catch2"
 	@echo "... Catch2WithMain"
+	@echo "... alloc"
+	@echo "... allocator_smoke"
 	@echo "... core"
 	@echo "... core_smoke"
 	@echo "... engine"
@@ -495,6 +571,9 @@ help:
 	@echo "... scoring"
 	@echo "... scoring_smoke"
 	@echo "... spdlog"
+	@echo "... src/alloc/allocator.o"
+	@echo "... src/alloc/allocator.i"
+	@echo "... src/alloc/allocator.s"
 	@echo "... src/core/log.o"
 	@echo "... src/core/log.i"
 	@echo "... src/core/log.s"
@@ -507,6 +586,9 @@ help:
 	@echo "... src/scoring/scorer.o"
 	@echo "... src/scoring/scorer.i"
 	@echo "... src/scoring/scorer.s"
+	@echo "... tests/allocator_smoke.o"
+	@echo "... tests/allocator_smoke.i"
+	@echo "... tests/allocator_smoke.s"
 	@echo "... tests/core_smoke.o"
 	@echo "... tests/core_smoke.i"
 	@echo "... tests/core_smoke.s"

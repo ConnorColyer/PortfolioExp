@@ -56,7 +56,7 @@
 				"_deps/fmt-build/libfmtd.a"
 			],
 			"targetId" : "fmt::@976f4f0bee90b99ecdb6",
-			"targetIndex" : 5,
+			"targetIndex" : 7,
 			"type" : "target"
 		},
 		{
@@ -101,7 +101,7 @@
 			[
 				{
 					"id" : "fmt::@976f4f0bee90b99ecdb6",
-					"index" : 5
+					"index" : 7
 				},
 				{
 					"id" : "fmt-header-only::@976f4f0bee90b99ecdb6",

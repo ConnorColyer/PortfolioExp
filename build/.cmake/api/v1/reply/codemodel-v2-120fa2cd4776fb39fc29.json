@@ -60,10 +60,12 @@
 						2,
 						3,
 						4,
+						5,
 						6,
-						7,
 						8,
-						9
+						9,
+						10,
+						11
 					]
 				},
 				{
@@ -73,7 +75,7 @@
 					],
 					"build" : "_deps/fmt-build",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.fmt-build-Debug-198eb8f8a5a37fd9ea89.json",
+					"jsonFile" : "directory-_deps.fmt-build-Debug-1783401d3e1647237a24.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.8"
@@ -83,7 +85,7 @@
 					"source" : "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src",
 					"targetIndexes" : 
 					[
-						5
+						7
 					]
 				},
 				{
@@ -103,7 +105,7 @@
 					"source" : "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src",
 					"targetIndexes" : 
 					[
-						10
+						12
 					]
 				},
 				{
@@ -162,10 +164,12 @@
 						2,
 						3,
 						4,
+						5,
 						6,
-						7,
 						8,
-						9
+						9,
+						10,
+						11
 					]
 				},
 				{
@@ -181,7 +185,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						5
+						7
 					]
 				},
 				{
@@ -198,7 +202,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						10
+						12
 					]
 				},
 				{
@@ -234,22 +238,36 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "alloc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-alloc-Debug-f1b288ad3954a00c6a93.json",
+					"name" : "alloc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "allocator_smoke::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-allocator_smoke-Debug-bfc913f13d6018b3b621.json",
+					"name" : "allocator_smoke",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "core::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-core-Debug-c75cfa73693cec3e40d5.json",
+					"jsonFile" : "target-core-Debug-4019a6d94ac07dff63fa.json",
 					"name" : "core",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "core_smoke::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-core_smoke-Debug-33df04fa97bb59d1db95.json",
+					"jsonFile" : "target-core_smoke-Debug-e24f514880b172747854.json",
 					"name" : "core_smoke",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "engine::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-engine-Debug-9d6e27a9a306bdd30d7e.json",
+					"jsonFile" : "target-engine-Debug-de16c7cab0b04ff7b32c.json",
 					"name" : "engine",
 					"projectIndex" : 0
 				},
@@ -270,21 +288,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "graph_smoke::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-graph_smoke-Debug-b27121e556864149b2ba.json",
+					"jsonFile" : "target-graph_smoke-Debug-d95bcff62d885bbd47c8.json",
 					"name" : "graph_smoke",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "scoring::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-scoring-Debug-aa8fb291c68790c2704e.json",
+					"jsonFile" : "target-scoring-Debug-268d2475a67edc5416f5.json",
 					"name" : "scoring",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "scoring_smoke::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-scoring_smoke-Debug-5d28a4ee73dfc49f5b28.json",
+					"jsonFile" : "target-scoring_smoke-Debug-df73bb148e7744e9ba00.json",
 					"name" : "scoring_smoke",
 					"projectIndex" : 0
 				},
