@@ -76,15 +76,15 @@ CMakeFiles/sim.dir/src/sim/simulation.cpp.o: CMakeFiles/sim.dir/flags.make
 CMakeFiles/sim.dir/src/sim/simulation.cpp.o: /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/sim/simulation.cpp
 CMakeFiles/sim.dir/src/sim/simulation.cpp.o: CMakeFiles/sim.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sim.dir/src/sim/simulation.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sim.dir/src/sim/simulation.cpp.o -MF CMakeFiles/sim.dir/src/sim/simulation.cpp.o.d -o CMakeFiles/sim.dir/src/sim/simulation.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/sim/simulation.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sim.dir/src/sim/simulation.cpp.o -MF CMakeFiles/sim.dir/src/sim/simulation.cpp.o.d -o CMakeFiles/sim.dir/src/sim/simulation.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/sim/simulation.cpp
 
 CMakeFiles/sim.dir/src/sim/simulation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sim.dir/src/sim/simulation.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/sim/simulation.cpp > CMakeFiles/sim.dir/src/sim/simulation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/sim/simulation.cpp > CMakeFiles/sim.dir/src/sim/simulation.cpp.i
 
 CMakeFiles/sim.dir/src/sim/simulation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sim.dir/src/sim/simulation.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/sim/simulation.cpp -o CMakeFiles/sim.dir/src/sim/simulation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/sim/simulation.cpp -o CMakeFiles/sim.dir/src/sim/simulation.cpp.s
 
 # Object files for target sim
 sim_OBJECTS = \

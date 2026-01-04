@@ -110,6 +110,7 @@ target_link_libraries(event PUBLIC
 engine_apply_project_options(event)
 
 # -------- Simulation library --------
+
 add_library(sim STATIC
   src/sim/simulation.cpp
 )
@@ -123,9 +124,11 @@ target_link_libraries(sim PUBLIC
   event
   scoring
   alloc
+  risk
 )
 
 engine_apply_project_options(sim)
+
 
 
 # -------- Backtest runner --------
@@ -176,7 +179,7 @@ engine_apply_project_options(core)
 add_executable(engine
   src/main.cpp
 )
-target_link_libraries(engine PRIVATE core graph scoring alloc event attrib sim portfolio backtest ingest)
+target_link_libraries(engine PRIVATE core graph scoring alloc event attrib sim portfolio backtest ingest risk)
 engine_apply_project_options(engine)
 
 # ---------- Tests ----------
@@ -255,10 +258,22 @@ target_link_libraries(portfolio_smoke PRIVATE
 
 engine_apply_project_options(portfolio_smoke)
 
+# -------- Risk governor --------
+add_library(risk STATIC
+  src/risk/governor.cpp
+)
+
+target_include_directories(risk PUBLIC
+  ${CMAKE_CURRENT_SOURCE_DIR}/include
+)
+
+engine_apply_project_options(risk)
+
 
 # -------- Data ingestion --------
 add_library(ingest STATIC
   src/ingest/validator.cpp
+  src/ingest/arbiter.cpp
 )
 
 target_include_directories(ingest PUBLIC
@@ -294,3 +309,43 @@ add_executable(ingest_smoke
 
 target_link_libraries(ingest_smoke PRIVATE ingest)
 engine_apply_project_options(ingest_smoke)
+
+add_executable(arbiter_smoke
+  tests/arbiter_smoke.cpp
+)
+
+target_link_libraries(arbiter_smoke PRIVATE ingest)
+engine_apply_project_options(arbiter_smoke)
+
+
+add_executable(governor_smoke
+  tests/governor_smoke.cpp
+)
+
+target_link_libraries(governor_smoke PRIVATE risk)
+engine_apply_project_options(governor_smoke)
+
+
+# ------------------------- CTest wiring -------------------------
+include(CTest)      # defines BUILD_TESTING option
+enable_testing()
+
+function(engine_register_smoke target_name)
+  if (TARGET ${target_name})
+    add_test(NAME ${target_name} COMMAND ${target_name})
+  endif()
+endfunction()
+
+engine_register_smoke(graph_smoke)
+engine_register_smoke(core_smoke)
+engine_register_smoke(scoring_smoke)
+engine_register_smoke(allocator_smoke)
+engine_register_smoke(injector_smoke)
+engine_register_smoke(attribution_smoke)
+engine_register_smoke(simulation_smoke)
+engine_register_smoke(portfolio_smoke)
+engine_register_smoke(backtest_smoke)
+engine_register_smoke(ingest_smoke)
+engine_register_smoke(arbiter_smoke)
+engine_register_smoke(governor_smoke)
+

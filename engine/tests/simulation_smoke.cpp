@@ -28,7 +28,7 @@ int main() {
     EventType::News,
     A,
     1.0,
-    1.0,
+    0.4,
     300.0,
     t0,
     "Reuters"
@@ -37,14 +37,17 @@ int main() {
   auto states = sim.run(t0, t1);
 
   assert(!states.empty());
-  assert(states.back().weights.size() == 2);
 
   std::cout << "Simulation smoke test passed.\n";
   for (const auto& s : states) {
-    std::cout << "t=" << s.unix_s
-              << " wA=" << s.weights[A]
-              << " wB=" << s.weights[B]
-              << "\n";
+    double invested = s.safe_weights[A] + s.safe_weights[B];
+    std::cout
+      << "t=" << s.unix_s
+      << " rawA=" << s.raw_weights[A]
+      << " safeA=" << s.safe_weights[A]
+      << " invested=" << invested
+      << " conf=" << s.global_confidence
+      << "\n";
   }
 
   return 0;

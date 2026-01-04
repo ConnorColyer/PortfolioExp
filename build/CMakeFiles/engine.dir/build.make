@@ -76,15 +76,15 @@ CMakeFiles/engine.dir/src/main.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/main.cpp.o: /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/main.cpp
 CMakeFiles/engine.dir/src/main.cpp.o: CMakeFiles/engine.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/engine.dir/src/main.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/engine.dir/src/main.cpp.o -MF CMakeFiles/engine.dir/src/main.cpp.o.d -o CMakeFiles/engine.dir/src/main.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/main.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/engine.dir/src/main.cpp.o -MF CMakeFiles/engine.dir/src/main.cpp.o.d -o CMakeFiles/engine.dir/src/main.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/main.cpp
 
 CMakeFiles/engine.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/main.cpp > CMakeFiles/engine.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/main.cpp > CMakeFiles/engine.dir/src/main.cpp.i
 
 CMakeFiles/engine.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/main.cpp -o CMakeFiles/engine.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/main.cpp -o CMakeFiles/engine.dir/src/main.cpp.s
 
 # Object files for target engine
 engine_OBJECTS = \
@@ -105,13 +105,15 @@ engine: libsim.a
 engine: libportfolio.a
 engine: libbacktest.a
 engine: libingest.a
+engine: librisk.a
 engine: libsim.a
 engine: libscoring.a
 engine: libcore.a
-engine: _deps/spdlog-build/libspdlogd.a
-engine: _deps/fmt-build/libfmtd.a
+engine: _deps/spdlog-build/libspdlog.a
+engine: _deps/fmt-build/libfmt.a
 engine: liballoc.a
 engine: libevent.a
+engine: librisk.a
 engine: libportfolio.a
 engine: libgraph.a
 engine: CMakeFiles/engine.dir/link.txt

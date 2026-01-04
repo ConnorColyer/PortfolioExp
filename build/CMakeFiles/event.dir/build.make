@@ -76,15 +76,15 @@ CMakeFiles/event.dir/src/event/injector.cpp.o: CMakeFiles/event.dir/flags.make
 CMakeFiles/event.dir/src/event/injector.cpp.o: /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/event/injector.cpp
 CMakeFiles/event.dir/src/event/injector.cpp.o: CMakeFiles/event.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/event.dir/src/event/injector.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/event.dir/src/event/injector.cpp.o -MF CMakeFiles/event.dir/src/event/injector.cpp.o.d -o CMakeFiles/event.dir/src/event/injector.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/event/injector.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/event.dir/src/event/injector.cpp.o -MF CMakeFiles/event.dir/src/event/injector.cpp.o.d -o CMakeFiles/event.dir/src/event/injector.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/event/injector.cpp
 
 CMakeFiles/event.dir/src/event/injector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/event.dir/src/event/injector.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/event/injector.cpp > CMakeFiles/event.dir/src/event/injector.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/event/injector.cpp > CMakeFiles/event.dir/src/event/injector.cpp.i
 
 CMakeFiles/event.dir/src/event/injector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/event.dir/src/event/injector.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/event/injector.cpp -o CMakeFiles/event.dir/src/event/injector.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/event/injector.cpp -o CMakeFiles/event.dir/src/event/injector.cpp.s
 
 # Object files for target event
 event_OBJECTS = \

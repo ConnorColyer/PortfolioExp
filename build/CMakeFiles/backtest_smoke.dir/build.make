@@ -76,15 +76,15 @@ CMakeFiles/backtest_smoke.dir/tests/backtest_smoke.cpp.o: CMakeFiles/backtest_sm
 CMakeFiles/backtest_smoke.dir/tests/backtest_smoke.cpp.o: /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/backtest_smoke.cpp
 CMakeFiles/backtest_smoke.dir/tests/backtest_smoke.cpp.o: CMakeFiles/backtest_smoke.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/backtest_smoke.dir/tests/backtest_smoke.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/backtest_smoke.dir/tests/backtest_smoke.cpp.o -MF CMakeFiles/backtest_smoke.dir/tests/backtest_smoke.cpp.o.d -o CMakeFiles/backtest_smoke.dir/tests/backtest_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/backtest_smoke.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/backtest_smoke.dir/tests/backtest_smoke.cpp.o -MF CMakeFiles/backtest_smoke.dir/tests/backtest_smoke.cpp.o.d -o CMakeFiles/backtest_smoke.dir/tests/backtest_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/backtest_smoke.cpp
 
 CMakeFiles/backtest_smoke.dir/tests/backtest_smoke.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/backtest_smoke.dir/tests/backtest_smoke.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/backtest_smoke.cpp > CMakeFiles/backtest_smoke.dir/tests/backtest_smoke.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/backtest_smoke.cpp > CMakeFiles/backtest_smoke.dir/tests/backtest_smoke.cpp.i
 
 CMakeFiles/backtest_smoke.dir/tests/backtest_smoke.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/backtest_smoke.dir/tests/backtest_smoke.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/backtest_smoke.cpp -o CMakeFiles/backtest_smoke.dir/tests/backtest_smoke.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/backtest_smoke.cpp -o CMakeFiles/backtest_smoke.dir/tests/backtest_smoke.cpp.s
 
 # Object files for target backtest_smoke
 backtest_smoke_OBJECTS = \
@@ -100,9 +100,10 @@ backtest_smoke: libsim.a
 backtest_smoke: libevent.a
 backtest_smoke: libscoring.a
 backtest_smoke: libcore.a
-backtest_smoke: _deps/spdlog-build/libspdlogd.a
-backtest_smoke: _deps/fmt-build/libfmtd.a
+backtest_smoke: _deps/spdlog-build/libspdlog.a
+backtest_smoke: _deps/fmt-build/libfmt.a
 backtest_smoke: liballoc.a
+backtest_smoke: librisk.a
 backtest_smoke: libportfolio.a
 backtest_smoke: libgraph.a
 backtest_smoke: CMakeFiles/backtest_smoke.dir/link.txt

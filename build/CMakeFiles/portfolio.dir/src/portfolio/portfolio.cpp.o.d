@@ -1,5 +1,4 @@
 CMakeFiles/portfolio.dir/src/portfolio/portfolio.cpp.o: \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/share/asan_ignorelist.txt \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/portfolio/portfolio.cpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/portfolio/portfolio.hpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/graph/graph.hpp \

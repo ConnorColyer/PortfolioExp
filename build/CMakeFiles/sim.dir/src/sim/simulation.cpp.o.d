@@ -1,5 +1,4 @@
 CMakeFiles/sim.dir/src/sim/simulation.cpp.o: \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/share/asan_ignorelist.txt \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/sim/simulation.cpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/sim/simulation.hpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/graph/graph.hpp \
@@ -890,4 +889,5 @@ CMakeFiles/sim.dir/src/sim/simulation.cpp.o: \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/event/event.hpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/scoring/scorer.hpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/alloc/allocator.hpp \
-  /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/event/injector.hpp
+  /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/event/injector.hpp \
+  /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/risk/governor.hpp

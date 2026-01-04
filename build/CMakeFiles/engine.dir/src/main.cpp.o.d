@@ -1,5 +1,4 @@
 CMakeFiles/engine.dir/src/main.cpp.o: \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/share/asan_ignorelist.txt \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/main.cpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/core/log.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view \

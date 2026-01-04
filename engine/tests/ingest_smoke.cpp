@@ -1,6 +1,6 @@
+#include "ingest/record.hpp"
 #include "ingest/validator.hpp"
 
-#include <cassert>
 #include <iostream>
 
 using namespace engine::ingest;
@@ -20,20 +20,30 @@ int main() {
   Record bad {
     RecordType::Price,
     0,
-    -100.0,
-    1.0,
+    -100.0,     // invalid price
+    1.2,        // invalid confidence
     1700000000,
-    "Garbage"
+    "BadFeed"
   };
 
   auto vg = v.validate(good);
-  auto vb = v.validate(bad);
+  if (!vg.ok) {
+    std::cerr << "Good record failed validation\n";
+    return 1;
+  }
 
-  assert(vg.ok);
-  assert(!vb.ok);
+  auto vb = v.validate(bad);
+  if (vb.ok) {
+    std::cerr << "Bad record unexpectedly passed validation\n";
+    return 1;
+  }
 
   std::cout << "Ingest smoke test passed.\n";
-  std::cout << "Adjusted confidence: " << vg.adjusted_confidence << "\n";
+  std::cout << "Adjusted confidence (good): " << vg.adjusted_confidence << "\n";
+  std::cout << "Bad record rejected (as expected). "
+            << "value=" << bad.value
+            << " conf=" << bad.confidence
+            << " source=" << bad.source << "\n";
 
   return 0;
 }

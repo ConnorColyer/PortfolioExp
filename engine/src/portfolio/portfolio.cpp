@@ -54,10 +54,18 @@ PortfolioState Portfolio::rebalance(const PortfolioState& prev,
   // mark-to-market first
   PortfolioState s = mark_to_market(prev, px);
 
-  // sanity: weights sum
+  // sanity: weights sum (cash allowed)
   const double wsum = std::accumulate(target_weights.begin(), target_weights.end(), 0.0);
-  if (std::abs(wsum - 1.0) > 1e-6) {
-    throw std::invalid_argument("rebalance: target weights must sum to 1");
+  if (wsum > 1.0 + 1e-6) {
+    throw std::invalid_argument("rebalance: target weights must sum to <= 1 (cash allowed)");
+  }
+  if (wsum < -1e-6) {
+    throw std::invalid_argument("rebalance: target weights sum must be non-negative");
+  }
+  for (double wi : target_weights) {
+    if (wi < -1e-12) {
+      throw std::invalid_argument("rebalance: negative target weights not supported");
+    }
   }
 
   // desired dollar allocation per node

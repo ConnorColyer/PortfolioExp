@@ -76,15 +76,15 @@ CMakeFiles/attribution_smoke.dir/tests/attribution_smoke.cpp.o: CMakeFiles/attri
 CMakeFiles/attribution_smoke.dir/tests/attribution_smoke.cpp.o: /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/attribution_smoke.cpp
 CMakeFiles/attribution_smoke.dir/tests/attribution_smoke.cpp.o: CMakeFiles/attribution_smoke.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/attribution_smoke.dir/tests/attribution_smoke.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/attribution_smoke.dir/tests/attribution_smoke.cpp.o -MF CMakeFiles/attribution_smoke.dir/tests/attribution_smoke.cpp.o.d -o CMakeFiles/attribution_smoke.dir/tests/attribution_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/attribution_smoke.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/attribution_smoke.dir/tests/attribution_smoke.cpp.o -MF CMakeFiles/attribution_smoke.dir/tests/attribution_smoke.cpp.o.d -o CMakeFiles/attribution_smoke.dir/tests/attribution_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/attribution_smoke.cpp
 
 CMakeFiles/attribution_smoke.dir/tests/attribution_smoke.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/attribution_smoke.dir/tests/attribution_smoke.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/attribution_smoke.cpp > CMakeFiles/attribution_smoke.dir/tests/attribution_smoke.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/attribution_smoke.cpp > CMakeFiles/attribution_smoke.dir/tests/attribution_smoke.cpp.i
 
 CMakeFiles/attribution_smoke.dir/tests/attribution_smoke.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/attribution_smoke.dir/tests/attribution_smoke.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/attribution_smoke.cpp -o CMakeFiles/attribution_smoke.dir/tests/attribution_smoke.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/attribution_smoke.cpp -o CMakeFiles/attribution_smoke.dir/tests/attribution_smoke.cpp.s
 
 # Object files for target attribution_smoke
 attribution_smoke_OBJECTS = \
@@ -98,8 +98,8 @@ attribution_smoke: CMakeFiles/attribution_smoke.dir/build.make
 attribution_smoke: libattrib.a
 attribution_smoke: libscoring.a
 attribution_smoke: libcore.a
-attribution_smoke: _deps/spdlog-build/libspdlogd.a
-attribution_smoke: _deps/fmt-build/libfmtd.a
+attribution_smoke: _deps/spdlog-build/libspdlog.a
+attribution_smoke: _deps/fmt-build/libfmt.a
 attribution_smoke: libevent.a
 attribution_smoke: libgraph.a
 attribution_smoke: CMakeFiles/attribution_smoke.dir/link.txt

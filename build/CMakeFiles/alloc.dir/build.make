@@ -76,15 +76,15 @@ CMakeFiles/alloc.dir/src/alloc/allocator.cpp.o: CMakeFiles/alloc.dir/flags.make
 CMakeFiles/alloc.dir/src/alloc/allocator.cpp.o: /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/alloc/allocator.cpp
 CMakeFiles/alloc.dir/src/alloc/allocator.cpp.o: CMakeFiles/alloc.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/alloc.dir/src/alloc/allocator.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alloc.dir/src/alloc/allocator.cpp.o -MF CMakeFiles/alloc.dir/src/alloc/allocator.cpp.o.d -o CMakeFiles/alloc.dir/src/alloc/allocator.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/alloc/allocator.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alloc.dir/src/alloc/allocator.cpp.o -MF CMakeFiles/alloc.dir/src/alloc/allocator.cpp.o.d -o CMakeFiles/alloc.dir/src/alloc/allocator.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/alloc/allocator.cpp
 
 CMakeFiles/alloc.dir/src/alloc/allocator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/alloc.dir/src/alloc/allocator.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/alloc/allocator.cpp > CMakeFiles/alloc.dir/src/alloc/allocator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/alloc/allocator.cpp > CMakeFiles/alloc.dir/src/alloc/allocator.cpp.i
 
 CMakeFiles/alloc.dir/src/alloc/allocator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/alloc.dir/src/alloc/allocator.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/alloc/allocator.cpp -o CMakeFiles/alloc.dir/src/alloc/allocator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/alloc/allocator.cpp -o CMakeFiles/alloc.dir/src/alloc/allocator.cpp.s
 
 # Object files for target alloc
 alloc_OBJECTS = \

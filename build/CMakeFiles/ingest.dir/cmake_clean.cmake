@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ingest.dir/src/ingest/arbiter.cpp.o"
+  "CMakeFiles/ingest.dir/src/ingest/arbiter.cpp.o.d"
   "CMakeFiles/ingest.dir/src/ingest/validator.cpp.o"
   "CMakeFiles/ingest.dir/src/ingest/validator.cpp.o.d"
   "libingest.a"

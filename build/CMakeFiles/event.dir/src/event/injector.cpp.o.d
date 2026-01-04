@@ -1,5 +1,4 @@
 CMakeFiles/event.dir/src/event/injector.cpp.o: \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/share/asan_ignorelist.txt \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/event/injector.cpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/event/injector.hpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/event/event.hpp \

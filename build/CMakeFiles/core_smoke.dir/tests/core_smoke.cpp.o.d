@@ -1,5 +1,4 @@
 CMakeFiles/core_smoke.dir/tests/core_smoke.cpp.o: \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/share/asan_ignorelist.txt \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/core_smoke.cpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/../catch2/catch_test_macros.hpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_test_macro_impl.hpp \
@@ -802,7 +801,6 @@ CMakeFiles/core_smoke.dir/tests/core_smoke.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/has_single_bit.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_decomposer.hpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/../catch2/catch_tostring.hpp \

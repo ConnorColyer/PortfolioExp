@@ -1,0 +1,46 @@
+Start testing: Jan 04 04:09 GMT
+----------------------------------------------------------
+4/12 Testing: allocator_smoke
+4/12 Test: allocator_smoke
+Command: "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/allocator_smoke"
+Directory: /Users/connorcolyer/Documents/CODE/PortfolioExp/build
+"allocator_smoke" start time: Jan 04 04:09 GMT
+Output:
+----------------------------------------------------------
+Allocator smoke test passed.
+Weights: 0.2 0.4 0.4 (cash=0)
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"allocator_smoke" end time: Jan 04 04:09 GMT
+"allocator_smoke" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/12 Testing: backtest_smoke
+9/12 Test: backtest_smoke
+Command: "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/backtest_smoke"
+Directory: /Users/connorcolyer/Documents/CODE/PortfolioExp/build
+"backtest_smoke" start time: Jan 04 04:09 GMT
+Output:
+----------------------------------------------------------
+[2026-01-04 04:09:28.708] [info] Scorer converged early.
+[2026-01-04 04:09:28.709] [info] Scorer converged early.
+[2026-01-04 04:09:28.709] [info] Scorer converged early.
+[2026-01-04 04:09:28.709] [info] Scorer converged early.
+[2026-01-04 04:09:28.709] [info] Scorer converged early.
+[2026-01-04 04:09:28.709] [info] Scorer converged early.
+Backtest smoke test passed.
+Final equity: 10359.4
+Total return: 3.59398%
+Max drawdown: 0%
+Turnover: 53.3781
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"backtest_smoke" end time: Jan 04 04:09 GMT
+"backtest_smoke" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 04 04:09 GMT

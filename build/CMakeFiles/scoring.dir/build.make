@@ -76,15 +76,15 @@ CMakeFiles/scoring.dir/src/scoring/scorer.cpp.o: CMakeFiles/scoring.dir/flags.ma
 CMakeFiles/scoring.dir/src/scoring/scorer.cpp.o: /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/scoring/scorer.cpp
 CMakeFiles/scoring.dir/src/scoring/scorer.cpp.o: CMakeFiles/scoring.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/scoring.dir/src/scoring/scorer.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scoring.dir/src/scoring/scorer.cpp.o -MF CMakeFiles/scoring.dir/src/scoring/scorer.cpp.o.d -o CMakeFiles/scoring.dir/src/scoring/scorer.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/scoring/scorer.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scoring.dir/src/scoring/scorer.cpp.o -MF CMakeFiles/scoring.dir/src/scoring/scorer.cpp.o.d -o CMakeFiles/scoring.dir/src/scoring/scorer.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/scoring/scorer.cpp
 
 CMakeFiles/scoring.dir/src/scoring/scorer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/scoring.dir/src/scoring/scorer.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/scoring/scorer.cpp > CMakeFiles/scoring.dir/src/scoring/scorer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/scoring/scorer.cpp > CMakeFiles/scoring.dir/src/scoring/scorer.cpp.i
 
 CMakeFiles/scoring.dir/src/scoring/scorer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/scoring.dir/src/scoring/scorer.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/scoring/scorer.cpp -o CMakeFiles/scoring.dir/src/scoring/scorer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/scoring/scorer.cpp -o CMakeFiles/scoring.dir/src/scoring/scorer.cpp.s
 
 # Object files for target scoring
 scoring_OBJECTS = \

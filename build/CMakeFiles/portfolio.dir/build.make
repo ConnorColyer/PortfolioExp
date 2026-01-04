@@ -76,15 +76,15 @@ CMakeFiles/portfolio.dir/src/portfolio/portfolio.cpp.o: CMakeFiles/portfolio.dir
 CMakeFiles/portfolio.dir/src/portfolio/portfolio.cpp.o: /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/portfolio/portfolio.cpp
 CMakeFiles/portfolio.dir/src/portfolio/portfolio.cpp.o: CMakeFiles/portfolio.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/portfolio.dir/src/portfolio/portfolio.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/portfolio.dir/src/portfolio/portfolio.cpp.o -MF CMakeFiles/portfolio.dir/src/portfolio/portfolio.cpp.o.d -o CMakeFiles/portfolio.dir/src/portfolio/portfolio.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/portfolio/portfolio.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/portfolio.dir/src/portfolio/portfolio.cpp.o -MF CMakeFiles/portfolio.dir/src/portfolio/portfolio.cpp.o.d -o CMakeFiles/portfolio.dir/src/portfolio/portfolio.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/portfolio/portfolio.cpp
 
 CMakeFiles/portfolio.dir/src/portfolio/portfolio.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/portfolio.dir/src/portfolio/portfolio.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/portfolio/portfolio.cpp > CMakeFiles/portfolio.dir/src/portfolio/portfolio.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/portfolio/portfolio.cpp > CMakeFiles/portfolio.dir/src/portfolio/portfolio.cpp.i
 
 CMakeFiles/portfolio.dir/src/portfolio/portfolio.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/portfolio.dir/src/portfolio/portfolio.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/portfolio/portfolio.cpp -o CMakeFiles/portfolio.dir/src/portfolio/portfolio.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/portfolio/portfolio.cpp -o CMakeFiles/portfolio.dir/src/portfolio/portfolio.cpp.s
 
 # Object files for target portfolio
 portfolio_OBJECTS = \

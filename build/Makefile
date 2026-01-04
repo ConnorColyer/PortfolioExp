@@ -65,6 +65,16 @@ CMAKE_BINARY_DIR = /Users/connorcolyer/Documents/CODE/PortfolioExp/build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running tests..."
+	/opt/homebrew/bin/ctest $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+.PHONY : test/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
@@ -396,6 +406,19 @@ portfolio_smoke/fast:
 .PHONY : portfolio_smoke/fast
 
 #=============================================================================
+# Target rules for targets named risk
+
+# Build rule for target.
+risk: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 risk
+.PHONY : risk
+
+# fast build rule for target.
+risk/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/risk.dir/build.make CMakeFiles/risk.dir/build
+.PHONY : risk/fast
+
+#=============================================================================
 # Target rules for targets named ingest
 
 # Build rule for target.
@@ -433,6 +456,396 @@ ingest_smoke: cmake_check_build_system
 ingest_smoke/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ingest_smoke.dir/build.make CMakeFiles/ingest_smoke.dir/build
 .PHONY : ingest_smoke/fast
+
+#=============================================================================
+# Target rules for targets named arbiter_smoke
+
+# Build rule for target.
+arbiter_smoke: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 arbiter_smoke
+.PHONY : arbiter_smoke
+
+# fast build rule for target.
+arbiter_smoke/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbiter_smoke.dir/build.make CMakeFiles/arbiter_smoke.dir/build
+.PHONY : arbiter_smoke/fast
+
+#=============================================================================
+# Target rules for targets named governor_smoke
+
+# Build rule for target.
+governor_smoke: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 governor_smoke
+.PHONY : governor_smoke
+
+# fast build rule for target.
+governor_smoke/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/governor_smoke.dir/build.make CMakeFiles/governor_smoke.dir/build
+.PHONY : governor_smoke/fast
+
+#=============================================================================
+# Target rules for targets named Experimental
+
+# Build rule for target.
+Experimental: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Experimental
+.PHONY : Experimental
+
+# fast build rule for target.
+Experimental/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
+.PHONY : Experimental/fast
+
+#=============================================================================
+# Target rules for targets named Nightly
+
+# Build rule for target.
+Nightly: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Nightly
+.PHONY : Nightly
+
+# fast build rule for target.
+Nightly/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Nightly.dir/build.make CMakeFiles/Nightly.dir/build
+.PHONY : Nightly/fast
+
+#=============================================================================
+# Target rules for targets named Continuous
+
+# Build rule for target.
+Continuous: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Continuous
+.PHONY : Continuous
+
+# fast build rule for target.
+Continuous/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Continuous.dir/build.make CMakeFiles/Continuous.dir/build
+.PHONY : Continuous/fast
+
+#=============================================================================
+# Target rules for targets named NightlyMemoryCheck
+
+# Build rule for target.
+NightlyMemoryCheck: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NightlyMemoryCheck
+.PHONY : NightlyMemoryCheck
+
+# fast build rule for target.
+NightlyMemoryCheck/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NightlyMemoryCheck.dir/build.make CMakeFiles/NightlyMemoryCheck.dir/build
+.PHONY : NightlyMemoryCheck/fast
+
+#=============================================================================
+# Target rules for targets named NightlyStart
+
+# Build rule for target.
+NightlyStart: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NightlyStart
+.PHONY : NightlyStart
+
+# fast build rule for target.
+NightlyStart/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NightlyStart.dir/build.make CMakeFiles/NightlyStart.dir/build
+.PHONY : NightlyStart/fast
+
+#=============================================================================
+# Target rules for targets named NightlyUpdate
+
+# Build rule for target.
+NightlyUpdate: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NightlyUpdate
+.PHONY : NightlyUpdate
+
+# fast build rule for target.
+NightlyUpdate/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NightlyUpdate.dir/build.make CMakeFiles/NightlyUpdate.dir/build
+.PHONY : NightlyUpdate/fast
+
+#=============================================================================
+# Target rules for targets named NightlyConfigure
+
+# Build rule for target.
+NightlyConfigure: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NightlyConfigure
+.PHONY : NightlyConfigure
+
+# fast build rule for target.
+NightlyConfigure/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NightlyConfigure.dir/build.make CMakeFiles/NightlyConfigure.dir/build
+.PHONY : NightlyConfigure/fast
+
+#=============================================================================
+# Target rules for targets named NightlyBuild
+
+# Build rule for target.
+NightlyBuild: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NightlyBuild
+.PHONY : NightlyBuild
+
+# fast build rule for target.
+NightlyBuild/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NightlyBuild.dir/build.make CMakeFiles/NightlyBuild.dir/build
+.PHONY : NightlyBuild/fast
+
+#=============================================================================
+# Target rules for targets named NightlyTest
+
+# Build rule for target.
+NightlyTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NightlyTest
+.PHONY : NightlyTest
+
+# fast build rule for target.
+NightlyTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NightlyTest.dir/build.make CMakeFiles/NightlyTest.dir/build
+.PHONY : NightlyTest/fast
+
+#=============================================================================
+# Target rules for targets named NightlyCoverage
+
+# Build rule for target.
+NightlyCoverage: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NightlyCoverage
+.PHONY : NightlyCoverage
+
+# fast build rule for target.
+NightlyCoverage/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NightlyCoverage.dir/build.make CMakeFiles/NightlyCoverage.dir/build
+.PHONY : NightlyCoverage/fast
+
+#=============================================================================
+# Target rules for targets named NightlyMemCheck
+
+# Build rule for target.
+NightlyMemCheck: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NightlyMemCheck
+.PHONY : NightlyMemCheck
+
+# fast build rule for target.
+NightlyMemCheck/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NightlyMemCheck.dir/build.make CMakeFiles/NightlyMemCheck.dir/build
+.PHONY : NightlyMemCheck/fast
+
+#=============================================================================
+# Target rules for targets named NightlySubmit
+
+# Build rule for target.
+NightlySubmit: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NightlySubmit
+.PHONY : NightlySubmit
+
+# fast build rule for target.
+NightlySubmit/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NightlySubmit.dir/build.make CMakeFiles/NightlySubmit.dir/build
+.PHONY : NightlySubmit/fast
+
+#=============================================================================
+# Target rules for targets named ExperimentalStart
+
+# Build rule for target.
+ExperimentalStart: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ExperimentalStart
+.PHONY : ExperimentalStart
+
+# fast build rule for target.
+ExperimentalStart/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExperimentalStart.dir/build.make CMakeFiles/ExperimentalStart.dir/build
+.PHONY : ExperimentalStart/fast
+
+#=============================================================================
+# Target rules for targets named ExperimentalUpdate
+
+# Build rule for target.
+ExperimentalUpdate: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ExperimentalUpdate
+.PHONY : ExperimentalUpdate
+
+# fast build rule for target.
+ExperimentalUpdate/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExperimentalUpdate.dir/build.make CMakeFiles/ExperimentalUpdate.dir/build
+.PHONY : ExperimentalUpdate/fast
+
+#=============================================================================
+# Target rules for targets named ExperimentalConfigure
+
+# Build rule for target.
+ExperimentalConfigure: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ExperimentalConfigure
+.PHONY : ExperimentalConfigure
+
+# fast build rule for target.
+ExperimentalConfigure/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExperimentalConfigure.dir/build.make CMakeFiles/ExperimentalConfigure.dir/build
+.PHONY : ExperimentalConfigure/fast
+
+#=============================================================================
+# Target rules for targets named ExperimentalBuild
+
+# Build rule for target.
+ExperimentalBuild: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ExperimentalBuild
+.PHONY : ExperimentalBuild
+
+# fast build rule for target.
+ExperimentalBuild/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExperimentalBuild.dir/build.make CMakeFiles/ExperimentalBuild.dir/build
+.PHONY : ExperimentalBuild/fast
+
+#=============================================================================
+# Target rules for targets named ExperimentalTest
+
+# Build rule for target.
+ExperimentalTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ExperimentalTest
+.PHONY : ExperimentalTest
+
+# fast build rule for target.
+ExperimentalTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExperimentalTest.dir/build.make CMakeFiles/ExperimentalTest.dir/build
+.PHONY : ExperimentalTest/fast
+
+#=============================================================================
+# Target rules for targets named ExperimentalCoverage
+
+# Build rule for target.
+ExperimentalCoverage: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ExperimentalCoverage
+.PHONY : ExperimentalCoverage
+
+# fast build rule for target.
+ExperimentalCoverage/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExperimentalCoverage.dir/build.make CMakeFiles/ExperimentalCoverage.dir/build
+.PHONY : ExperimentalCoverage/fast
+
+#=============================================================================
+# Target rules for targets named ExperimentalMemCheck
+
+# Build rule for target.
+ExperimentalMemCheck: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ExperimentalMemCheck
+.PHONY : ExperimentalMemCheck
+
+# fast build rule for target.
+ExperimentalMemCheck/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExperimentalMemCheck.dir/build.make CMakeFiles/ExperimentalMemCheck.dir/build
+.PHONY : ExperimentalMemCheck/fast
+
+#=============================================================================
+# Target rules for targets named ExperimentalSubmit
+
+# Build rule for target.
+ExperimentalSubmit: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ExperimentalSubmit
+.PHONY : ExperimentalSubmit
+
+# fast build rule for target.
+ExperimentalSubmit/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExperimentalSubmit.dir/build.make CMakeFiles/ExperimentalSubmit.dir/build
+.PHONY : ExperimentalSubmit/fast
+
+#=============================================================================
+# Target rules for targets named ContinuousStart
+
+# Build rule for target.
+ContinuousStart: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ContinuousStart
+.PHONY : ContinuousStart
+
+# fast build rule for target.
+ContinuousStart/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContinuousStart.dir/build.make CMakeFiles/ContinuousStart.dir/build
+.PHONY : ContinuousStart/fast
+
+#=============================================================================
+# Target rules for targets named ContinuousUpdate
+
+# Build rule for target.
+ContinuousUpdate: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ContinuousUpdate
+.PHONY : ContinuousUpdate
+
+# fast build rule for target.
+ContinuousUpdate/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContinuousUpdate.dir/build.make CMakeFiles/ContinuousUpdate.dir/build
+.PHONY : ContinuousUpdate/fast
+
+#=============================================================================
+# Target rules for targets named ContinuousConfigure
+
+# Build rule for target.
+ContinuousConfigure: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ContinuousConfigure
+.PHONY : ContinuousConfigure
+
+# fast build rule for target.
+ContinuousConfigure/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContinuousConfigure.dir/build.make CMakeFiles/ContinuousConfigure.dir/build
+.PHONY : ContinuousConfigure/fast
+
+#=============================================================================
+# Target rules for targets named ContinuousBuild
+
+# Build rule for target.
+ContinuousBuild: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ContinuousBuild
+.PHONY : ContinuousBuild
+
+# fast build rule for target.
+ContinuousBuild/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContinuousBuild.dir/build.make CMakeFiles/ContinuousBuild.dir/build
+.PHONY : ContinuousBuild/fast
+
+#=============================================================================
+# Target rules for targets named ContinuousTest
+
+# Build rule for target.
+ContinuousTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ContinuousTest
+.PHONY : ContinuousTest
+
+# fast build rule for target.
+ContinuousTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContinuousTest.dir/build.make CMakeFiles/ContinuousTest.dir/build
+.PHONY : ContinuousTest/fast
+
+#=============================================================================
+# Target rules for targets named ContinuousCoverage
+
+# Build rule for target.
+ContinuousCoverage: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ContinuousCoverage
+.PHONY : ContinuousCoverage
+
+# fast build rule for target.
+ContinuousCoverage/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContinuousCoverage.dir/build.make CMakeFiles/ContinuousCoverage.dir/build
+.PHONY : ContinuousCoverage/fast
+
+#=============================================================================
+# Target rules for targets named ContinuousMemCheck
+
+# Build rule for target.
+ContinuousMemCheck: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ContinuousMemCheck
+.PHONY : ContinuousMemCheck
+
+# fast build rule for target.
+ContinuousMemCheck/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContinuousMemCheck.dir/build.make CMakeFiles/ContinuousMemCheck.dir/build
+.PHONY : ContinuousMemCheck/fast
+
+#=============================================================================
+# Target rules for targets named ContinuousSubmit
+
+# Build rule for target.
+ContinuousSubmit: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ContinuousSubmit
+.PHONY : ContinuousSubmit
+
+# fast build rule for target.
+ContinuousSubmit/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContinuousSubmit.dir/build.make CMakeFiles/ContinuousSubmit.dir/build
+.PHONY : ContinuousSubmit/fast
 
 #=============================================================================
 # Target rules for targets named fmt
@@ -630,6 +1043,30 @@ src/graph/graph.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/src/graph/graph.cpp.s
 .PHONY : src/graph/graph.cpp.s
 
+src/ingest/arbiter.o: src/ingest/arbiter.cpp.o
+.PHONY : src/ingest/arbiter.o
+
+# target to build an object file
+src/ingest/arbiter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ingest.dir/build.make CMakeFiles/ingest.dir/src/ingest/arbiter.cpp.o
+.PHONY : src/ingest/arbiter.cpp.o
+
+src/ingest/arbiter.i: src/ingest/arbiter.cpp.i
+.PHONY : src/ingest/arbiter.i
+
+# target to preprocess a source file
+src/ingest/arbiter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ingest.dir/build.make CMakeFiles/ingest.dir/src/ingest/arbiter.cpp.i
+.PHONY : src/ingest/arbiter.cpp.i
+
+src/ingest/arbiter.s: src/ingest/arbiter.cpp.s
+.PHONY : src/ingest/arbiter.s
+
+# target to generate assembly for a file
+src/ingest/arbiter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ingest.dir/build.make CMakeFiles/ingest.dir/src/ingest/arbiter.cpp.s
+.PHONY : src/ingest/arbiter.cpp.s
+
 src/ingest/validator.o: src/ingest/validator.cpp.o
 .PHONY : src/ingest/validator.o
 
@@ -701,6 +1138,30 @@ src/portfolio/portfolio.s: src/portfolio/portfolio.cpp.s
 src/portfolio/portfolio.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/portfolio.dir/build.make CMakeFiles/portfolio.dir/src/portfolio/portfolio.cpp.s
 .PHONY : src/portfolio/portfolio.cpp.s
+
+src/risk/governor.o: src/risk/governor.cpp.o
+.PHONY : src/risk/governor.o
+
+# target to build an object file
+src/risk/governor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/risk.dir/build.make CMakeFiles/risk.dir/src/risk/governor.cpp.o
+.PHONY : src/risk/governor.cpp.o
+
+src/risk/governor.i: src/risk/governor.cpp.i
+.PHONY : src/risk/governor.i
+
+# target to preprocess a source file
+src/risk/governor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/risk.dir/build.make CMakeFiles/risk.dir/src/risk/governor.cpp.i
+.PHONY : src/risk/governor.cpp.i
+
+src/risk/governor.s: src/risk/governor.cpp.s
+.PHONY : src/risk/governor.s
+
+# target to generate assembly for a file
+src/risk/governor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/risk.dir/build.make CMakeFiles/risk.dir/src/risk/governor.cpp.s
+.PHONY : src/risk/governor.cpp.s
 
 src/scoring/scorer.o: src/scoring/scorer.cpp.o
 .PHONY : src/scoring/scorer.o
@@ -774,6 +1235,30 @@ tests/allocator_smoke.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/allocator_smoke.dir/build.make CMakeFiles/allocator_smoke.dir/tests/allocator_smoke.cpp.s
 .PHONY : tests/allocator_smoke.cpp.s
 
+tests/arbiter_smoke.o: tests/arbiter_smoke.cpp.o
+.PHONY : tests/arbiter_smoke.o
+
+# target to build an object file
+tests/arbiter_smoke.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbiter_smoke.dir/build.make CMakeFiles/arbiter_smoke.dir/tests/arbiter_smoke.cpp.o
+.PHONY : tests/arbiter_smoke.cpp.o
+
+tests/arbiter_smoke.i: tests/arbiter_smoke.cpp.i
+.PHONY : tests/arbiter_smoke.i
+
+# target to preprocess a source file
+tests/arbiter_smoke.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbiter_smoke.dir/build.make CMakeFiles/arbiter_smoke.dir/tests/arbiter_smoke.cpp.i
+.PHONY : tests/arbiter_smoke.cpp.i
+
+tests/arbiter_smoke.s: tests/arbiter_smoke.cpp.s
+.PHONY : tests/arbiter_smoke.s
+
+# target to generate assembly for a file
+tests/arbiter_smoke.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbiter_smoke.dir/build.make CMakeFiles/arbiter_smoke.dir/tests/arbiter_smoke.cpp.s
+.PHONY : tests/arbiter_smoke.cpp.s
+
 tests/attribution_smoke.o: tests/attribution_smoke.cpp.o
 .PHONY : tests/attribution_smoke.o
 
@@ -845,6 +1330,30 @@ tests/core_smoke.s: tests/core_smoke.cpp.s
 tests/core_smoke.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/core_smoke.dir/build.make CMakeFiles/core_smoke.dir/tests/core_smoke.cpp.s
 .PHONY : tests/core_smoke.cpp.s
+
+tests/governor_smoke.o: tests/governor_smoke.cpp.o
+.PHONY : tests/governor_smoke.o
+
+# target to build an object file
+tests/governor_smoke.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/governor_smoke.dir/build.make CMakeFiles/governor_smoke.dir/tests/governor_smoke.cpp.o
+.PHONY : tests/governor_smoke.cpp.o
+
+tests/governor_smoke.i: tests/governor_smoke.cpp.i
+.PHONY : tests/governor_smoke.i
+
+# target to preprocess a source file
+tests/governor_smoke.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/governor_smoke.dir/build.make CMakeFiles/governor_smoke.dir/tests/governor_smoke.cpp.i
+.PHONY : tests/governor_smoke.cpp.i
+
+tests/governor_smoke.s: tests/governor_smoke.cpp.s
+.PHONY : tests/governor_smoke.s
+
+# target to generate assembly for a file
+tests/governor_smoke.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/governor_smoke.dir/build.make CMakeFiles/governor_smoke.dir/tests/governor_smoke.cpp.s
+.PHONY : tests/governor_smoke.cpp.s
 
 tests/graph_smoke.o: tests/graph_smoke.cpp.o
 .PHONY : tests/graph_smoke.o
@@ -1002,10 +1511,40 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... test"
+	@echo "... Continuous"
+	@echo "... ContinuousBuild"
+	@echo "... ContinuousConfigure"
+	@echo "... ContinuousCoverage"
+	@echo "... ContinuousMemCheck"
+	@echo "... ContinuousStart"
+	@echo "... ContinuousSubmit"
+	@echo "... ContinuousTest"
+	@echo "... ContinuousUpdate"
+	@echo "... Experimental"
+	@echo "... ExperimentalBuild"
+	@echo "... ExperimentalConfigure"
+	@echo "... ExperimentalCoverage"
+	@echo "... ExperimentalMemCheck"
+	@echo "... ExperimentalStart"
+	@echo "... ExperimentalSubmit"
+	@echo "... ExperimentalTest"
+	@echo "... ExperimentalUpdate"
+	@echo "... Nightly"
+	@echo "... NightlyBuild"
+	@echo "... NightlyConfigure"
+	@echo "... NightlyCoverage"
+	@echo "... NightlyMemCheck"
+	@echo "... NightlyMemoryCheck"
+	@echo "... NightlyStart"
+	@echo "... NightlySubmit"
+	@echo "... NightlyTest"
+	@echo "... NightlyUpdate"
 	@echo "... Catch2"
 	@echo "... Catch2WithMain"
 	@echo "... alloc"
 	@echo "... allocator_smoke"
+	@echo "... arbiter_smoke"
 	@echo "... attrib"
 	@echo "... attribution_smoke"
 	@echo "... backtest"
@@ -1015,6 +1554,7 @@ help:
 	@echo "... engine"
 	@echo "... event"
 	@echo "... fmt"
+	@echo "... governor_smoke"
 	@echo "... graph"
 	@echo "... graph_smoke"
 	@echo "... ingest"
@@ -1022,6 +1562,7 @@ help:
 	@echo "... injector_smoke"
 	@echo "... portfolio"
 	@echo "... portfolio_smoke"
+	@echo "... risk"
 	@echo "... scoring"
 	@echo "... scoring_smoke"
 	@echo "... sim"
@@ -1045,6 +1586,9 @@ help:
 	@echo "... src/graph/graph.o"
 	@echo "... src/graph/graph.i"
 	@echo "... src/graph/graph.s"
+	@echo "... src/ingest/arbiter.o"
+	@echo "... src/ingest/arbiter.i"
+	@echo "... src/ingest/arbiter.s"
 	@echo "... src/ingest/validator.o"
 	@echo "... src/ingest/validator.i"
 	@echo "... src/ingest/validator.s"
@@ -1054,6 +1598,9 @@ help:
 	@echo "... src/portfolio/portfolio.o"
 	@echo "... src/portfolio/portfolio.i"
 	@echo "... src/portfolio/portfolio.s"
+	@echo "... src/risk/governor.o"
+	@echo "... src/risk/governor.i"
+	@echo "... src/risk/governor.s"
 	@echo "... src/scoring/scorer.o"
 	@echo "... src/scoring/scorer.i"
 	@echo "... src/scoring/scorer.s"
@@ -1063,6 +1610,9 @@ help:
 	@echo "... tests/allocator_smoke.o"
 	@echo "... tests/allocator_smoke.i"
 	@echo "... tests/allocator_smoke.s"
+	@echo "... tests/arbiter_smoke.o"
+	@echo "... tests/arbiter_smoke.i"
+	@echo "... tests/arbiter_smoke.s"
 	@echo "... tests/attribution_smoke.o"
 	@echo "... tests/attribution_smoke.i"
 	@echo "... tests/attribution_smoke.s"
@@ -1072,6 +1622,9 @@ help:
 	@echo "... tests/core_smoke.o"
 	@echo "... tests/core_smoke.i"
 	@echo "... tests/core_smoke.s"
+	@echo "... tests/governor_smoke.o"
+	@echo "... tests/governor_smoke.i"
+	@echo "... tests/governor_smoke.s"
 	@echo "... tests/graph_smoke.o"
 	@echo "... tests/graph_smoke.i"
 	@echo "... tests/graph_smoke.s"

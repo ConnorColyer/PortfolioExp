@@ -76,29 +76,29 @@ _deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o: _deps/fmt-build/CMakeFiles/f
 _deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o: /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/src/format.cc
 _deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o: _deps/fmt-build/CMakeFiles/fmt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o"
-	cd /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-build && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o -MF CMakeFiles/fmt.dir/src/format.cc.o.d -o CMakeFiles/fmt.dir/src/format.cc.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/src/format.cc
+	cd /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o -MF CMakeFiles/fmt.dir/src/format.cc.o.d -o CMakeFiles/fmt.dir/src/format.cc.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/src/format.cc
 
 _deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fmt.dir/src/format.cc.i"
-	cd /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-build && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/src/format.cc > CMakeFiles/fmt.dir/src/format.cc.i
+	cd /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/src/format.cc > CMakeFiles/fmt.dir/src/format.cc.i
 
 _deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fmt.dir/src/format.cc.s"
-	cd /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-build && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/src/format.cc -o CMakeFiles/fmt.dir/src/format.cc.s
+	cd /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/src/format.cc -o CMakeFiles/fmt.dir/src/format.cc.s
 
 _deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o: _deps/fmt-build/CMakeFiles/fmt.dir/flags.make
 _deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o: /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/src/os.cc
 _deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o: _deps/fmt-build/CMakeFiles/fmt.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object _deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o"
-	cd /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-build && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o -MF CMakeFiles/fmt.dir/src/os.cc.o.d -o CMakeFiles/fmt.dir/src/os.cc.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/src/os.cc
+	cd /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o -MF CMakeFiles/fmt.dir/src/os.cc.o.d -o CMakeFiles/fmt.dir/src/os.cc.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/src/os.cc
 
 _deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fmt.dir/src/os.cc.i"
-	cd /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-build && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/src/os.cc > CMakeFiles/fmt.dir/src/os.cc.i
+	cd /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/src/os.cc > CMakeFiles/fmt.dir/src/os.cc.i
 
 _deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fmt.dir/src/os.cc.s"
-	cd /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-build && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/src/os.cc -o CMakeFiles/fmt.dir/src/os.cc.s
+	cd /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/src/os.cc -o CMakeFiles/fmt.dir/src/os.cc.s
 
 # Object files for target fmt
 fmt_OBJECTS = \
@@ -108,16 +108,16 @@ fmt_OBJECTS = \
 # External object files for target fmt
 fmt_EXTERNAL_OBJECTS =
 
-_deps/fmt-build/libfmtd.a: _deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o
-_deps/fmt-build/libfmtd.a: _deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o
-_deps/fmt-build/libfmtd.a: _deps/fmt-build/CMakeFiles/fmt.dir/build.make
-_deps/fmt-build/libfmtd.a: _deps/fmt-build/CMakeFiles/fmt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libfmtd.a"
+_deps/fmt-build/libfmt.a: _deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o
+_deps/fmt-build/libfmt.a: _deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o
+_deps/fmt-build/libfmt.a: _deps/fmt-build/CMakeFiles/fmt.dir/build.make
+_deps/fmt-build/libfmt.a: _deps/fmt-build/CMakeFiles/fmt.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libfmt.a"
 	cd /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-build && $(CMAKE_COMMAND) -P CMakeFiles/fmt.dir/cmake_clean_target.cmake
 	cd /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fmt.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-_deps/fmt-build/CMakeFiles/fmt.dir/build: _deps/fmt-build/libfmtd.a
+_deps/fmt-build/CMakeFiles/fmt.dir/build: _deps/fmt-build/libfmt.a
 .PHONY : _deps/fmt-build/CMakeFiles/fmt.dir/build
 
 _deps/fmt-build/CMakeFiles/fmt.dir/clean:

@@ -76,15 +76,15 @@ CMakeFiles/scoring_smoke.dir/tests/scoring_smoke.cpp.o: CMakeFiles/scoring_smoke
 CMakeFiles/scoring_smoke.dir/tests/scoring_smoke.cpp.o: /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/scoring_smoke.cpp
 CMakeFiles/scoring_smoke.dir/tests/scoring_smoke.cpp.o: CMakeFiles/scoring_smoke.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/scoring_smoke.dir/tests/scoring_smoke.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scoring_smoke.dir/tests/scoring_smoke.cpp.o -MF CMakeFiles/scoring_smoke.dir/tests/scoring_smoke.cpp.o.d -o CMakeFiles/scoring_smoke.dir/tests/scoring_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/scoring_smoke.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scoring_smoke.dir/tests/scoring_smoke.cpp.o -MF CMakeFiles/scoring_smoke.dir/tests/scoring_smoke.cpp.o.d -o CMakeFiles/scoring_smoke.dir/tests/scoring_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/scoring_smoke.cpp
 
 CMakeFiles/scoring_smoke.dir/tests/scoring_smoke.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/scoring_smoke.dir/tests/scoring_smoke.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/scoring_smoke.cpp > CMakeFiles/scoring_smoke.dir/tests/scoring_smoke.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/scoring_smoke.cpp > CMakeFiles/scoring_smoke.dir/tests/scoring_smoke.cpp.i
 
 CMakeFiles/scoring_smoke.dir/tests/scoring_smoke.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/scoring_smoke.dir/tests/scoring_smoke.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/scoring_smoke.cpp -o CMakeFiles/scoring_smoke.dir/tests/scoring_smoke.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/scoring_smoke.cpp -o CMakeFiles/scoring_smoke.dir/tests/scoring_smoke.cpp.s
 
 # Object files for target scoring_smoke
 scoring_smoke_OBJECTS = \
@@ -98,8 +98,8 @@ scoring_smoke: CMakeFiles/scoring_smoke.dir/build.make
 scoring_smoke: libscoring.a
 scoring_smoke: libgraph.a
 scoring_smoke: libcore.a
-scoring_smoke: _deps/spdlog-build/libspdlogd.a
-scoring_smoke: _deps/fmt-build/libfmtd.a
+scoring_smoke: _deps/spdlog-build/libspdlog.a
+scoring_smoke: _deps/fmt-build/libfmt.a
 scoring_smoke: CMakeFiles/scoring_smoke.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable scoring_smoke"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/scoring_smoke.dir/link.txt --verbose=$(VERBOSE)

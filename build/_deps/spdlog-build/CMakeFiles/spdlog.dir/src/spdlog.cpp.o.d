@@ -1002,7 +1002,6 @@ _deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.o: \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include/spdlog/details/circular_q.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include/spdlog/details/log_msg_buffer.h \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include/spdlog/details/log_msg.h \

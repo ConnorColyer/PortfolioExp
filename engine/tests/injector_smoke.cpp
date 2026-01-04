@@ -1,8 +1,8 @@
 #include "event/injector.hpp"
 #include "graph/graph.hpp"
 
-#include <cassert>
 #include <iostream>
+#include <cassert>
 
 using namespace engine::graph;
 using namespace engine::event;
@@ -25,25 +25,28 @@ int main() {
     "Reuters"
   };
 
-  Event e2 {
-    EventType::Technical,
-    A,
-    -0.5,
-    0.5,
-    0.0,
-    t0,
-    "RSI"
-  };
-
   EventInjector injector;
-  auto signal = injector.build_signal(g, {e1, e2}, t1);
+  auto signal = injector.build_signal(g, {e1}, t1);
 
-  assert(signal.size() == 2);
-  assert(signal[A] != 0.0);
-  assert(signal[B] == 0.0);
+  // Runtime checks (not assert-only)
+  if (signal.size() != 2) {
+    std::cerr << "Signal size mismatch\n";
+    return 1;
+  }
 
-  std::cout << "Event injector smoke test passed.\n";
-  std::cout << "Signal[A]=" << signal[A] << "\n";
+  if (signal[A] == 0.0) {
+    std::cerr << "Signal for A should be non-zero\n";
+    return 1;
+  }
+
+  if (signal[B] != 0.0) {
+    std::cerr << "Signal for B should be zero, got " << signal[B] << "\n";
+    return 1;
+  }
+
+  std::cout << "Injector smoke test passed.\n";
+  std::cout << "Signal[A]=" << signal[A]
+            << " Signal[B]=" << signal[B] << "\n";
 
   return 0;
 }

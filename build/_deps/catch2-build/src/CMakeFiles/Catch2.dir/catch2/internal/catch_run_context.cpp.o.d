@@ -996,7 +996,6 @@ _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_run_context.c
   /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_stringref.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_result_type.hpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/../catch2/internal/catch_unique_ptr.hpp \

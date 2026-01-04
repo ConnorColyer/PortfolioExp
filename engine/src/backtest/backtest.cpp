@@ -38,7 +38,7 @@ BacktestResult Backtest::run(int64_t start_unix_s,
 
     // rebalance
     auto prev_units = pstate.units;
-    pstate = portfolio_.rebalance(pstate, px, s.weights);
+    pstate = portfolio_.rebalance(pstate, px, s.safe_weights);
 
     // turnover
     double step_turnover = 0.0;

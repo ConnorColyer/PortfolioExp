@@ -1,0 +1,2 @@
+/usr/bin/ar qc librisk.a CMakeFiles/risk.dir/src/risk/governor.cpp.o
+/usr/bin/ranlib librisk.a

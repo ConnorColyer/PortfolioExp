@@ -76,15 +76,15 @@ CMakeFiles/injector_smoke.dir/tests/injector_smoke.cpp.o: CMakeFiles/injector_sm
 CMakeFiles/injector_smoke.dir/tests/injector_smoke.cpp.o: /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/injector_smoke.cpp
 CMakeFiles/injector_smoke.dir/tests/injector_smoke.cpp.o: CMakeFiles/injector_smoke.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/injector_smoke.dir/tests/injector_smoke.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/injector_smoke.dir/tests/injector_smoke.cpp.o -MF CMakeFiles/injector_smoke.dir/tests/injector_smoke.cpp.o.d -o CMakeFiles/injector_smoke.dir/tests/injector_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/injector_smoke.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/injector_smoke.dir/tests/injector_smoke.cpp.o -MF CMakeFiles/injector_smoke.dir/tests/injector_smoke.cpp.o.d -o CMakeFiles/injector_smoke.dir/tests/injector_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/injector_smoke.cpp
 
 CMakeFiles/injector_smoke.dir/tests/injector_smoke.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/injector_smoke.dir/tests/injector_smoke.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/injector_smoke.cpp > CMakeFiles/injector_smoke.dir/tests/injector_smoke.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/injector_smoke.cpp > CMakeFiles/injector_smoke.dir/tests/injector_smoke.cpp.i
 
 CMakeFiles/injector_smoke.dir/tests/injector_smoke.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/injector_smoke.dir/tests/injector_smoke.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/injector_smoke.cpp -o CMakeFiles/injector_smoke.dir/tests/injector_smoke.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/injector_smoke.cpp -o CMakeFiles/injector_smoke.dir/tests/injector_smoke.cpp.s
 
 # Object files for target injector_smoke
 injector_smoke_OBJECTS = \

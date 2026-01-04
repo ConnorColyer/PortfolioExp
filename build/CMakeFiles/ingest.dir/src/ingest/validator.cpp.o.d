@@ -1,5 +1,4 @@
 CMakeFiles/ingest.dir/src/ingest/validator.cpp.o: \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/share/asan_ignorelist.txt \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/ingest/validator.cpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/ingest/validator.hpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/ingest/record.hpp \

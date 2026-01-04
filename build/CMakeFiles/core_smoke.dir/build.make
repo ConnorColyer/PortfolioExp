@@ -76,15 +76,15 @@ CMakeFiles/core_smoke.dir/tests/core_smoke.cpp.o: CMakeFiles/core_smoke.dir/flag
 CMakeFiles/core_smoke.dir/tests/core_smoke.cpp.o: /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/core_smoke.cpp
 CMakeFiles/core_smoke.dir/tests/core_smoke.cpp.o: CMakeFiles/core_smoke.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/core_smoke.dir/tests/core_smoke.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/core_smoke.dir/tests/core_smoke.cpp.o -MF CMakeFiles/core_smoke.dir/tests/core_smoke.cpp.o.d -o CMakeFiles/core_smoke.dir/tests/core_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/core_smoke.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/core_smoke.dir/tests/core_smoke.cpp.o -MF CMakeFiles/core_smoke.dir/tests/core_smoke.cpp.o.d -o CMakeFiles/core_smoke.dir/tests/core_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/core_smoke.cpp
 
 CMakeFiles/core_smoke.dir/tests/core_smoke.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/core_smoke.dir/tests/core_smoke.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/core_smoke.cpp > CMakeFiles/core_smoke.dir/tests/core_smoke.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/core_smoke.cpp > CMakeFiles/core_smoke.dir/tests/core_smoke.cpp.i
 
 CMakeFiles/core_smoke.dir/tests/core_smoke.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/core_smoke.dir/tests/core_smoke.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/core_smoke.cpp -o CMakeFiles/core_smoke.dir/tests/core_smoke.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/core_smoke.cpp -o CMakeFiles/core_smoke.dir/tests/core_smoke.cpp.s
 
 # Object files for target core_smoke
 core_smoke_OBJECTS = \
@@ -96,10 +96,10 @@ core_smoke_EXTERNAL_OBJECTS =
 core_smoke: CMakeFiles/core_smoke.dir/tests/core_smoke.cpp.o
 core_smoke: CMakeFiles/core_smoke.dir/build.make
 core_smoke: libcore.a
-core_smoke: _deps/catch2-build/src/libCatch2Maind.a
-core_smoke: _deps/spdlog-build/libspdlogd.a
-core_smoke: _deps/fmt-build/libfmtd.a
-core_smoke: _deps/catch2-build/src/libCatch2d.a
+core_smoke: _deps/catch2-build/src/libCatch2Main.a
+core_smoke: _deps/spdlog-build/libspdlog.a
+core_smoke: _deps/fmt-build/libfmt.a
+core_smoke: _deps/catch2-build/src/libCatch2.a
 core_smoke: CMakeFiles/core_smoke.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable core_smoke"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/core_smoke.dir/link.txt --verbose=$(VERBOSE)
