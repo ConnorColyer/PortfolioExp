@@ -1,0 +1,2 @@
+/usr/bin/ar qc libscoring.a CMakeFiles/scoring.dir/src/scoring/scorer.cpp.o
+/usr/bin/ranlib libscoring.a

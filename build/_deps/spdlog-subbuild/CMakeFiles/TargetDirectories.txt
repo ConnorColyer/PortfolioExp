@@ -1,0 +1,3 @@
+/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate.dir
+/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-subbuild/CMakeFiles/edit_cache.dir
+/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-subbuild/CMakeFiles/rebuild_cache.dir

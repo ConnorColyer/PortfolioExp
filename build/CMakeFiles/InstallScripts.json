@@ -1,7 +1,11 @@
 {
 	"InstallScripts" : 
 	[
-		"/Users/connorcolyer/Documents/CODE/PortfolioExp/build/cmake_install.cmake"
+		"/Users/connorcolyer/Documents/CODE/PortfolioExp/build/cmake_install.cmake",
+		"/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-build/cmake_install.cmake",
+		"/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-build/cmake_install.cmake",
+		"/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/cmake_install.cmake",
+		"/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

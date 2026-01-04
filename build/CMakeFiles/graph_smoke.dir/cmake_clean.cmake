@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/graph_smoke.dir/src/graph/graph.cpp.o"
-  "CMakeFiles/graph_smoke.dir/src/graph/graph.cpp.o.d"
   "CMakeFiles/graph_smoke.dir/tests/graph_smoke.cpp.o"
   "CMakeFiles/graph_smoke.dir/tests/graph_smoke.cpp.o.d"
   "graph_smoke"

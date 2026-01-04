@@ -85,6 +85,51 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	/opt/homebrew/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	/opt/homebrew/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	/opt/homebrew/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	/opt/homebrew/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	/opt/homebrew/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	/opt/homebrew/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
 # The main all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles /Users/connorcolyer/Documents/CODE/PortfolioExp/build//CMakeFiles/progress.marks
@@ -117,6 +162,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named graph
+
+# Build rule for target.
+graph: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 graph
+.PHONY : graph
+
+# fast build rule for target.
+graph/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/build
+.PHONY : graph/fast
+
+#=============================================================================
+# Target rules for targets named scoring
+
+# Build rule for target.
+scoring: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scoring
+.PHONY : scoring
+
+# fast build rule for target.
+scoring/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scoring.dir/build.make CMakeFiles/scoring.dir/build
+.PHONY : scoring/fast
+
+#=============================================================================
+# Target rules for targets named core
+
+# Build rule for target.
+core: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core
+.PHONY : core
+
+# fast build rule for target.
+core/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/build
+.PHONY : core/fast
+
+#=============================================================================
 # Target rules for targets named engine
 
 # Build rule for target.
@@ -142,13 +226,114 @@ graph_smoke/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_smoke.dir/build.make CMakeFiles/graph_smoke.dir/build
 .PHONY : graph_smoke/fast
 
+#=============================================================================
+# Target rules for targets named core_smoke
+
+# Build rule for target.
+core_smoke: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core_smoke
+.PHONY : core_smoke
+
+# fast build rule for target.
+core_smoke/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/core_smoke.dir/build.make CMakeFiles/core_smoke.dir/build
+.PHONY : core_smoke/fast
+
+#=============================================================================
+# Target rules for targets named scoring_smoke
+
+# Build rule for target.
+scoring_smoke: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scoring_smoke
+.PHONY : scoring_smoke
+
+# fast build rule for target.
+scoring_smoke/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scoring_smoke.dir/build.make CMakeFiles/scoring_smoke.dir/build
+.PHONY : scoring_smoke/fast
+
+#=============================================================================
+# Target rules for targets named fmt
+
+# Build rule for target.
+fmt: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fmt
+.PHONY : fmt
+
+# fast build rule for target.
+fmt/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/fmt-build/CMakeFiles/fmt.dir/build.make _deps/fmt-build/CMakeFiles/fmt.dir/build
+.PHONY : fmt/fast
+
+#=============================================================================
+# Target rules for targets named spdlog
+
+# Build rule for target.
+spdlog: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 spdlog
+.PHONY : spdlog
+
+# fast build rule for target.
+spdlog/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/spdlog-build/CMakeFiles/spdlog.dir/build.make _deps/spdlog-build/CMakeFiles/spdlog.dir/build
+.PHONY : spdlog/fast
+
+#=============================================================================
+# Target rules for targets named Catch2
+
+# Build rule for target.
+Catch2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Catch2
+.PHONY : Catch2
+
+# fast build rule for target.
+Catch2/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/catch2-build/src/CMakeFiles/Catch2.dir/build.make _deps/catch2-build/src/CMakeFiles/Catch2.dir/build
+.PHONY : Catch2/fast
+
+#=============================================================================
+# Target rules for targets named Catch2WithMain
+
+# Build rule for target.
+Catch2WithMain: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Catch2WithMain
+.PHONY : Catch2WithMain
+
+# fast build rule for target.
+Catch2WithMain/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/build.make _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/build
+.PHONY : Catch2WithMain/fast
+
+src/core/log.o: src/core/log.cpp.o
+.PHONY : src/core/log.o
+
+# target to build an object file
+src/core/log.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/core/log.cpp.o
+.PHONY : src/core/log.cpp.o
+
+src/core/log.i: src/core/log.cpp.i
+.PHONY : src/core/log.i
+
+# target to preprocess a source file
+src/core/log.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/core/log.cpp.i
+.PHONY : src/core/log.cpp.i
+
+src/core/log.s: src/core/log.cpp.s
+.PHONY : src/core/log.s
+
+# target to generate assembly for a file
+src/core/log.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/core/log.cpp.s
+.PHONY : src/core/log.cpp.s
+
 src/graph/graph.o: src/graph/graph.cpp.o
 .PHONY : src/graph/graph.o
 
 # target to build an object file
 src/graph/graph.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/graph/graph.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_smoke.dir/build.make CMakeFiles/graph_smoke.dir/src/graph/graph.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/src/graph/graph.cpp.o
 .PHONY : src/graph/graph.cpp.o
 
 src/graph/graph.i: src/graph/graph.cpp.i
@@ -156,8 +341,7 @@ src/graph/graph.i: src/graph/graph.cpp.i
 
 # target to preprocess a source file
 src/graph/graph.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/graph/graph.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_smoke.dir/build.make CMakeFiles/graph_smoke.dir/src/graph/graph.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/src/graph/graph.cpp.i
 .PHONY : src/graph/graph.cpp.i
 
 src/graph/graph.s: src/graph/graph.cpp.s
@@ -165,8 +349,7 @@ src/graph/graph.s: src/graph/graph.cpp.s
 
 # target to generate assembly for a file
 src/graph/graph.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/graph/graph.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_smoke.dir/build.make CMakeFiles/graph_smoke.dir/src/graph/graph.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/src/graph/graph.cpp.s
 .PHONY : src/graph/graph.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -193,6 +376,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/scoring/scorer.o: src/scoring/scorer.cpp.o
+.PHONY : src/scoring/scorer.o
+
+# target to build an object file
+src/scoring/scorer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scoring.dir/build.make CMakeFiles/scoring.dir/src/scoring/scorer.cpp.o
+.PHONY : src/scoring/scorer.cpp.o
+
+src/scoring/scorer.i: src/scoring/scorer.cpp.i
+.PHONY : src/scoring/scorer.i
+
+# target to preprocess a source file
+src/scoring/scorer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scoring.dir/build.make CMakeFiles/scoring.dir/src/scoring/scorer.cpp.i
+.PHONY : src/scoring/scorer.cpp.i
+
+src/scoring/scorer.s: src/scoring/scorer.cpp.s
+.PHONY : src/scoring/scorer.s
+
+# target to generate assembly for a file
+src/scoring/scorer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scoring.dir/build.make CMakeFiles/scoring.dir/src/scoring/scorer.cpp.s
+.PHONY : src/scoring/scorer.cpp.s
+
+tests/core_smoke.o: tests/core_smoke.cpp.o
+.PHONY : tests/core_smoke.o
+
+# target to build an object file
+tests/core_smoke.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/core_smoke.dir/build.make CMakeFiles/core_smoke.dir/tests/core_smoke.cpp.o
+.PHONY : tests/core_smoke.cpp.o
+
+tests/core_smoke.i: tests/core_smoke.cpp.i
+.PHONY : tests/core_smoke.i
+
+# target to preprocess a source file
+tests/core_smoke.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/core_smoke.dir/build.make CMakeFiles/core_smoke.dir/tests/core_smoke.cpp.i
+.PHONY : tests/core_smoke.cpp.i
+
+tests/core_smoke.s: tests/core_smoke.cpp.s
+.PHONY : tests/core_smoke.s
+
+# target to generate assembly for a file
+tests/core_smoke.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/core_smoke.dir/build.make CMakeFiles/core_smoke.dir/tests/core_smoke.cpp.s
+.PHONY : tests/core_smoke.cpp.s
+
 tests/graph_smoke.o: tests/graph_smoke.cpp.o
 .PHONY : tests/graph_smoke.o
 
@@ -217,6 +448,30 @@ tests/graph_smoke.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_smoke.dir/build.make CMakeFiles/graph_smoke.dir/tests/graph_smoke.cpp.s
 .PHONY : tests/graph_smoke.cpp.s
 
+tests/scoring_smoke.o: tests/scoring_smoke.cpp.o
+.PHONY : tests/scoring_smoke.o
+
+# target to build an object file
+tests/scoring_smoke.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scoring_smoke.dir/build.make CMakeFiles/scoring_smoke.dir/tests/scoring_smoke.cpp.o
+.PHONY : tests/scoring_smoke.cpp.o
+
+tests/scoring_smoke.i: tests/scoring_smoke.cpp.i
+.PHONY : tests/scoring_smoke.i
+
+# target to preprocess a source file
+tests/scoring_smoke.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scoring_smoke.dir/build.make CMakeFiles/scoring_smoke.dir/tests/scoring_smoke.cpp.i
+.PHONY : tests/scoring_smoke.cpp.i
+
+tests/scoring_smoke.s: tests/scoring_smoke.cpp.s
+.PHONY : tests/scoring_smoke.s
+
+# target to generate assembly for a file
+tests/scoring_smoke.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scoring_smoke.dir/build.make CMakeFiles/scoring_smoke.dir/tests/scoring_smoke.cpp.s
+.PHONY : tests/scoring_smoke.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -224,18 +479,43 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... install"
+	@echo "... install/local"
+	@echo "... install/strip"
+	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... Catch2"
+	@echo "... Catch2WithMain"
+	@echo "... core"
+	@echo "... core_smoke"
 	@echo "... engine"
+	@echo "... fmt"
+	@echo "... graph"
 	@echo "... graph_smoke"
+	@echo "... scoring"
+	@echo "... scoring_smoke"
+	@echo "... spdlog"
+	@echo "... src/core/log.o"
+	@echo "... src/core/log.i"
+	@echo "... src/core/log.s"
 	@echo "... src/graph/graph.o"
 	@echo "... src/graph/graph.i"
 	@echo "... src/graph/graph.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/scoring/scorer.o"
+	@echo "... src/scoring/scorer.i"
+	@echo "... src/scoring/scorer.s"
+	@echo "... tests/core_smoke.o"
+	@echo "... tests/core_smoke.i"
+	@echo "... tests/core_smoke.s"
 	@echo "... tests/graph_smoke.o"
 	@echo "... tests/graph_smoke.i"
 	@echo "... tests/graph_smoke.s"
+	@echo "... tests/scoring_smoke.o"
+	@echo "... tests/scoring_smoke.i"
+	@echo "... tests/scoring_smoke.s"
 .PHONY : help
 
 

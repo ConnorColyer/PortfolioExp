@@ -1,1 +1,1 @@
-/usr/bin/clang++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/engine.dir/src/main.cpp.o CMakeFiles/engine.dir/src/graph/graph.cpp.o -o engine
+/usr/bin/clang++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -fsanitize=address,undefined CMakeFiles/engine.dir/src/main.cpp.o -o engine  libcore.a libgraph.a libscoring.a libcore.a _deps/spdlog-build/libspdlogd.a _deps/fmt-build/libfmtd.a libgraph.a

@@ -1,7 +1,7 @@
-#include <iostream>
-#include "graph/graph.hpp"
+#include "core/log.hpp"
 
 int main() {
-  std::cout << "Engine booted.\n";
+  engine::core::init_logging("engine", engine::core::LogLevel::Info, true);
+  engine::core::log_info("Engine booted.");
   return 0;
 }
