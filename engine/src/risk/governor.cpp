@@ -23,6 +23,28 @@ static void apply_hard_constraints(std::vector<double>& w,
   }
 }
 
+static double l1_turnover(const std::vector<double>& a, const std::vector<double>& b) {
+  const size_t n = std::min(a.size(), b.size());
+  double t = 0.0;
+  for (size_t i = 0; i < n; ++i) t += std::abs(a[i] - b[i]);
+  return t;
+}
+
+static void enforce_turnover_cap(std::vector<double>& w,
+                                 const std::vector<double>& prev,
+                                 const double max_turnover) {
+  if (w.size() != prev.size()) return;
+  if (!(max_turnover >= 0.0) || !std::isfinite(max_turnover)) return;
+
+  const double t = l1_turnover(w, prev);
+  if (!(t > max_turnover)) return;
+
+  const double alpha = max_turnover / t; // 0..1
+  for (size_t i = 0; i < w.size(); ++i) {
+    w[i] = prev[i] + alpha * (w[i] - prev[i]);
+  }
+}
+
 static void apply_turnover_cap(std::vector<double>& w,
                                const std::vector<double>& prev,
                                double max_turnover) {

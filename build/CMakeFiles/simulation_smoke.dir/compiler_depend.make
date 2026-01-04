@@ -969,11 +969,14 @@ CMakeFiles/simulation_smoke.dir/tests/simulation_smoke.cpp.o: /Users/connorcolye
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/alloc/allocator.hpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/event/event.hpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/graph/graph.hpp \
+  /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/risk/governor.hpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/scoring/scorer.hpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/sim/simulation.hpp
 
 
 /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/sim/simulation.hpp:
+
+/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/risk/governor.hpp:
 
 /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/graph/graph.hpp:
 

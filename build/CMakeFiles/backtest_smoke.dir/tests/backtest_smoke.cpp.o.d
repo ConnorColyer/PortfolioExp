@@ -890,6 +890,7 @@ CMakeFiles/backtest_smoke.dir/tests/backtest_smoke.cpp.o: \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/event/event.hpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/scoring/scorer.hpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/alloc/allocator.hpp \
+  /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/risk/governor.hpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/portfolio/portfolio.hpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/portfolio/prices.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \

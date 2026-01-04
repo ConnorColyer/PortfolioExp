@@ -63,11 +63,11 @@ set_target_properties(fmt::fmt-header-only PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include"
 )
 
-# Import target "fmt::fmt" for configuration ""
-set_property(TARGET fmt::fmt APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
+# Import target "fmt::fmt" for configuration "Release"
+set_property(TARGET fmt::fmt APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(fmt::fmt PROPERTIES
-  IMPORTED_LINK_INTERFACE_LANGUAGES_NOCONFIG "CXX"
-  IMPORTED_LOCATION_NOCONFIG "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-build/libfmt.a"
+  IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
+  IMPORTED_LOCATION_RELEASE "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-build/libfmt.a"
   )
 
 # This file does not depend on other imported targets which have

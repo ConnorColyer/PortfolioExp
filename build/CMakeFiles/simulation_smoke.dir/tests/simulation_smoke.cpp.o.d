@@ -889,6 +889,7 @@ CMakeFiles/simulation_smoke.dir/tests/simulation_smoke.cpp.o: \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/event/event.hpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/scoring/scorer.hpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/alloc/allocator.hpp \
+  /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/risk/governor.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \

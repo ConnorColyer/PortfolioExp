@@ -890,5 +890,6 @@ CMakeFiles/backtest.dir/src/backtest/backtest.cpp.o: \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/event/event.hpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/scoring/scorer.hpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/alloc/allocator.hpp \
+  /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/risk/governor.hpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/portfolio/portfolio.hpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/portfolio/prices.hpp

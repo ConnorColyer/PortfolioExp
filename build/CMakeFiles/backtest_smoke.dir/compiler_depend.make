@@ -972,11 +972,14 @@ CMakeFiles/backtest_smoke.dir/tests/backtest_smoke.cpp.o: /Users/connorcolyer/Do
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/graph/graph.hpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/portfolio/portfolio.hpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/portfolio/prices.hpp \
+  /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/risk/governor.hpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/scoring/scorer.hpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/sim/simulation.hpp
 
 
 /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/sim/simulation.hpp:
+
+/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/risk/governor.hpp:
 
 /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/portfolio/prices.hpp:
 

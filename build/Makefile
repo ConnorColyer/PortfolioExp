@@ -848,6 +848,32 @@ ContinuousSubmit/fast:
 .PHONY : ContinuousSubmit/fast
 
 #=============================================================================
+# Target rules for targets named allocator_props
+
+# Build rule for target.
+allocator_props: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 allocator_props
+.PHONY : allocator_props
+
+# fast build rule for target.
+allocator_props/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/allocator_props.dir/build.make CMakeFiles/allocator_props.dir/build
+.PHONY : allocator_props/fast
+
+#=============================================================================
+# Target rules for targets named governor_props
+
+# Build rule for target.
+governor_props: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 governor_props
+.PHONY : governor_props
+
+# fast build rule for target.
+governor_props/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/governor_props.dir/build.make CMakeFiles/governor_props.dir/build
+.PHONY : governor_props/fast
+
+#=============================================================================
 # Target rules for targets named fmt
 
 # Build rule for target.
@@ -1211,6 +1237,30 @@ src/sim/simulation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/sim/simulation.cpp.s
 .PHONY : src/sim/simulation.cpp.s
 
+tests/allocator_props.o: tests/allocator_props.cpp.o
+.PHONY : tests/allocator_props.o
+
+# target to build an object file
+tests/allocator_props.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/allocator_props.dir/build.make CMakeFiles/allocator_props.dir/tests/allocator_props.cpp.o
+.PHONY : tests/allocator_props.cpp.o
+
+tests/allocator_props.i: tests/allocator_props.cpp.i
+.PHONY : tests/allocator_props.i
+
+# target to preprocess a source file
+tests/allocator_props.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/allocator_props.dir/build.make CMakeFiles/allocator_props.dir/tests/allocator_props.cpp.i
+.PHONY : tests/allocator_props.cpp.i
+
+tests/allocator_props.s: tests/allocator_props.cpp.s
+.PHONY : tests/allocator_props.s
+
+# target to generate assembly for a file
+tests/allocator_props.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/allocator_props.dir/build.make CMakeFiles/allocator_props.dir/tests/allocator_props.cpp.s
+.PHONY : tests/allocator_props.cpp.s
+
 tests/allocator_smoke.o: tests/allocator_smoke.cpp.o
 .PHONY : tests/allocator_smoke.o
 
@@ -1330,6 +1380,30 @@ tests/core_smoke.s: tests/core_smoke.cpp.s
 tests/core_smoke.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/core_smoke.dir/build.make CMakeFiles/core_smoke.dir/tests/core_smoke.cpp.s
 .PHONY : tests/core_smoke.cpp.s
+
+tests/governor_props.o: tests/governor_props.cpp.o
+.PHONY : tests/governor_props.o
+
+# target to build an object file
+tests/governor_props.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/governor_props.dir/build.make CMakeFiles/governor_props.dir/tests/governor_props.cpp.o
+.PHONY : tests/governor_props.cpp.o
+
+tests/governor_props.i: tests/governor_props.cpp.i
+.PHONY : tests/governor_props.i
+
+# target to preprocess a source file
+tests/governor_props.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/governor_props.dir/build.make CMakeFiles/governor_props.dir/tests/governor_props.cpp.i
+.PHONY : tests/governor_props.cpp.i
+
+tests/governor_props.s: tests/governor_props.cpp.s
+.PHONY : tests/governor_props.s
+
+# target to generate assembly for a file
+tests/governor_props.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/governor_props.dir/build.make CMakeFiles/governor_props.dir/tests/governor_props.cpp.s
+.PHONY : tests/governor_props.cpp.s
 
 tests/governor_smoke.o: tests/governor_smoke.cpp.o
 .PHONY : tests/governor_smoke.o
@@ -1543,6 +1617,7 @@ help:
 	@echo "... Catch2"
 	@echo "... Catch2WithMain"
 	@echo "... alloc"
+	@echo "... allocator_props"
 	@echo "... allocator_smoke"
 	@echo "... arbiter_smoke"
 	@echo "... attrib"
@@ -1554,6 +1629,7 @@ help:
 	@echo "... engine"
 	@echo "... event"
 	@echo "... fmt"
+	@echo "... governor_props"
 	@echo "... governor_smoke"
 	@echo "... graph"
 	@echo "... graph_smoke"
@@ -1607,6 +1683,9 @@ help:
 	@echo "... src/sim/simulation.o"
 	@echo "... src/sim/simulation.i"
 	@echo "... src/sim/simulation.s"
+	@echo "... tests/allocator_props.o"
+	@echo "... tests/allocator_props.i"
+	@echo "... tests/allocator_props.s"
 	@echo "... tests/allocator_smoke.o"
 	@echo "... tests/allocator_smoke.i"
 	@echo "... tests/allocator_smoke.s"
@@ -1622,6 +1701,9 @@ help:
 	@echo "... tests/core_smoke.o"
 	@echo "... tests/core_smoke.i"
 	@echo "... tests/core_smoke.s"
+	@echo "... tests/governor_props.o"
+	@echo "... tests/governor_props.i"
+	@echo "... tests/governor_props.s"
 	@echo "... tests/governor_smoke.o"
 	@echo "... tests/governor_smoke.i"
 	@echo "... tests/governor_smoke.s"

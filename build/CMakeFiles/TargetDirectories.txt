@@ -50,6 +50,8 @@
 /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/ContinuousCoverage.dir
 /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/ContinuousMemCheck.dir
 /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/ContinuousSubmit.dir
+/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/allocator_props.dir
+/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/governor_props.dir
 /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/test.dir
 /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/edit_cache.dir
 /Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles/rebuild_cache.dir

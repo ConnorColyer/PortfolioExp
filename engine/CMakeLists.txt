@@ -349,3 +349,17 @@ engine_register_smoke(ingest_smoke)
 engine_register_smoke(arbiter_smoke)
 engine_register_smoke(governor_smoke)
 
+
+# ------------------------- Property tests -------------------------
+if (BUILD_TESTING)
+  add_executable(allocator_props tests/allocator_props.cpp)
+  target_link_libraries(allocator_props PRIVATE alloc Catch2::Catch2WithMain)
+  engine_apply_project_options(allocator_props)
+  add_test(NAME allocator_props COMMAND allocator_props)
+
+  add_executable(governor_props tests/governor_props.cpp)
+  target_link_libraries(governor_props PRIVATE risk Catch2::Catch2WithMain)
+  engine_apply_project_options(governor_props)
+  add_test(NAME governor_props COMMAND governor_props)
+endif()
+

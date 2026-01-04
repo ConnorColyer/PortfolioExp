@@ -10,4 +10,7 @@ backtest_smoke 1 0.00360171
 ingest_smoke 1 0.00135521
 arbiter_smoke 1 0.00170596
 governor_smoke 1 0.00151237
+allocator_props 2 0.008506
+governor_props 0 0
 ---
+governor_props

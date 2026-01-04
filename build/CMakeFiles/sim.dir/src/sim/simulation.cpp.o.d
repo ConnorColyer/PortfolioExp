@@ -889,5 +889,5 @@ CMakeFiles/sim.dir/src/sim/simulation.cpp.o: \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/event/event.hpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/scoring/scorer.hpp \
   /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/alloc/allocator.hpp \
-  /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/event/injector.hpp \
-  /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/risk/governor.hpp
+  /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/risk/governor.hpp \
+  /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include/event/injector.hpp

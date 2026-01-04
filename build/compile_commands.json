@@ -150,6 +150,18 @@
   "output": "CMakeFiles/governor_smoke.dir/tests/governor_smoke.cpp.o"
 },
 {
+  "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
+  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/allocator_props.dir/tests/allocator_props.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/allocator_props.cpp",
+  "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/allocator_props.cpp",
+  "output": "CMakeFiles/allocator_props.dir/tests/allocator_props.cpp.o"
+},
+{
+  "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
+  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/governor_props.dir/tests/governor_props.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/governor_props.cpp",
+  "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/governor_props.cpp",
+  "output": "CMakeFiles/governor_props.dir/tests/governor_props.cpp.o"
+},
+{
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-build",
   "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -o CMakeFiles/fmt.dir/src/format.cc.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/src/format.cc",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/src/format.cc",
