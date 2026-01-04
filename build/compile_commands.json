@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -g -std=gnu++20 -arch arm64 -o CMakeFiles/engine.dir/src/main.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/main.cpp",
+  "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/main.cpp",
+  "output": "CMakeFiles/engine.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -g -std=gnu++20 -arch arm64 -o CMakeFiles/engine.dir/src/graph/graph.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/graph/graph.cpp",
+  "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/graph/graph.cpp",
+  "output": "CMakeFiles/engine.dir/src/graph/graph.cpp.o"
+}
+]
