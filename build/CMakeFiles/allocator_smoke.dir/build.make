@@ -76,15 +76,15 @@ CMakeFiles/allocator_smoke.dir/tests/allocator_smoke.cpp.o: CMakeFiles/allocator
 CMakeFiles/allocator_smoke.dir/tests/allocator_smoke.cpp.o: /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/allocator_smoke.cpp
 CMakeFiles/allocator_smoke.dir/tests/allocator_smoke.cpp.o: CMakeFiles/allocator_smoke.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/allocator_smoke.dir/tests/allocator_smoke.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/allocator_smoke.dir/tests/allocator_smoke.cpp.o -MF CMakeFiles/allocator_smoke.dir/tests/allocator_smoke.cpp.o.d -o CMakeFiles/allocator_smoke.dir/tests/allocator_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/allocator_smoke.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/allocator_smoke.dir/tests/allocator_smoke.cpp.o -MF CMakeFiles/allocator_smoke.dir/tests/allocator_smoke.cpp.o.d -o CMakeFiles/allocator_smoke.dir/tests/allocator_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/allocator_smoke.cpp
 
 CMakeFiles/allocator_smoke.dir/tests/allocator_smoke.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/allocator_smoke.dir/tests/allocator_smoke.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/allocator_smoke.cpp > CMakeFiles/allocator_smoke.dir/tests/allocator_smoke.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/allocator_smoke.cpp > CMakeFiles/allocator_smoke.dir/tests/allocator_smoke.cpp.i
 
 CMakeFiles/allocator_smoke.dir/tests/allocator_smoke.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/allocator_smoke.dir/tests/allocator_smoke.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/allocator_smoke.cpp -o CMakeFiles/allocator_smoke.dir/tests/allocator_smoke.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/allocator_smoke.cpp -o CMakeFiles/allocator_smoke.dir/tests/allocator_smoke.cpp.s
 
 # Object files for target allocator_smoke
 allocator_smoke_OBJECTS = \

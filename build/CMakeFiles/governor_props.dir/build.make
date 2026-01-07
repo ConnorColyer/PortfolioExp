@@ -76,15 +76,15 @@ CMakeFiles/governor_props.dir/tests/governor_props.cpp.o: CMakeFiles/governor_pr
 CMakeFiles/governor_props.dir/tests/governor_props.cpp.o: /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/governor_props.cpp
 CMakeFiles/governor_props.dir/tests/governor_props.cpp.o: CMakeFiles/governor_props.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/governor_props.dir/tests/governor_props.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/governor_props.dir/tests/governor_props.cpp.o -MF CMakeFiles/governor_props.dir/tests/governor_props.cpp.o.d -o CMakeFiles/governor_props.dir/tests/governor_props.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/governor_props.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/governor_props.dir/tests/governor_props.cpp.o -MF CMakeFiles/governor_props.dir/tests/governor_props.cpp.o.d -o CMakeFiles/governor_props.dir/tests/governor_props.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/governor_props.cpp
 
 CMakeFiles/governor_props.dir/tests/governor_props.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/governor_props.dir/tests/governor_props.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/governor_props.cpp > CMakeFiles/governor_props.dir/tests/governor_props.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/governor_props.cpp > CMakeFiles/governor_props.dir/tests/governor_props.cpp.i
 
 CMakeFiles/governor_props.dir/tests/governor_props.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/governor_props.dir/tests/governor_props.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/governor_props.cpp -o CMakeFiles/governor_props.dir/tests/governor_props.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/governor_props.cpp -o CMakeFiles/governor_props.dir/tests/governor_props.cpp.s
 
 # Object files for target governor_props
 governor_props_OBJECTS = \

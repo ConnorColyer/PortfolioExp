@@ -1,859 +1,859 @@
 [
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/graph.dir/src/graph/graph.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/graph/graph.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/graph.dir/src/graph/graph.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/graph/graph.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/graph/graph.cpp",
   "output": "CMakeFiles/graph.dir/src/graph/graph.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/event.dir/src/event/injector.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/event/injector.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/event.dir/src/event/injector.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/event/injector.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/event/injector.cpp",
   "output": "CMakeFiles/event.dir/src/event/injector.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
-  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/core.dir/src/core/log.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/core/log.cpp",
+  "command": "/usr/bin/clang++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/core.dir/src/core/log.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/core/log.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/core/log.cpp",
   "output": "CMakeFiles/core.dir/src/core/log.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
-  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/scoring.dir/src/scoring/scorer.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/scoring/scorer.cpp",
+  "command": "/usr/bin/clang++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/scoring.dir/src/scoring/scorer.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/scoring/scorer.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/scoring/scorer.cpp",
   "output": "CMakeFiles/scoring.dir/src/scoring/scorer.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
-  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/attrib.dir/src/attrib/attribution.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/attrib/attribution.cpp",
+  "command": "/usr/bin/clang++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/attrib.dir/src/attrib/attribution.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/attrib/attribution.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/attrib/attribution.cpp",
   "output": "CMakeFiles/attrib.dir/src/attrib/attribution.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/alloc.dir/src/alloc/allocator.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/alloc/allocator.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/alloc.dir/src/alloc/allocator.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/alloc/allocator.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/alloc/allocator.cpp",
   "output": "CMakeFiles/alloc.dir/src/alloc/allocator.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/risk.dir/src/risk/governor.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/risk/governor.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/risk.dir/src/risk/governor.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/risk/governor.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/risk/governor.cpp",
   "output": "CMakeFiles/risk.dir/src/risk/governor.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
-  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/sim.dir/src/sim/simulation.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/sim/simulation.cpp",
+  "command": "/usr/bin/clang++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/sim.dir/src/sim/simulation.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/sim/simulation.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/sim/simulation.cpp",
   "output": "CMakeFiles/sim.dir/src/sim/simulation.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/portfolio.dir/src/portfolio/portfolio.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/portfolio/portfolio.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/portfolio.dir/src/portfolio/portfolio.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/portfolio/portfolio.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/portfolio/portfolio.cpp",
   "output": "CMakeFiles/portfolio.dir/src/portfolio/portfolio.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
-  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/backtest.dir/src/backtest/backtest.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/backtest/backtest.cpp",
+  "command": "/usr/bin/clang++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/backtest.dir/src/backtest/backtest.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/backtest/backtest.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/backtest/backtest.cpp",
   "output": "CMakeFiles/backtest.dir/src/backtest/backtest.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/ingest.dir/src/ingest/validator.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/ingest/validator.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/ingest.dir/src/ingest/validator.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/ingest/validator.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/ingest/validator.cpp",
   "output": "CMakeFiles/ingest.dir/src/ingest/validator.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/ingest.dir/src/ingest/arbiter.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/ingest/arbiter.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/ingest.dir/src/ingest/arbiter.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/ingest/arbiter.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/ingest/arbiter.cpp",
   "output": "CMakeFiles/ingest.dir/src/ingest/arbiter.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
-  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/engine.dir/src/main.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/main.cpp",
+  "command": "/usr/bin/clang++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/engine.dir/src/main.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/main.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/main.cpp",
   "output": "CMakeFiles/engine.dir/src/main.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
-  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/graph_smoke.dir/tests/graph_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/graph_smoke.cpp",
+  "command": "/usr/bin/clang++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/graph_smoke.dir/tests/graph_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/graph_smoke.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/graph_smoke.cpp",
   "output": "CMakeFiles/graph_smoke.dir/tests/graph_smoke.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
-  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/core_smoke.dir/tests/core_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/core_smoke.cpp",
+  "command": "/usr/bin/clang++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/core_smoke.dir/tests/core_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/core_smoke.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/core_smoke.cpp",
   "output": "CMakeFiles/core_smoke.dir/tests/core_smoke.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
-  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/scoring_smoke.dir/tests/scoring_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/scoring_smoke.cpp",
+  "command": "/usr/bin/clang++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/scoring_smoke.dir/tests/scoring_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/scoring_smoke.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/scoring_smoke.cpp",
   "output": "CMakeFiles/scoring_smoke.dir/tests/scoring_smoke.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/allocator_smoke.dir/tests/allocator_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/allocator_smoke.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/allocator_smoke.dir/tests/allocator_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/allocator_smoke.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/allocator_smoke.cpp",
   "output": "CMakeFiles/allocator_smoke.dir/tests/allocator_smoke.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/injector_smoke.dir/tests/injector_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/injector_smoke.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/injector_smoke.dir/tests/injector_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/injector_smoke.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/injector_smoke.cpp",
   "output": "CMakeFiles/injector_smoke.dir/tests/injector_smoke.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
-  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/attribution_smoke.dir/tests/attribution_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/attribution_smoke.cpp",
+  "command": "/usr/bin/clang++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/attribution_smoke.dir/tests/attribution_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/attribution_smoke.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/attribution_smoke.cpp",
   "output": "CMakeFiles/attribution_smoke.dir/tests/attribution_smoke.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
-  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/simulation_smoke.dir/tests/simulation_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/simulation_smoke.cpp",
+  "command": "/usr/bin/clang++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/simulation_smoke.dir/tests/simulation_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/simulation_smoke.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/simulation_smoke.cpp",
   "output": "CMakeFiles/simulation_smoke.dir/tests/simulation_smoke.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/portfolio_smoke.dir/tests/portfolio_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/portfolio_smoke.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/portfolio_smoke.dir/tests/portfolio_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/portfolio_smoke.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/portfolio_smoke.cpp",
   "output": "CMakeFiles/portfolio_smoke.dir/tests/portfolio_smoke.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
-  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/backtest_smoke.dir/tests/backtest_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/backtest_smoke.cpp",
+  "command": "/usr/bin/clang++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/backtest_smoke.dir/tests/backtest_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/backtest_smoke.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/backtest_smoke.cpp",
   "output": "CMakeFiles/backtest_smoke.dir/tests/backtest_smoke.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/ingest_smoke.dir/tests/ingest_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/ingest_smoke.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/ingest_smoke.dir/tests/ingest_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/ingest_smoke.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/ingest_smoke.cpp",
   "output": "CMakeFiles/ingest_smoke.dir/tests/ingest_smoke.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/arbiter_smoke.dir/tests/arbiter_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/arbiter_smoke.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/arbiter_smoke.dir/tests/arbiter_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/arbiter_smoke.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/arbiter_smoke.cpp",
   "output": "CMakeFiles/arbiter_smoke.dir/tests/arbiter_smoke.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/governor_smoke.dir/tests/governor_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/governor_smoke.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/governor_smoke.dir/tests/governor_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/governor_smoke.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/governor_smoke.cpp",
   "output": "CMakeFiles/governor_smoke.dir/tests/governor_smoke.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/allocator_props.dir/tests/allocator_props.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/allocator_props.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/allocator_props.dir/tests/allocator_props.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/allocator_props.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/allocator_props.cpp",
   "output": "CMakeFiles/allocator_props.dir/tests/allocator_props.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/governor_props.dir/tests/governor_props.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/governor_props.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/include -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -o CMakeFiles/governor_props.dir/tests/governor_props.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/governor_props.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/governor_props.cpp",
   "output": "CMakeFiles/governor_props.dir/tests/governor_props.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-build",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -o CMakeFiles/fmt.dir/src/format.cc.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/src/format.cc",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -o CMakeFiles/fmt.dir/src/format.cc.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/src/format.cc",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/src/format.cc",
   "output": "_deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-build",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -o CMakeFiles/fmt.dir/src/os.cc.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/src/os.cc",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -o CMakeFiles/fmt.dir/src/os.cc.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/src/os.cc",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/fmt-src/src/os.cc",
   "output": "_deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-build",
-  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -O3 -DNDEBUG -std=c++20 -arch arm64 -o CMakeFiles/spdlog.dir/src/spdlog.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/src/spdlog.cpp",
+  "command": "/usr/bin/clang++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -O3 -DNDEBUG -std=c++20 -arch arm64 -o CMakeFiles/spdlog.dir/src/spdlog.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/src/spdlog.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/src/spdlog.cpp",
   "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-build",
-  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -O3 -DNDEBUG -std=c++20 -arch arm64 -o CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/src/stdout_sinks.cpp",
+  "command": "/usr/bin/clang++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -O3 -DNDEBUG -std=c++20 -arch arm64 -o CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/src/stdout_sinks.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/src/stdout_sinks.cpp",
   "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-build",
-  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -O3 -DNDEBUG -std=c++20 -arch arm64 -o CMakeFiles/spdlog.dir/src/color_sinks.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/src/color_sinks.cpp",
+  "command": "/usr/bin/clang++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -O3 -DNDEBUG -std=c++20 -arch arm64 -o CMakeFiles/spdlog.dir/src/color_sinks.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/src/color_sinks.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/src/color_sinks.cpp",
   "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-build",
-  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -O3 -DNDEBUG -std=c++20 -arch arm64 -o CMakeFiles/spdlog.dir/src/file_sinks.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/src/file_sinks.cpp",
+  "command": "/usr/bin/clang++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -O3 -DNDEBUG -std=c++20 -arch arm64 -o CMakeFiles/spdlog.dir/src/file_sinks.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/src/file_sinks.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/src/file_sinks.cpp",
   "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-build",
-  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -O3 -DNDEBUG -std=c++20 -arch arm64 -o CMakeFiles/spdlog.dir/src/async.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/src/async.cpp",
+  "command": "/usr/bin/clang++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -O3 -DNDEBUG -std=c++20 -arch arm64 -o CMakeFiles/spdlog.dir/src/async.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/src/async.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/src/async.cpp",
   "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/async.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-build",
-  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -O3 -DNDEBUG -std=c++20 -arch arm64 -o CMakeFiles/spdlog.dir/src/cfg.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/src/cfg.cpp",
+  "command": "/usr/bin/clang++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -O3 -DNDEBUG -std=c++20 -arch arm64 -o CMakeFiles/spdlog.dir/src/cfg.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/src/cfg.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/src/cfg.cpp",
   "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/cfg.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-build",
-  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -O3 -DNDEBUG -std=c++20 -arch arm64 -o CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/src/bundled_fmtlib_format.cpp",
+  "command": "/usr/bin/clang++ -DSPDLOG_COMPILED_LIB -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/include -O3 -DNDEBUG -std=c++20 -arch arm64 -o CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/src/bundled_fmtlib_format.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/spdlog-src/src/bundled_fmtlib_format.cpp",
   "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/benchmark/catch_chronometer.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/benchmark/catch_chronometer.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/benchmark/catch_chronometer.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/benchmark/catch_chronometer.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/benchmark/catch_chronometer.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/catch_chronometer.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_analyse.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/benchmark/detail/catch_analyse.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_analyse.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/benchmark/detail/catch_analyse.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/benchmark/detail/catch_analyse.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_analyse.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_benchmark_function.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/benchmark/detail/catch_benchmark_function.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_benchmark_function.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/benchmark/detail/catch_benchmark_function.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/benchmark/detail/catch_benchmark_function.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_benchmark_function.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_run_for_at_least.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/benchmark/detail/catch_run_for_at_least.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_run_for_at_least.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/benchmark/detail/catch_run_for_at_least.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/benchmark/detail/catch_run_for_at_least.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_run_for_at_least.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_stats.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/benchmark/detail/catch_stats.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_stats.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/benchmark/detail/catch_stats.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/benchmark/detail/catch_stats.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_stats.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/generators/catch_generator_exception.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/generators/catch_generator_exception.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/generators/catch_generator_exception.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/generators/catch_generator_exception.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/generators/catch_generator_exception.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generator_exception.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/generators/catch_generators.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/generators/catch_generators.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/generators/catch_generators.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/generators/catch_generators.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/generators/catch_generators.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generators.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/generators/catch_generators_random.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/generators/catch_generators_random.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/generators/catch_generators_random.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/generators/catch_generators_random.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/generators/catch_generators_random.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generators_random.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_automake.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_automake.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_automake.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_automake.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_automake.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_automake.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_common_base.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_common_base.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_common_base.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_common_base.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_common_base.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_common_base.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_compact.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_compact.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_compact.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_compact.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_compact.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_compact.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_console.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_console.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_console.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_console.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_console.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_console.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_cumulative_base.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_cumulative_base.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_cumulative_base.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_cumulative_base.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_cumulative_base.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_cumulative_base.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_event_listener.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_event_listener.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_event_listener.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_event_listener.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_event_listener.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_event_listener.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_helpers.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_helpers.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_helpers.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_helpers.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_helpers.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_helpers.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_json.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_json.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_json.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_json.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_json.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_json.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_junit.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_junit.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_junit.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_junit.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_junit.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_junit.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_multi.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_multi.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_multi.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_multi.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_multi.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_multi.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_registrars.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_registrars.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_registrars.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_registrars.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_registrars.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_registrars.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_sonarqube.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_sonarqube.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_sonarqube.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_sonarqube.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_sonarqube.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_sonarqube.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_streaming_base.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_streaming_base.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_streaming_base.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_streaming_base.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_streaming_base.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_streaming_base.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_tap.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_tap.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_tap.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_tap.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_tap.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_tap.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_teamcity.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_teamcity.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_teamcity.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_teamcity.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_teamcity.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_teamcity.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_xml.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_xml.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_xml.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_xml.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_xml.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_xml.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_capture.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_capture.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_capture.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_capture.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_capture.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_capture.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_config.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_config.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_config.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_config.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_config.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_config.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_exception.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_exception.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_exception.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_exception.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_exception.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_exception.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_generatortracker.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_generatortracker.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_generatortracker.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_generatortracker.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_generatortracker.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_generatortracker.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_registry_hub.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_registry_hub.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_registry_hub.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_registry_hub.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_registry_hub.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_registry_hub.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_reporter.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_reporter.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_reporter.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_reporter.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_reporter.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_reporter.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_reporter_factory.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_reporter_factory.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_reporter_factory.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_reporter_factory.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_reporter_factory.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_reporter_factory.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_testcase.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_testcase.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_testcase.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_testcase.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_testcase.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_testcase.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/catch_approx.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_approx.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/catch_approx.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_approx.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_approx.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_approx.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/catch_assertion_result.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_assertion_result.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/catch_assertion_result.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_assertion_result.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_assertion_result.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_assertion_result.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/catch_config.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_config.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/catch_config.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_config.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_config.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_config.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/catch_get_random_seed.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_get_random_seed.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/catch_get_random_seed.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_get_random_seed.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_get_random_seed.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_get_random_seed.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/catch_message.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_message.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/catch_message.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_message.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_message.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_message.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/catch_registry_hub.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_registry_hub.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/catch_registry_hub.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_registry_hub.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_registry_hub.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_registry_hub.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/catch_session.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_session.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/catch_session.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_session.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_session.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_session.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/catch_tag_alias_autoregistrar.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_tag_alias_autoregistrar.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/catch_tag_alias_autoregistrar.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_tag_alias_autoregistrar.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_tag_alias_autoregistrar.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_tag_alias_autoregistrar.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/catch_test_case_info.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_test_case_info.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/catch_test_case_info.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_test_case_info.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_test_case_info.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_test_case_info.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/catch_test_spec.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_test_spec.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/catch_test_spec.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_test_spec.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_test_spec.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_test_spec.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/catch_timer.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_timer.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/catch_timer.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_timer.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_timer.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_timer.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/catch_tostring.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_tostring.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/catch_tostring.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_tostring.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_tostring.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_tostring.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/catch_totals.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_totals.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/catch_totals.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_totals.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_totals.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_totals.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/catch_translate_exception.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_translate_exception.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/catch_translate_exception.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_translate_exception.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_translate_exception.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_translate_exception.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/catch_version.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_version.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/catch_version.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_version.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/catch_version.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_version.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_assertion_handler.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_assertion_handler.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_assertion_handler.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_assertion_handler.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_assertion_handler.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_assertion_handler.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_case_insensitive_comparisons.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_case_insensitive_comparisons.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_case_insensitive_comparisons.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_case_insensitive_comparisons.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_case_insensitive_comparisons.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_case_insensitive_comparisons.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_clara.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_clara.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_clara.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_clara.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_clara.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_clara.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_commandline.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_commandline.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_commandline.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_commandline.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_commandline.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_commandline.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_console_colour.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_console_colour.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_console_colour.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_console_colour.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_console_colour.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_console_colour.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_context.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_context.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_context.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_context.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_context.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_context.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_debug_console.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_debug_console.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_debug_console.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_debug_console.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_debug_console.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debug_console.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_debugger.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_debugger.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_debugger.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_debugger.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_debugger.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debugger.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_decomposer.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_decomposer.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_decomposer.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_decomposer.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_decomposer.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_decomposer.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_enforce.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_enforce.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_enforce.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_enforce.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_enforce.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_enforce.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_enum_values_registry.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_enum_values_registry.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_enum_values_registry.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_enum_values_registry.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_enum_values_registry.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_enum_values_registry.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_errno_guard.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_errno_guard.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_errno_guard.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_errno_guard.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_errno_guard.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_errno_guard.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_exception_translator_registry.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_exception_translator_registry.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_exception_translator_registry.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_exception_translator_registry.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_exception_translator_registry.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_exception_translator_registry.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_fatal_condition_handler.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_fatal_condition_handler.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_fatal_condition_handler.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_fatal_condition_handler.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_fatal_condition_handler.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_fatal_condition_handler.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_floating_point_helpers.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_floating_point_helpers.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_floating_point_helpers.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_floating_point_helpers.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_floating_point_helpers.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_floating_point_helpers.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_getenv.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_getenv.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_getenv.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_getenv.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_getenv.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_getenv.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_istream.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_istream.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_istream.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_istream.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_istream.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_istream.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_jsonwriter.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_jsonwriter.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_jsonwriter.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_jsonwriter.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_jsonwriter.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_jsonwriter.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_lazy_expr.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_lazy_expr.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_lazy_expr.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_lazy_expr.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_lazy_expr.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_lazy_expr.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_leak_detector.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_leak_detector.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_leak_detector.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_leak_detector.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_leak_detector.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_leak_detector.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_list.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_list.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_list.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_list.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_list.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_list.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_message_info.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_message_info.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_message_info.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_message_info.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_message_info.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_message_info.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_output_redirect.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_output_redirect.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_output_redirect.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_output_redirect.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_output_redirect.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_output_redirect.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_parse_numbers.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_parse_numbers.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_parse_numbers.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_parse_numbers.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_parse_numbers.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_parse_numbers.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_polyfills.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_polyfills.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_polyfills.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_polyfills.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_polyfills.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_polyfills.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_random_number_generator.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_random_number_generator.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_random_number_generator.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_random_number_generator.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_random_number_generator.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_random_number_generator.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_random_seed_generation.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_random_seed_generation.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_random_seed_generation.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_random_seed_generation.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_random_seed_generation.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_random_seed_generation.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_reporter_registry.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_reporter_registry.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_reporter_registry.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_reporter_registry.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_reporter_registry.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reporter_registry.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_reporter_spec_parser.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_reporter_spec_parser.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_reporter_spec_parser.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_reporter_spec_parser.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_reporter_spec_parser.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reporter_spec_parser.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_result_type.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_result_type.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_result_type.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_result_type.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_result_type.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_result_type.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_reusable_string_stream.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_reusable_string_stream.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_reusable_string_stream.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_reusable_string_stream.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_reusable_string_stream.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reusable_string_stream.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_run_context.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_run_context.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_run_context.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_run_context.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_run_context.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_run_context.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_section.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_section.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_section.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_section.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_section.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_section.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_singletons.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_singletons.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_singletons.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_singletons.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_singletons.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_singletons.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_source_line_info.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_source_line_info.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_source_line_info.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_source_line_info.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_source_line_info.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_source_line_info.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_startup_exception_registry.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_startup_exception_registry.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_startup_exception_registry.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_startup_exception_registry.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_startup_exception_registry.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_startup_exception_registry.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_stdstreams.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_stdstreams.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_stdstreams.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_stdstreams.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_stdstreams.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_stdstreams.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_string_manip.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_string_manip.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_string_manip.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_string_manip.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_string_manip.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_string_manip.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_stringref.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_stringref.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_stringref.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_stringref.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_stringref.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_stringref.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_tag_alias_registry.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_tag_alias_registry.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_tag_alias_registry.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_tag_alias_registry.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_tag_alias_registry.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_tag_alias_registry.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_info_hasher.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_test_case_info_hasher.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_info_hasher.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_test_case_info_hasher.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_test_case_info_hasher.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_info_hasher.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_registry_impl.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_test_case_registry_impl.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_registry_impl.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_test_case_registry_impl.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_test_case_registry_impl.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_registry_impl.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_tracker.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_test_case_tracker.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_tracker.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_test_case_tracker.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_test_case_tracker.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_tracker.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_test_failure_exception.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_test_failure_exception.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_test_failure_exception.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_test_failure_exception.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_test_failure_exception.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_failure_exception.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_test_registry.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_test_registry.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_test_registry.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_test_registry.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_test_registry.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_registry.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_test_spec_parser.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_test_spec_parser.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_test_spec_parser.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_test_spec_parser.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_test_spec_parser.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_spec_parser.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_textflow.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_textflow.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_textflow.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_textflow.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_textflow.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_textflow.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_uncaught_exceptions.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_uncaught_exceptions.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_uncaught_exceptions.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_uncaught_exceptions.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_uncaught_exceptions.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_uncaught_exceptions.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_wildcard_pattern.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_wildcard_pattern.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_wildcard_pattern.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_wildcard_pattern.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_wildcard_pattern.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_wildcard_pattern.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_xmlwriter.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_xmlwriter.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/internal/catch_xmlwriter.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_xmlwriter.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_xmlwriter.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_xmlwriter.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/matchers/catch_matchers.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/matchers/catch_matchers.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/matchers/catch_matchers.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_container_properties.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_container_properties.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_container_properties.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_container_properties.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_container_properties.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_container_properties.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_exception.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_exception.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_exception.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_exception.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_exception.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_exception.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_floating_point.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_floating_point.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_floating_point.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_floating_point.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_floating_point.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_floating_point.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_predicate.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_predicate.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_predicate.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_predicate.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_predicate.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_predicate.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_quantifiers.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_quantifiers.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_quantifiers.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_quantifiers.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_quantifiers.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_quantifiers.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_string.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_string.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_string.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_string.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_string.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_string.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_templated.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_templated.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_templated.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_templated.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_templated.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_templated.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/matchers/internal/catch_matchers_impl.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/matchers/internal/catch_matchers_impl.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2.dir/catch2/matchers/internal/catch_matchers_impl.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/matchers/internal/catch_matchers_impl.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/matchers/internal/catch_matchers_impl.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/internal/catch_matchers_impl.cpp.o"
 },
 {
   "directory": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src",
-  "command": "/usr/bin/c++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_main.cpp",
+  "command": "/usr/bin/clang++  -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/.. -I/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/generated-includes -O3 -DNDEBUG -std=gnu++20 -arch arm64 -ffile-prefix-map=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/= -o CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_main.cpp",
   "file": "/Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_main.cpp",
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.o"
 }

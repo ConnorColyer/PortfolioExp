@@ -76,15 +76,15 @@ CMakeFiles/risk.dir/src/risk/governor.cpp.o: CMakeFiles/risk.dir/flags.make
 CMakeFiles/risk.dir/src/risk/governor.cpp.o: /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/risk/governor.cpp
 CMakeFiles/risk.dir/src/risk/governor.cpp.o: CMakeFiles/risk.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/risk.dir/src/risk/governor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/risk.dir/src/risk/governor.cpp.o -MF CMakeFiles/risk.dir/src/risk/governor.cpp.o.d -o CMakeFiles/risk.dir/src/risk/governor.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/risk/governor.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/risk.dir/src/risk/governor.cpp.o -MF CMakeFiles/risk.dir/src/risk/governor.cpp.o.d -o CMakeFiles/risk.dir/src/risk/governor.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/risk/governor.cpp
 
 CMakeFiles/risk.dir/src/risk/governor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/risk.dir/src/risk/governor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/risk/governor.cpp > CMakeFiles/risk.dir/src/risk/governor.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/risk/governor.cpp > CMakeFiles/risk.dir/src/risk/governor.cpp.i
 
 CMakeFiles/risk.dir/src/risk/governor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/risk.dir/src/risk/governor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/risk/governor.cpp -o CMakeFiles/risk.dir/src/risk/governor.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/risk/governor.cpp -o CMakeFiles/risk.dir/src/risk/governor.cpp.s
 
 # Object files for target risk
 risk_OBJECTS = \

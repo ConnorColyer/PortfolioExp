@@ -76,15 +76,15 @@ _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.
 _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.o: /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_main.cpp
 _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.o: _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.o"
-	cd /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.o -MF CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.o.d -o CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_main.cpp
+	cd /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.o -MF CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.o.d -o CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_main.cpp
 
 _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.i"
-	cd /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_main.cpp > CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.i
+	cd /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_main.cpp > CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.i
 
 _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.s"
-	cd /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_main.cpp -o CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.s
+	cd /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/build/_deps/catch2-src/src/catch2/internal/catch_main.cpp -o CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.s
 
 # Object files for target Catch2WithMain
 Catch2WithMain_OBJECTS = \

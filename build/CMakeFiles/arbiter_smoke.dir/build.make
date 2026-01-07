@@ -76,15 +76,15 @@ CMakeFiles/arbiter_smoke.dir/tests/arbiter_smoke.cpp.o: CMakeFiles/arbiter_smoke
 CMakeFiles/arbiter_smoke.dir/tests/arbiter_smoke.cpp.o: /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/arbiter_smoke.cpp
 CMakeFiles/arbiter_smoke.dir/tests/arbiter_smoke.cpp.o: CMakeFiles/arbiter_smoke.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/arbiter_smoke.dir/tests/arbiter_smoke.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/arbiter_smoke.dir/tests/arbiter_smoke.cpp.o -MF CMakeFiles/arbiter_smoke.dir/tests/arbiter_smoke.cpp.o.d -o CMakeFiles/arbiter_smoke.dir/tests/arbiter_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/arbiter_smoke.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/arbiter_smoke.dir/tests/arbiter_smoke.cpp.o -MF CMakeFiles/arbiter_smoke.dir/tests/arbiter_smoke.cpp.o.d -o CMakeFiles/arbiter_smoke.dir/tests/arbiter_smoke.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/arbiter_smoke.cpp
 
 CMakeFiles/arbiter_smoke.dir/tests/arbiter_smoke.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/arbiter_smoke.dir/tests/arbiter_smoke.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/arbiter_smoke.cpp > CMakeFiles/arbiter_smoke.dir/tests/arbiter_smoke.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/arbiter_smoke.cpp > CMakeFiles/arbiter_smoke.dir/tests/arbiter_smoke.cpp.i
 
 CMakeFiles/arbiter_smoke.dir/tests/arbiter_smoke.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/arbiter_smoke.dir/tests/arbiter_smoke.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/arbiter_smoke.cpp -o CMakeFiles/arbiter_smoke.dir/tests/arbiter_smoke.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/tests/arbiter_smoke.cpp -o CMakeFiles/arbiter_smoke.dir/tests/arbiter_smoke.cpp.s
 
 # Object files for target arbiter_smoke
 arbiter_smoke_OBJECTS = \

@@ -76,29 +76,29 @@ CMakeFiles/ingest.dir/src/ingest/validator.cpp.o: CMakeFiles/ingest.dir/flags.ma
 CMakeFiles/ingest.dir/src/ingest/validator.cpp.o: /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/ingest/validator.cpp
 CMakeFiles/ingest.dir/src/ingest/validator.cpp.o: CMakeFiles/ingest.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ingest.dir/src/ingest/validator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ingest.dir/src/ingest/validator.cpp.o -MF CMakeFiles/ingest.dir/src/ingest/validator.cpp.o.d -o CMakeFiles/ingest.dir/src/ingest/validator.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/ingest/validator.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ingest.dir/src/ingest/validator.cpp.o -MF CMakeFiles/ingest.dir/src/ingest/validator.cpp.o.d -o CMakeFiles/ingest.dir/src/ingest/validator.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/ingest/validator.cpp
 
 CMakeFiles/ingest.dir/src/ingest/validator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ingest.dir/src/ingest/validator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/ingest/validator.cpp > CMakeFiles/ingest.dir/src/ingest/validator.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/ingest/validator.cpp > CMakeFiles/ingest.dir/src/ingest/validator.cpp.i
 
 CMakeFiles/ingest.dir/src/ingest/validator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ingest.dir/src/ingest/validator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/ingest/validator.cpp -o CMakeFiles/ingest.dir/src/ingest/validator.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/ingest/validator.cpp -o CMakeFiles/ingest.dir/src/ingest/validator.cpp.s
 
 CMakeFiles/ingest.dir/src/ingest/arbiter.cpp.o: CMakeFiles/ingest.dir/flags.make
 CMakeFiles/ingest.dir/src/ingest/arbiter.cpp.o: /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/ingest/arbiter.cpp
 CMakeFiles/ingest.dir/src/ingest/arbiter.cpp.o: CMakeFiles/ingest.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorcolyer/Documents/CODE/PortfolioExp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ingest.dir/src/ingest/arbiter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ingest.dir/src/ingest/arbiter.cpp.o -MF CMakeFiles/ingest.dir/src/ingest/arbiter.cpp.o.d -o CMakeFiles/ingest.dir/src/ingest/arbiter.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/ingest/arbiter.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ingest.dir/src/ingest/arbiter.cpp.o -MF CMakeFiles/ingest.dir/src/ingest/arbiter.cpp.o.d -o CMakeFiles/ingest.dir/src/ingest/arbiter.cpp.o -c /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/ingest/arbiter.cpp
 
 CMakeFiles/ingest.dir/src/ingest/arbiter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ingest.dir/src/ingest/arbiter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/ingest/arbiter.cpp > CMakeFiles/ingest.dir/src/ingest/arbiter.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/ingest/arbiter.cpp > CMakeFiles/ingest.dir/src/ingest/arbiter.cpp.i
 
 CMakeFiles/ingest.dir/src/ingest/arbiter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ingest.dir/src/ingest/arbiter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/ingest/arbiter.cpp -o CMakeFiles/ingest.dir/src/ingest/arbiter.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorcolyer/Documents/CODE/PortfolioExp/engine/src/ingest/arbiter.cpp -o CMakeFiles/ingest.dir/src/ingest/arbiter.cpp.s
 
 # Object files for target ingest
 ingest_OBJECTS = \
